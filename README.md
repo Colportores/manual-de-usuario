@@ -15,24 +15,27 @@ Todas las personas, direcciones, correos y montos que se ven en las capturas son
 
 ## Cómo está armado
 
-Este repo tiene solo el sitio ya generado. El texto del manual se escribe en Markdown en el repo de documentación de la organización (`docs/manual-usuario/`); acá no se edita a mano ningún `.html`.
+Este repo tiene el texto del manual (Markdown) y el generador del sitio. El texto se edita acá, en `fuente/`; el repo de documentación de la organización solo lo referencia. El HTML no se guarda en git: lo arma y lo publica un workflow de GitHub Actions.
 
-- `index.html`, `colportor.html`, `coordinador.html`, `problemas-frecuentes.html`, `glosario.html`: las páginas.
-- `estilo.css`: el estilo, con los colores y las tipografías de la app.
+- `fuente/`: el texto del manual en Markdown (`README.md` es la portada, más `colportor.md`, `coordinador.md`, `problemas-frecuentes.md` y `glosario.md`). Las capturas se enlazan como `../imagenes/...`, así también se ven al leer el Markdown en GitHub.
 - `imagenes/`: las capturas.
+- `estilo.css`: el estilo, con los colores y las tipografías de la app.
 - `fuentes/`: Inter, Source Serif 4 y JetBrains Mono, con su licencia (SIL Open Font License).
-- `herramientas/generar.py`: el script que arma todo lo anterior a partir del Markdown.
+- `herramientas/generar.py`: arma el sitio completo en `_sitio/` (una página `.html` por documento, más el estilo, las tipografías y las capturas) y falla si queda algún enlace, ancla o imagen rota.
+- `.github/workflows/publicar.yml`: valida el manual en cada pull request y, al llegar a `main`, genera el sitio y lo publica en GitHub Pages.
 
 ## Cómo actualizarlo
 
-Cuando cambia el Markdown del manual:
+1. Editá el Markdown de `fuente/` (y agregá las capturas nuevas en `imagenes/`).
+2. Abrí un pull request a `main`. El workflow arma el sitio y falla si hay enlaces o imágenes rotas.
+3. Al mergear a `main`, el workflow lo publica solo en https://colportores.github.io/manual-de-usuario/ (tarda uno o dos minutos). No hace falta generar ni subir ningún `.html`.
+
+Para ver el resultado en tu máquina antes del pull request:
 
 ```bash
 pip install -r herramientas/requirements.txt
-python herramientas/generar.py <ruta a docs/manual-usuario del repo de documentación>
-git add -A
-git commit -m "docs: actualizar el manual"
-git push
+python herramientas/generar.py                 # lee fuente/ y escribe _sitio/
+python herramientas/generar.py <otra carpeta>  # opcional: otra carpeta con el Markdown
 ```
 
-GitHub Pages publica solo lo que está en la rama `main`; el cambio se ve en uno o dos minutos.
+Abrí `_sitio/index.html` en el navegador. La carpeta `_sitio/` no se sube a git.

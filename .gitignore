@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+# sitio armado por herramientas/generar.py (lo publica el workflow, no se guarda en git)
+_sitio/
