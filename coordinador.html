@@ -1,0 +1,1503 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manual del coordinador (panel web) · Manual de usuario de Colportaje</title>
+<meta name="description" content="Manual de usuario de Colportaje: la app del colportor y el panel del coordinador, paso a paso y con capturas.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23002856'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra"><div class="barra-int">
+  <a class="marca" href="index.html"><i></i><b>COLPORTAJE</b><span>Manual de usuario</span></a>
+  <nav class="nav"><a href="colportor.html">Colportor</a><a href="coordinador.html" class="actual">Coordinador</a><a href="problemas-frecuentes.html">Problemas frecuentes</a><a href="glosario.html">Glosario</a></nav>
+</div></header>
+<div class="pagina">
+  <aside class="indice"><div class="rotulo">En esta página</div><ul><li class="n2"><a href="#1-entrar-al-panel-y-conocer-la-pantalla">Entrar al panel y conocer la pantalla</a></li><li class="n3"><a href="#11-entrar-al-panel">Entrar al panel</a></li><li class="n3"><a href="#12-conocer-la-barra-de-arriba">Conocer la barra de arriba</a></li><li class="n3"><a href="#13-cerrar-sesión">Cerrar sesión</a></li><li class="n3"><a href="#14-si-una-dirección-no-existe">Si una dirección no existe</a></li><li class="n2"><a href="#2-elegir-la-campaña">Elegir la campaña</a></li><li class="n3"><a href="#21-cambiar-de-campaña">Cambiar de campaña</a></li><li class="n2"><a href="#3-inicio">Inicio</a></li><li class="n3"><a href="#31-mirar-cómo-va-el-día">Mirar cómo va el día</a></li><li class="n3"><a href="#32-ver-otro-día">Ver otro día</a></li><li class="n3"><a href="#33-atender-los-pendientes-de-acción">Atender los pendientes de acción</a></li><li class="n2"><a href="#4-equipo">Equipo</a></li><li class="n3"><a href="#41-conocer-la-pantalla-de-equipo">Conocer la pantalla de Equipo</a></li><li class="n3"><a href="#42-ver-las-zonas-de-tu-equipo">Ver las zonas de tu equipo</a></li><li class="n3"><a href="#43-ver-las-becas">Ver las becas</a></li><li class="n3"><a href="#44-ver-los-acompañamientos">Ver los acompañamientos</a></li><li class="n3"><a href="#45-registrar-un-acompañamiento">Registrar un acompañamiento</a></li><li class="n3"><a href="#46-añadir-un-colportor">Añadir un colportor</a></li><li class="n2"><a href="#5-ciudades">Ciudades</a></li><li class="n3"><a href="#51-conocer-la-pantalla-de-ciudades">Conocer la pantalla de Ciudades</a></li><li class="n3"><a href="#52-mirar-el-estado-de-las-casas-en-el-mapa">Mirar el estado de las casas en el mapa</a></li><li class="n3"><a href="#53-agregar-una-ciudad-a-la-campaña">Agregar una ciudad a la campaña</a></li><li class="n3"><a href="#54-crear-una-zona">Crear una zona</a></li><li class="n3"><a href="#55-editar-una-zona">Editar una zona</a></li><li class="n3"><a href="#56-eliminar-una-zona">Eliminar una zona</a></li><li class="n3"><a href="#57-asignar-un-colportor-a-una-zona">Asignar un colportor a una zona</a></li><li class="n3"><a href="#58-quitar-a-un-colportor-de-una-zona">Quitar a un colportor de una zona</a></li><li class="n2"><a href="#6-reportes">Reportes</a></li><li class="n3"><a href="#61-mirar-un-reporte">Mirar un reporte</a></li><li class="n3"><a href="#62-cambiar-cómo-se-agrupa-el-reporte">Cambiar cómo se agrupa el reporte</a></li><li class="n3"><a href="#63-elegir-un-rango-de-fechas">Elegir un rango de fechas</a></li><li class="n3"><a href="#64-elegir-qué-colportores-ver">Elegir qué colportores ver</a></li><li class="n3"><a href="#65-bajar-el-reporte">Bajar el reporte</a></li><li class="n2"><a href="#7-precios">Precios</a></li><li class="n2"><a href="#8-lo-que-todavía-no-está-disponible">Lo que todavía no está disponible</a></li></ul></aside>
+  <main>
+<h1 id="manual-del-coordinador-panel-web">Manual del coordinador (panel web)</h1><details class="indice-movil"><summary>Índice de esta página</summary><ul><li class="n2"><a href="#1-entrar-al-panel-y-conocer-la-pantalla">Entrar al panel y conocer la pantalla</a></li><li class="n3"><a href="#11-entrar-al-panel">Entrar al panel</a></li><li class="n3"><a href="#12-conocer-la-barra-de-arriba">Conocer la barra de arriba</a></li><li class="n3"><a href="#13-cerrar-sesión">Cerrar sesión</a></li><li class="n3"><a href="#14-si-una-dirección-no-existe">Si una dirección no existe</a></li><li class="n2"><a href="#2-elegir-la-campaña">Elegir la campaña</a></li><li class="n3"><a href="#21-cambiar-de-campaña">Cambiar de campaña</a></li><li class="n2"><a href="#3-inicio">Inicio</a></li><li class="n3"><a href="#31-mirar-cómo-va-el-día">Mirar cómo va el día</a></li><li class="n3"><a href="#32-ver-otro-día">Ver otro día</a></li><li class="n3"><a href="#33-atender-los-pendientes-de-acción">Atender los pendientes de acción</a></li><li class="n2"><a href="#4-equipo">Equipo</a></li><li class="n3"><a href="#41-conocer-la-pantalla-de-equipo">Conocer la pantalla de Equipo</a></li><li class="n3"><a href="#42-ver-las-zonas-de-tu-equipo">Ver las zonas de tu equipo</a></li><li class="n3"><a href="#43-ver-las-becas">Ver las becas</a></li><li class="n3"><a href="#44-ver-los-acompañamientos">Ver los acompañamientos</a></li><li class="n3"><a href="#45-registrar-un-acompañamiento">Registrar un acompañamiento</a></li><li class="n3"><a href="#46-añadir-un-colportor">Añadir un colportor</a></li><li class="n2"><a href="#5-ciudades">Ciudades</a></li><li class="n3"><a href="#51-conocer-la-pantalla-de-ciudades">Conocer la pantalla de Ciudades</a></li><li class="n3"><a href="#52-mirar-el-estado-de-las-casas-en-el-mapa">Mirar el estado de las casas en el mapa</a></li><li class="n3"><a href="#53-agregar-una-ciudad-a-la-campaña">Agregar una ciudad a la campaña</a></li><li class="n3"><a href="#54-crear-una-zona">Crear una zona</a></li><li class="n3"><a href="#55-editar-una-zona">Editar una zona</a></li><li class="n3"><a href="#56-eliminar-una-zona">Eliminar una zona</a></li><li class="n3"><a href="#57-asignar-un-colportor-a-una-zona">Asignar un colportor a una zona</a></li><li class="n3"><a href="#58-quitar-a-un-colportor-de-una-zona">Quitar a un colportor de una zona</a></li><li class="n2"><a href="#6-reportes">Reportes</a></li><li class="n3"><a href="#61-mirar-un-reporte">Mirar un reporte</a></li><li class="n3"><a href="#62-cambiar-cómo-se-agrupa-el-reporte">Cambiar cómo se agrupa el reporte</a></li><li class="n3"><a href="#63-elegir-un-rango-de-fechas">Elegir un rango de fechas</a></li><li class="n3"><a href="#64-elegir-qué-colportores-ver">Elegir qué colportores ver</a></li><li class="n3"><a href="#65-bajar-el-reporte">Bajar el reporte</a></li><li class="n2"><a href="#7-precios">Precios</a></li><li class="n2"><a href="#8-lo-que-todavía-no-está-disponible">Lo que todavía no está disponible</a></li></ul></details>
+<p>Este manual explica cómo usar el panel del coordinador desde una computadora: entrar, elegir la campaña, mirar cómo está tu gente, armar las zonas de cada ciudad y sacar reportes de horas.</p>
+<blockquote class="importante">
+<p><strong>Nota.</strong> Si ves arriba de todo una franja que dice «Versión de prueba con datos simulados», estás en una versión de ensayo: los datos son de ejemplo y lo que hagas puede no guardarse. En la versión real esa franja no aparece.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> El panel te muestra montos, totales y avance de tu equipo. No te muestra los datos de los clientes (nombres, teléfonos ni notas de las visitas). Eso es a propósito y no se puede cambiar desde el panel.</p>
+</blockquote>
+<hr />
+
+<h2 id="1-entrar-al-panel-y-conocer-la-pantalla"><span class="num">Capítulo 1</span>Entrar al panel y conocer la pantalla</h2>
+<p>Este capítulo te muestra cómo entrar con tu correo y tu contraseña, cómo salir, y qué hay en la barra de arriba.</p>
+<h3 id="11-entrar-al-panel"><span class="num">1.1</span>Entrar al panel</h3>
+<p>Lo vas a usar cada vez que abras el panel o cuando se te haya cerrado la sesión.</p>
+<p><strong>Antes de empezar:</strong> necesitás conexión a internet y una cuenta con el rol de coordinador vigente.</p>
+<ol>
+<li>Abrí el panel en tu navegador (Chrome, Edge o Firefox actualizados). Vas a ver la pantalla «Iniciá sesión». A la izquierda hay un recuadro con «PANEL DE COORDINADORES», «Tu campaña, ciudad por ciudad.» y «Unión Uruguaya».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-01-acceso-vacio.png" alt="Pantalla 'Iniciá sesión' con los campos vacíos y el botón 'Entrar' apagado"></div><figcaption>Pantalla 'Iniciá sesión' con los campos vacíos y el botón 'Entrar' apagado</figcaption></figure></div>
+
+<ol start="2" style="counter-reset: paso 1">
+<li>En «CORREO» escribí tu correo (por ejemplo, el campo muestra de ayuda <code>nombre@correo.com</code>).</li>
+<li>En «CONTRASEÑA» escribí tu contraseña. «Entrar» se enciende recién cuando escribiste las dos cosas; mientras tanto, debajo dice «Entrar se habilita con correo y contraseña escritos.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-02-acceso-completo.png" alt="'Iniciá sesión' con el correo y la contraseña escritos y el botón 'Entrar' encendido"></div><figcaption>'Iniciá sesión' con el correo y la contraseña escritos y el botón 'Entrar' encendido</figcaption></figure></div>
+
+<ol start="4" style="counter-reset: paso 3">
+<li>Tocá «Entrar». El botón pasa a «Entrando…» y los campos quedan apagados hasta que llegue la respuesta (debajo dice «Los campos y el botón quedan apagados hasta que llegue la respuesta.»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-03-acceso-entrando.png" alt="'Iniciá sesión' con el botón 'Entrando…' y los campos apagados"></div><figcaption>'Iniciá sesión' con el botón 'Entrando…' y los campos apagados</figcaption></figure></div>
+
+<ol start="5" style="counter-reset: paso 4">
+<li>Si todo está bien, el panel se abre en la pestaña «Inicio».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-04-inicio-primera-vez.png" alt="Panel recién abierto en 'Inicio' con la barra superior completa"></div><figcaption>Panel recién abierto en 'Inicio' con la barra superior completa</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Entrando…»</td>
+<td data-th="Qué significa">El panel está comprobando tus datos.</td>
+<td data-th="Qué hacer">Esperá unos segundos.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«El correo o la contraseña no son correctos.» (en un recuadro arriba de los campos)</td>
+<td data-th="Qué significa">Alguno de los dos está mal escrito.</td>
+<td data-th="Qué hacer">Revisalos y probá de nuevo. La contraseña se borra y «Entrar» queda apagado hasta que la escribas otra vez.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Hiciste demasiados intentos seguidos. Esperá unos minutos y volvé a intentar.»</td>
+<td data-th="Qué significa">Probaste varias veces seguidas.</td>
+<td data-th="Qué hacer">Esperá unos minutos antes de volver a probar.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no verificaste tu correo. Abrí el enlace que te mandamos y volvé a intentar.»</td>
+<td data-th="Qué significa">Tu cuenta nueva todavía no confirmó el correo.</td>
+<td data-th="Qué hacer">Abrí el correo que te llegó, tocá el enlace y volvé a entrar.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Cuenta suspendida. Contactá al administrador.»</td>
+<td data-th="Qué significa">Tu cuenta fue suspendida.</td>
+<td data-th="Qué hacer">Hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Sin acceso al panel» y «La cuenta … no tiene el rol de coordinador vigente. Si creés que es un error, hablá con el administrador.»</td>
+<td data-th="Qué significa">La cuenta existe pero no es de coordinador.</td>
+<td data-th="Qué hacer">Tocá «Entrar con otra cuenta» o hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Tu sesión venció. Entrá de nuevo para seguir donde estabas.»</td>
+<td data-th="Qué significa">Pasó mucho tiempo y el panel cerró tu sesión.</td>
+<td data-th="Qué hacer">Escribí tu correo y tu contraseña (el correo no queda escrito) y tocá «Entrar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«El panel no está disponible en este momento. No es un problema de tu cuenta: probá en unos minutos.»</td>
+<td data-th="Qué significa">El servicio tiene un problema por su lado.</td>
+<td data-th="Qué hacer">Tocá «Reintentar» o esperá unos minutos.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Sin conexión. Revisá tu internet para iniciar sesión.»</td>
+<td data-th="Qué significa">No hay internet. El aviso aparece apenas se corta la conexión, sin tocar «Entrar», y «Entrar» queda apagado mientras no haya conexión.</td>
+<td data-th="Qué hacer">Revisá tu conexión. Cuando vuelva, «Entrar» se enciende de nuevo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Cerraste sesión.»</td>
+<td data-th="Qué significa">Saliste del panel hace un momento.</td>
+<td data-th="Qué hacer">Nada: volvé a entrar cuando quieras.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-05-acceso-credenciales-incorrectas.png" alt="'Iniciá sesión' con el aviso 'El correo o la contraseña no son correctos.'"></div><figcaption>'Iniciá sesión' con el aviso 'El correo o la contraseña no son correctos.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-06-acceso-sin-acceso.png" alt="Pantalla 'Sin acceso al panel' con el botón 'Entrar con otra cuenta'"></div><figcaption>Pantalla 'Sin acceso al panel' con el botón 'Entrar con otra cuenta'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-07-acceso-sesion-vencida.png" alt="'Iniciá sesión' con 'Tu sesión venció. Entrá de nuevo para seguir donde estabas.' y los campos vacíos"></div><figcaption>'Iniciá sesión' con 'Tu sesión venció. Entrá de nuevo para seguir donde estabas.' y los campos vacíos</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-08-acceso-no-disponible.png" alt="'Iniciá sesión' con 'El panel no está disponible en este momento…' y el botón 'Reintentar'"></div><figcaption>'Iniciá sesión' con 'El panel no está disponible en este momento…' y el botón 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-09-acceso-sin-conexion.png" alt="'Iniciá sesión' con 'Sin conexión. Revisá tu internet para iniciar sesión.' y 'Entrar' apagado"></div><figcaption>'Iniciá sesión' con 'Sin conexión. Revisá tu internet para iniciar sesión.' y 'Entrar' apagado</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-10-acceso-sesion-cerrada.png" alt="'Iniciá sesión' con 'Cerraste sesión.'"></div><figcaption>'Iniciá sesión' con 'Cerraste sesión.'</figcaption></figure></div>
+
+<blockquote class="consejo">
+<p><strong>Consejo.</strong> Cuando el panel te vuelve a la pantalla de acceso porque venció la sesión, el correo no queda escrito: escribí el correo y la contraseña otra vez.</p>
+</blockquote>
+<h3 id="12-conocer-la-barra-de-arriba"><span class="num">1.2</span>Conocer la barra de arriba</h3>
+<p>Es lo primero que ves en todas las pantallas. Sirve para saber en qué campaña estás y para moverte entre secciones.</p>
+<p>De izquierda a derecha encontrás:</p>
+<ol>
+<li>El logo «UU» y la palabra «Colportaje».</li>
+<li>La insignia «COORDINADOR», que te recuerda con qué rol entraste.</li>
+<li>Las pestañas, en este orden: «Inicio», «Equipo», «Ciudades» y «Reportes». La pestaña donde estás aparece marcada.</li>
+<li>El selector de campaña: un botón con el nombre de las ciudades, en orden alfabético, y la campaña (por ejemplo, «Ciudad de la Costa · Montevideo · Verano 2026-2027 ▾»). Si el texto es largo, en pantalla se corta con «…».</li>
+<li>Tu avatar, con tus iniciales (por ejemplo, «MP» para Mariana Pérez).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-11-barra-superior.png" alt="Barra superior completa: logo, 'Colportaje', 'COORDINADOR', pestañas, selector de campaña y avatar"></div><figcaption>Barra superior completa: logo, 'Colportaje', 'COORDINADOR', pestañas, selector de campaña y avatar</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Nota.</strong> Si tu campaña todavía no tiene ciudades, el selector muestra solo el nombre de la campaña. Si no tenés ninguna campaña, el botón dice «Sin campaña».</p>
+</blockquote>
+<p>Mientras el panel termina de guardar lo último que añadiste a tu equipo, aparece «Guardando lo que añadiste a la campaña…» en la barra. Esperá a que desaparezca antes de cerrar la pestaña.</p>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-12-barra-guardando.png" alt="Barra superior con 'Guardando lo que añadiste a la campaña…'"></div><figcaption>Barra superior con 'Guardando lo que añadiste a la campaña…'</figcaption></figure></div>
+
+<h3 id="13-cerrar-sesión"><span class="num">1.3</span>Cerrar sesión</h3>
+<p>Lo vas a usar cuando termines de trabajar, sobre todo en una computadora que comparten otras personas.</p>
+<ol>
+<li>Tocá tu avatar (arriba a la derecha). Se abre un menú con tu nombre.</li>
+<li>Tocá «Cerrar sesión». Mientras se cierra dice «Cerrando sesión…».</li>
+<li>Vas a volver a la pantalla «Iniciá sesión» con el aviso «Cerraste sesión.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-13-menu-avatar.png" alt="Menú del avatar abierto con tu nombre y 'Cerrar sesión'"></div><figcaption>Menú del avatar abierto con tu nombre y 'Cerrar sesión'</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cerrando sesión…»</td>
+<td data-th="Qué significa">Se está cerrando tu sesión.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Cerraste sesión.»</td>
+<td data-th="Qué significa">Salió bien.</td>
+<td data-th="Qué hacer">Nada más.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se cerró la sesión porque hay cambios que no se guardaron. Revisá el aviso de la pantalla y volvé a probar.»</td>
+<td data-th="Qué significa">Hay algo pendiente de guardar (por ejemplo, un colportor recién añadido).</td>
+<td data-th="Qué hacer">Esperá a que termine de guardarse y probá de nuevo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo cerrar la sesión. Revisá tu conexión y volvé a probar.»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Revisá la conexión y volvé a tocar «Cerrar sesión».</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-14-cerrar-sesion-pendiente.png" alt="Aviso 'No se cerró la sesión porque hay cambios que no se guardaron…'"></div><figcaption>Aviso 'No se cerró la sesión porque hay cambios que no se guardaron…'</figcaption></figure></div>
+
+<h3 id="14-si-una-dirección-no-existe"><span class="num">1.4</span>Si una dirección no existe</h3>
+<p>Si escribís o abrís una dirección que el panel no tiene, vas a ver «Esta sección no existe o no está disponible.» con el texto «Volvé al inicio para seguir con el tablero de tu región.» Tocá el enlace subrayado «Ir a Inicio».</p>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-15-seccion-no-existe.png" alt="Pantalla 'Esta sección no existe o no está disponible.' con el enlace 'Ir a Inicio'"></div><figcaption>Pantalla 'Esta sección no existe o no está disponible.' con el enlace 'Ir a Inicio'</figcaption></figure></div>
+
+<hr />
+<h2 id="2-elegir-la-campaña"><span class="num">Capítulo 2</span>Elegir la campaña</h2>
+<p>El panel muestra siempre los datos de una campaña. Este capítulo explica cómo cambiar de campaña.</p>
+<h3 id="21-cambiar-de-campaña"><span class="num">2.1</span>Cambiar de campaña</h3>
+<p>Lo vas a usar si coordinás más de una campaña, o si querés mirar una que todavía no empezó.</p>
+<ol>
+<li>Tocá el selector de campaña, en la barra de arriba (el botón con las ciudades y la campaña). También lo podés abrir con Enter, con la barra espaciadora o con las flechas del teclado.</li>
+<li>Se abre una lista con dos grupos: «EN CURSO» y «POR EMPEZAR». Cada campaña muestra su nombre, sus ciudades y sus fechas, por ejemplo «02/11 – 28/02 · en curso» o «empieza el 14/06/2027». La campaña que estás viendo aparece con ✓.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-16-selector-abierto.png" alt="Lista del selector con los grupos 'EN CURSO' y 'POR EMPEZAR'"></div><figcaption>Lista del selector con los grupos 'EN CURSO' y 'POR EMPEZAR'</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Tocá la campaña que querés ver (por ejemplo «Invierno 2027»). Abajo, en el centro, aparece durante unos segundos «Ahora ves Invierno 2027.» (con el nombre de la campaña elegida), el selector pasa a mostrar ese nombre y todas las pestañas pasan a mostrar esa campaña.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-17-selector-aviso-ahora-ves.png" alt="Aviso 'Ahora ves Invierno 2027.' abajo al centro después de elegir"></div><figcaption>Aviso 'Ahora ves Invierno 2027.' abajo al centro después de elegir</figcaption></figure></div>
+
+<blockquote class="consejo">
+<p><strong>Consejo.</strong> Con el teclado: Inicio y Fin saltan a la primera y a la última campaña; Esc cierra la lista sin cambiar nada.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando tus campañas…»</td>
+<td data-th="Qué significa">La lista se está trayendo.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No pudimos traer tus campañas.» y «Reintentar»</td>
+<td data-th="Qué significa">Falló la carga.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Sin conexión. La lista se carga cuando vuelva internet; seguís viendo Verano 2026-2027.» y «Reintentar»</td>
+<td data-th="Qué significa">No hay internet. Seguís con la campaña que ya tenías.</td>
+<td data-th="Qué hacer">Esperá a que vuelva la conexión y tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No tenés campañas en curso ni por empezar» y «Las campañas terminadas no se eligen desde acá.»</td>
+<td data-th="Qué significa">No tenés ninguna campaña activa.</td>
+<td data-th="Qué hacer">Hablá con el administrador si esperabas ver una.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Ahora ves Invierno 2027.»</td>
+<td data-th="Qué significa">La campaña cambió.</td>
+<td data-th="Qué hacer">Nada: seguí trabajando.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">Botón «Sin campaña» (con el avatar de tus iniciales al lado)</td>
+<td data-th="Qué significa">No tenés ninguna campaña asignada.</td>
+<td data-th="Qué hacer">Las pestañas te lo avisan; hablá con el administrador.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-18-selector-cargando.png" alt="Selector abierto con 'Cargando tus campañas…'"></div><figcaption>Selector abierto con 'Cargando tus campañas…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-19-selector-error.png" alt="Selector con 'No pudimos traer tus campañas.' y 'Reintentar'"></div><figcaption>Selector con 'No pudimos traer tus campañas.' y 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-20-selector-sin-conexion.png" alt="Selector con 'Sin conexión. La lista se carga cuando vuelva internet…'"></div><figcaption>Selector con 'Sin conexión. La lista se carga cuando vuelva internet…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-21-selector-sin-campanas.png" alt="Selector con 'No tenés campañas en curso ni por empezar'"></div><figcaption>Selector con 'No tenés campañas en curso ni por empezar'</figcaption></figure></div>
+
+<hr />
+<h2 id="3-inicio"><span class="num">Capítulo 3</span>Inicio</h2>
+<p>«Inicio» es el tablero del día: cuántos colportores están trabajando, cuántas horas, presentaciones y ventas llevan, y qué te falta resolver.</p>
+<h3 id="31-mirar-cómo-va-el-día"><span class="num">3.1</span>Mirar cómo va el día</h3>
+<p>Lo vas a usar cada mañana y cada tarde para ver cómo está tu gente.</p>
+<ol>
+<li>Tocá la pestaña «Inicio». Mientras carga ves «Cargando el tablero de Inicio…».</li>
+<li>A la izquierda está la lista «Ciudades». Elegí «Todas las ciudades», un departamento («Todo el departamento», que aparece solo si el departamento tiene más de una ciudad) o una ciudad. Cada ciudad dice «N de M en jornada» (cuántos colportores están en jornada ahora), por ejemplo «1 de 3 en jornada». Los departamentos aparecen como «DEPTO. MONTEVIDEO», por ejemplo.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-22-inicio-tablero.png" alt="Pestaña 'Inicio' completa: lista de ciudades, tarjetas, tabla y pendientes"></div><figcaption>Pestaña 'Inicio' completa: lista de ciudades, tarjetas, tabla y pendientes</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Arriba de las cifras vas a ver el título (la ciudad, «Departamento …» o «Todas las ciudades»), el subtítulo («Departamento Montevideo · 1 de 3 en jornada») y, si mirás hoy, «Actualizado» con la hora. Al lado del selector de día está el enlace «Ver equipo →», que te lleva a la pestaña «Equipo».</li>
+<li>Debajo hay tres tarjetas: «HORAS» (por ejemplo «13,3 h»), «PRESENTACIONES» y «VENTAS» (la cantidad y el monto, por ejemplo «1» y «$U 500»).</li>
+<li>Después está la tabla de colportores, con las columnas Colportor, Estado, Horas, Presentaciones, Ventas, Monto y Últimos datos.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-23-inicio-tarjetas-tabla.png" alt="Las tres tarjetas y la tabla de colportores de una ciudad"></div><figcaption>Las tres tarjetas y la tabla de colportores de una ciudad</figcaption></figure></div>
+
+<p>En la columna «Estado» cada colportor puede estar:</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Estado</th>
+<th>Qué significa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Estado">«En jornada»</td>
+<td data-th="Qué significa">Empezó su jornada y todavía no la cerró.</td>
+</tr>
+<tr>
+<td data-th="Estado">«Sin cerrar»</td>
+<td data-th="Qué significa">Tiene una jornada de un día anterior que quedó abierta. Ese día sus horas figuran en «0 h»: no se cuentan hasta que la jornada se cierra.</td>
+</tr>
+<tr>
+<td data-th="Estado">«Finalizada»</td>
+<td data-th="Qué significa">Ya cerró la jornada del día.</td>
+</tr>
+<tr>
+<td data-th="Estado">«Sin iniciar»</td>
+<td data-th="Qué significa">Todavía no empezó. Sus cifras muestran «—» en lugar de ceros.</td>
+</tr>
+</tbody>
+</table></div>
+<p>La columna «Últimos datos» te dice cuándo mandó su última información el colportor, con un reloj ◷ adelante: «Sin datos», «hace menos de 1 min», «hace 25 min», «hace 2 h 10 min», «ayer 18:30» o «hace 2 días». Es solo informativa: no es una alarma.</p>
+<p>Cuando elegís «Todas las ciudades» o un departamento con varias ciudades, la tabla se divide con una cabecera por ciudad, por ejemplo «Montevideo 1 de 3 en jornada».</p>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-24-inicio-varias-ciudades.png" alt="Tabla de 'Inicio' dividida por ciudades con sus cabeceras"></div><figcaption>Tabla de 'Inicio' dividida por ciudades con sus cabeceras</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> Si todavía no hay presentaciones ni ventas hoy, el panel dice «Todavía no hay presentaciones ni ventas hoy: las cifras se suman a medida que cada colportor sincroniza.» Eso significa que las cifras aparecen cuando cada colportor manda sus datos desde el teléfono, que lo hace solo cuando tiene conexión.</p>
+</blockquote>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-25-inicio-sin-actividad-hoy.png" alt="Encabezado con 'Todavía no hay presentaciones ni ventas hoy…'"></div><figcaption>Encabezado con 'Todavía no hay presentaciones ni ventas hoy…'</figcaption></figure></div>
+
+<h3 id="32-ver-otro-día"><span class="num">3.2</span>Ver otro día</h3>
+<p>Lo vas a usar para comparar con ayer o con días anteriores.</p>
+<ol>
+<li>Arriba de las cifras tocá la flecha ‹ «Día anterior». El rótulo cambia de «Hoy · lun 9 nov» a «Ayer · dom 8 nov» y, un día más atrás, a la fecha sola («sáb 7 nov»). Fuera de hoy no aparece «Actualizado».</li>
+<li>Mientras llega la información ves «Cargando el día…».</li>
+<li>Para volver hacia hoy tocá la flecha › «Día siguiente». En hoy queda apagada: no se pueden ver días futuros.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-26-inicio-dia-anterior.png" alt="'Inicio' mirando 'Ayer · dom 8 nov' con el selector de día"></div><figcaption>'Inicio' mirando 'Ayer · dom 8 nov' con el selector de día</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-27-inicio-cargando-dia.png" alt="'Inicio' con 'Cargando el día…'"></div><figcaption>'Inicio' con 'Cargando el día…'</figcaption></figure></div>
+
+<p>Si un colportor dejó su jornada abierta ese día, su fila dice «Sin cerrar» y sus horas figuran en «0 h».</p>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-131-inicio-sin-cerrar.png" alt="'Inicio' en 'sáb 7 nov' con una fila en estado 'Sin cerrar' y '0 h'"></div><figcaption>'Inicio' en 'sáb 7 nov' con una fila en estado 'Sin cerrar' y '0 h'</figcaption></figure></div>
+
+<h3 id="33-atender-los-pendientes-de-acción"><span class="num">3.3</span>Atender los pendientes de acción</h3>
+<p>A la derecha de «Inicio» está la columna «Pendientes de acción»: lo que te toca resolver.</p>
+<ol>
+<li>Si hay colportores sin zona, ves una tarjeta con la etiqueta EQUIPO: «Colportor sin zona asignada» con el nombre y, por ejemplo, «se sumó hoy a las 11:02», o «2 colportores sin zona asignada» con la lista, cada uno con «se sumó el 5 nov a las 10:00» u otra fecha. Una cuenta suspendida figura igual en la lista.</li>
+<li>Tocá «Asignar zona». Te lleva a la pestaña «Ciudades» para elegir la zona (ver <a href="#57-asignar-un-colportor-a-una-zona">Asignar un colportor a una zona</a>).</li>
+<li>Con la flecha «Contraer pendientes» achicás la columna y con «Expandir pendientes» la volvés a abrir. Con «Contraer ciudades» y «Expandir ciudades» hacés lo mismo con la lista de la izquierda. El panel recuerda cómo las dejaste. Con la lista de ciudades contraída, cada ciudad se abrevia («C. d. l. C.», «Mon.») y muestra «en jornada / total» (por ejemplo «0/1»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-28-inicio-pendientes.png" alt="Columna 'Pendientes de acción' con 'Colportor sin zona asignada' y 'Asignar zona'"></div><figcaption>Columna 'Pendientes de acción' con 'Colportor sin zona asignada' y 'Asignar zona'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-29-inicio-columnas-contraidas.png" alt="'Inicio' con la lista de ciudades y los pendientes contraídos"></div><figcaption>'Inicio' con la lista de ciudades y los pendientes contraídos</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando el tablero de Inicio…»</td>
+<td data-th="Qué significa">Se está armando el tablero.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo cargar el tablero de Inicio. Revisá tu conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">No hay internet o falló la carga.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo cargar el día. Revisá tu conexión y probá de nuevo.» o «No se pudo cargar el día. Probá de nuevo más tarde.»</td>
+<td data-th="Qué significa">Falló al traer ese día.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La campaña ya no está disponible. Elegí otra desde el selector de arriba.»</td>
+<td data-th="Qué significa">La campaña que mirabas terminó o ya no es tuya.</td>
+<td data-th="Qué hacer">Elegí otra en el selector.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No tenés una campaña en curso ni por empezar, así que no hay un día para mirar todavía.»</td>
+<td data-th="Qué significa">No tenés campaña activa.</td>
+<td data-th="Qué hacer">Tocá «Ir a Equipo» o hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Esta campaña todavía no tiene ciudades. Agregalas para ver cómo está tu gente.»</td>
+<td data-th="Qué significa">La campaña no tiene ciudades cargadas.</td>
+<td data-th="Qué hacer">Tocá «Ir a Ciudades» y agregalas (ver <a href="#53-agregar-una-ciudad-a-la-campaña">Agregar una ciudad a la campaña</a>).</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Esta ciudad todavía no tiene colportores en la campaña.» (o «Estas ciudades todavía no tienen…»)</td>
+<td data-th="Qué significa">No hay nadie anotado en esa ciudad.</td>
+<td data-th="Qué hacer">Añadí colportores desde «Equipo» (ver <a href="#46-añadir-un-colportor">Añadir un colportor</a>).</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Nada pendiente en esta ciudad.» (o «Nada pendiente.»)</td>
+<td data-th="Qué significa">No hay nada que resolver.</td>
+<td data-th="Qué hacer">Nada.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-30-inicio-cargando.png" alt="'Inicio' con 'Cargando el tablero de Inicio…'"></div><figcaption>'Inicio' con 'Cargando el tablero de Inicio…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-31-inicio-error.png" alt="'Inicio' con 'No se pudo cargar el tablero de Inicio…' y 'Reintentar'"></div><figcaption>'Inicio' con 'No se pudo cargar el tablero de Inicio…' y 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-132-inicio-error-dia.png" alt="'Inicio' en 'Ayer · dom 8 nov' con 'No se pudo cargar el día. Revisá tu conexión y probá de nuevo.' y 'Reintentar'"></div><figcaption>'Inicio' en 'Ayer · dom 8 nov' con 'No se pudo cargar el día. Revisá tu conexión y probá de nuevo.' y 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-32-inicio-sin-campania.png" alt="'Inicio' con 'No tenés una campaña en curso ni por empezar…' y 'Ir a Equipo'"></div><figcaption>'Inicio' con 'No tenés una campaña en curso ni por empezar…' y 'Ir a Equipo'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-33-inicio-sin-ciudades.png" alt="'Inicio' con 'Esta campaña todavía no tiene ciudades…' y 'Ir a Ciudades'"></div><figcaption>'Inicio' con 'Esta campaña todavía no tiene ciudades…' y 'Ir a Ciudades'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-34-inicio-ciudad-sin-colportores.png" alt="Tabla con 'Esta ciudad todavía no tiene colportores en la campaña.'"></div><figcaption>Tabla con 'Esta ciudad todavía no tiene colportores en la campaña.'</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Nota.</strong> En «Inicio» no aparecen hoy pendientes de cuentas ni de pedidos de libros; esas secciones están en preparación (ver el capítulo <a href="#8-lo-que-todavía-no-está-disponible">Lo que todavía no está disponible</a>).</p>
+</blockquote>
+<hr />
+<h2 id="4-equipo"><span class="num">Capítulo 4</span>Equipo</h2>
+<p>«Equipo» es la lista de tus colportores: en qué zona está cada uno, cómo avanza con sus becas y cuándo fue la última vez que lo acompañaste.</p>
+<h3 id="41-conocer-la-pantalla-de-equipo"><span class="num">4.1</span>Conocer la pantalla de Equipo</h3>
+<p>Lo vas a usar para ver todo tu equipo o el de una ciudad.</p>
+<ol>
+<li>Tocá la pestaña «Equipo». Mientras carga ves «Cargando el equipo de la campaña…».</li>
+<li>A la izquierda está la lista «Ciudades». Cada ciudad dice cuántos colportores tiene con zona y cuántos sin zona. «Todas las ciudades» dice, por ejemplo, «4 + 2 sin zona». Elegí «Todas las ciudades», un departamento o una ciudad.</li>
+<li>Arriba están el título y el subtítulo, por ejemplo «4 colportores + 2 sin zona». Con una ciudad elegida suma el departamento («3 colportores + 2 sin zona · Departamento Montevideo»). A la derecha está el botón «+ Añadir colportor».</li>
+<li>Debajo, el conmutador «Ver» tiene tres opciones: «Zonas» (la que aparece primero), «Becas» y «Acompañamientos».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-35-equipo-zonas.png" alt="Pestaña 'Equipo' con la lista de ciudades, el conmutador 'Ver' en 'Zonas' y la tabla"></div><figcaption>Pestaña 'Equipo' con la lista de ciudades, el conmutador 'Ver' en 'Zonas' y la tabla</figcaption></figure></div>
+
+<ol start="5" style="counter-reset: paso 4">
+<li>Si hay colportores sin zona, en las vistas «Becas» y «Acompañamientos» aparece arriba una franja con la etiqueta EQUIPO, la cantidad («2 colportores no tienen zona asignada») y el botón «Asignar zona». Una cuenta suspendida también cuenta. En la vista «Zonas» no aparece, porque los colportores sin zona figuran en un bloque propio, cada uno con su botón.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-36-equipo-franja-pendientes.png" alt="Franja 'EQUIPO · 2 colportores no tienen zona asignada' con 'Asignar zona'"></div><figcaption>Franja 'EQUIPO · 2 colportores no tienen zona asignada' con 'Asignar zona'</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando el equipo de la campaña…»</td>
+<td data-th="Qué significa">Se está trayendo el equipo.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo cargar el equipo de la campaña. Revisá tu conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">Falló la carga.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No tenés una campaña en curso ni por empezar. Cuando tengas una, vas a ver acá su equipo, sus zonas y sus acompañamientos.»</td>
+<td data-th="Qué significa">No tenés campaña activa.</td>
+<td data-th="Qué hacer">Hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay colportores en esta campaña. Añadilos con «+ Añadir colportor».»</td>
+<td data-th="Qué significa">La campaña no tiene equipo todavía.</td>
+<td data-th="Qué hacer">Ver <a href="#46-añadir-un-colportor">Añadir un colportor</a>.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay colportores en Montevideo. Cuando asignes alguno a una de sus zonas, aparece acá.» (con el nombre de la ciudad elegida)</td>
+<td data-th="Qué significa">Esa ciudad no tiene a nadie con zona.</td>
+<td data-th="Qué hacer">Asigná colportores a una zona (ver el capítulo <a href="#5-ciudades">Ciudades</a>).</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-37-equipo-cargando.png" alt="'Equipo' con 'Cargando el equipo de la campaña…'"></div><figcaption>'Equipo' con 'Cargando el equipo de la campaña…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-38-equipo-error.png" alt="'Equipo' con 'No se pudo cargar el equipo de la campaña…' y 'Reintentar'"></div><figcaption>'Equipo' con 'No se pudo cargar el equipo de la campaña…' y 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-39-equipo-sin-campania.png" alt="'Equipo' con 'No tenés una campaña en curso ni por empezar…'"></div><figcaption>'Equipo' con 'No tenés una campaña en curso ni por empezar…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-40-equipo-vacio.png" alt="'Equipo' con 'Todavía no hay colportores en esta campaña…'"></div><figcaption>'Equipo' con 'Todavía no hay colportores en esta campaña…'</figcaption></figure></div>
+
+<h3 id="42-ver-las-zonas-de-tu-equipo"><span class="num">4.2</span>Ver las zonas de tu equipo</h3>
+<p>Lo vas a usar para saber quién trabaja en cada zona y quién todavía no tiene una.</p>
+<ol>
+<li>En «Equipo», dejá el conmutador «Ver» en «Zonas».</li>
+<li>La tabla tiene estas columnas: «COLPORTOR»; «ZONA ACTUAL» (con «desde 09/11» o «desde antes del 02/11»); «ZONAS ANTERIORES» (con las fechas, por ejemplo «02/11 a 04/11», y «(dada de baja)» si esa zona se eliminó después); «CASAS REGISTRADAS» (las casas que cargó, con «en todas sus zonas» si pasó por más de una); y una última columna con el botón de cada fila. Los colportores van agrupados por ciudad («Montevideo 3 colportores»).</li>
+<li>Quienes no tienen zona figuran en un bloque aparte, «Sin zona asignada · 2 colportores», con «Sin zona» en la fila resaltada y el botón «Asignar zona». Quien ya tiene zona tiene el botón «Cambiar zona».</li>
+<li>Cualquiera de los dos botones te lleva a la pestaña «Ciudades» para elegir la zona (ver <a href="#57-asignar-un-colportor-a-una-zona">Asignar un colportor a una zona</a>).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-41-equipo-zonas-sin-zona.png" alt="Tabla de 'Zonas' con el bloque 'Sin zona asignada · 2 colportores' y el botón 'Asignar zona'"></div><figcaption>Tabla de 'Zonas' con el bloque 'Sin zona asignada · 2 colportores' y el botón 'Asignar zona'</figcaption></figure></div>
+
+<h3 id="43-ver-las-becas"><span class="num">4.3</span>Ver las becas</h3>
+<p>Lo vas a usar para ver qué beca busca cada colportor y cuánto le falta.</p>
+<ol>
+<li>En «Equipo», elegí «Becas» en el conmutador «Ver».</li>
+<li>Hoy la pantalla muestra el aviso «Las becas todavía no están conectadas a la base de datos. Cuando lo estén, vas a ver acá la carrera, a qué beca apunta y el avance de cada colportor.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-42-equipo-becas-no-conectadas.png" alt="'Equipo' en 'Becas' con el aviso 'Las becas todavía no están conectadas…'"></div><figcaption>'Equipo' en 'Becas' con el aviso 'Las becas todavía no están conectadas…'</figcaption></figure></div>
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> La tabla de becas (carrera de cada colportor, a qué beca apunta —«Media», «Completa» o «Sin beca»— y su avance) está en preparación y todavía no se puede usar.</p>
+</blockquote>
+<h3 id="44-ver-los-acompañamientos"><span class="num">4.4</span>Ver los acompañamientos</h3>
+<p>Lo vas a usar para saber a quién hace más tiempo que no acompañás en la calle.</p>
+<ol>
+<li>En «Equipo», elegí «Acompañamientos» en el conmutador «Ver». El subtítulo suma «3 acompañamientos en la campaña · ordenado por días sin acompañar» (el número cambia con la campaña).</li>
+<li>La tabla ordena a los colportores de más a menos días sin acompañar. Las columnas son: «COLPORTOR», «ZONA», las semanas de la campaña («SEMANAS S1 A S2» cuando van dos semanas: un círculo por semana, lleno con ✓ cuando lo acompañaron), «TOTAL» y «SIN ACOMPAÑAR». Cada fila tiene los botones «Ver historial» y «Registrar acompañamiento».</li>
+<li>En «SIN ACOMPAÑAR» ves «Nunca» con «7 días desde el inicio» (o «0 días desde que se sumó»), o bien «hoy», «ayer» o «hace 4 días» con «último: jue 05/11». Si la campaña todavía no empezó, dice «La campaña todavía no empezó».</li>
+<li>Para ver el detalle de uno, tocá «Ver historial». Se abre «HISTORIAL DE ACOMPAÑAMIENTOS · BRUNO TECHERA». Cada renglón muestra el día, las horas (o «en curso»), quién acompañó —por ejemplo «Mariana Pérez (vos)»— y cómo se cargó: «lo marcó en el celular», «cargado por vos», «cargado por <nombre>» o «cargado desde el panel», además de la nota si hay. Para cerrarlo tocá «Ocultar historial».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-43-equipo-acompanamientos.png" alt="Tabla de 'Acompañamientos' con las semanas, 'TOTAL' y 'SIN ACOMPAÑAR'"></div><figcaption>Tabla de 'Acompañamientos' con las semanas, 'TOTAL' y 'SIN ACOMPAÑAR'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-44-equipo-historial.png" alt="Historial abierto bajo un colportor"></div><figcaption>Historial abierto bajo un colportor</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Nunca» con «7 días desde el inicio»</td>
+<td data-th="Qué significa">Nunca lo acompañaron en esta campaña.</td>
+<td data-th="Qué hacer">Planificá un acompañamiento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La campaña todavía no empezó»</td>
+<td data-th="Qué significa">No hay días contados todavía.</td>
+<td data-th="Qué hacer">Nada.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no se lo acompañó en esta campaña.» (en el historial)</td>
+<td data-th="Qué significa">No hay acompañamientos registrados.</td>
+<td data-th="Qué hacer">Nada.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-45-equipo-historial-vacio.png" alt="Historial con 'Todavía no se lo acompañó en esta campaña.'"></div><figcaption>Historial con 'Todavía no se lo acompañó en esta campaña.'</figcaption></figure></div>
+
+<h3 id="45-registrar-un-acompañamiento"><span class="num">4.5</span>Registrar un acompañamiento</h3>
+<p>Lo vas a usar cuando acompañaste a un colportor en la calle y querés que quede anotado, o cuando lo acompañó otra persona y tenés que cargarlo vos.</p>
+<p><strong>Antes de empezar:</strong> necesitás conexión. El colportor tiene que haber terminado al menos una jornada en la campaña, y la campaña tiene que estar en curso o haber terminado hace 15 días o menos.</p>
+<ol>
+<li>En «Equipo», elegí «Acompañamientos».</li>
+<li>En la fila del colportor (por ejemplo Bruno Techera), tocá «Registrar acompañamiento». Se abre, debajo de esa fila, el panel «REGISTRAR ACOMPAÑAMIENTO · BRUNO TECHERA», con «Cerrar» y el texto «Elegí quién lo acompañó y la jornada. Un acompañamiento ya registrado no se cambia desde acá.» Mientras se traen sus jornadas dice «Cargando las jornadas de Bruno Techera…».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-46-acompanamiento-abierto.png" alt="Panel 'REGISTRAR ACOMPAÑAMIENTO' con 'QUIÉN LO ACOMPAÑÓ', la nota y la lista de jornadas"></div><figcaption>Panel 'REGISTRAR ACOMPAÑAMIENTO' con 'QUIÉN LO ACOMPAÑÓ', la nota y la lista de jornadas</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>En «QUIÉN LO ACOMPAÑÓ» dejá «Yo» si fuiste vos. Si fue otra persona, elegí «Otra persona»: aparece «Quién acompañó» con un desplegable «Elegí quién acompañó». La lista muestra primero a los otros colportores de la campaña y después el grupo «Coordinadores y administradores».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-47-acompanamiento-otra-persona.png" alt="'QUIÉN LO ACOMPAÑÓ' en 'Otra persona' con el desplegable 'Elegí quién acompañó' (se ve cerrado)"></div><figcaption>'QUIÉN LO ACOMPAÑÓ' en 'Otra persona' con el desplegable 'Elegí quién acompañó' (se ve cerrado)</figcaption></figure></div>
+
+<ol start="4" style="counter-reset: paso 3">
+<li>Si querés, escribí una «Nota (opcional)». Admite hasta 500 caracteres y debajo ves el contador («0 de 500 caracteres»). El panel te avisa «Sin datos de clientes.»: no escribas nombres ni datos de clientes.</li>
+<li>En la lista de jornadas terminadas (por ejemplo «sáb 07/11 · 3,5 h»), tocá «Registrar» en la jornada que corresponde. Solo aparecen jornadas cerradas. Mientras se guarda dice «Registrando…».</li>
+<li>Cuando sale bien, aparece «Acompañamiento registrado: jornada de Bruno Techera, jue 05/11.» (si no fuiste vos, suma «Acompañó» y el nombre de quien eligiste, y la fila de la jornada pasa a «Acompañó» con ese nombre). El subtítulo suma un acompañamiento y la fila del colportor se actualiza.</li>
+<li>Para cerrar el panel, tocá «Cerrar».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-48-acompanamiento-registrado.png" alt="Aviso 'Acompañamiento registrado: jornada de Bruno Techera, sáb 07/11. Acompañó Martín Suárez.'"></div><figcaption>Aviso 'Acompañamiento registrado: jornada de Bruno Techera, sáb 07/11. Acompañó Martín Suárez.'</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> Un acompañamiento ya registrado no se cambia desde acá. Si te equivocaste de jornada o de persona, hablá con el administrador.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando las jornadas de Bruno Techera…»</td>
+<td data-th="Qué significa">Se están trayendo las jornadas.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Acompañamiento registrado: jornada de Bruno Techera, sáb 07/11. Acompañó Martín Suárez.»</td>
+<td data-th="Qué significa">Quedó registrado (aviso verde).</td>
+<td data-th="Qué hacer">Nada más.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Esa jornada ya figuraba a tu nombre: Bruno Techera, lun 02/11.» (o «…a nombre de» otra persona…)</td>
+<td data-th="Qué significa">Esa jornada ya tenía su acompañamiento. Es un aviso verde: no es un error. Si habías escrito una nota, se aclara que no se guardó.</td>
+<td data-th="Qué hacer">No hace falta repetirlo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La nota no se guardó: un acompañamiento ya registrado no se cambia desde acá.»</td>
+<td data-th="Qué significa">Intentaste cambiar la nota de uno ya registrado.</td>
+<td data-th="Qué hacer">Dejalo como está.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Elegí al colportor que acompañó, o cambiá a «Yo».»</td>
+<td data-th="Qué significa">Elegiste «Otra persona» y no elegiste quién.</td>
+<td data-th="Qué hacer">Elegí a alguien de la lista o volvé a «Yo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay otros colportores en esta campaña.»</td>
+<td data-th="Qué significa">No hay otra persona para elegir.</td>
+<td data-th="Qué hacer">Usá «Yo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Joaquín Pereira todavía no terminó ninguna jornada en esta campaña. Cuando cierre una, vas a poder registrar el acompañamiento.» (con el nombre del colportor)</td>
+<td data-th="Qué significa">No hay jornadas para elegir.</td>
+<td data-th="Qué hacer">Volvé cuando haya cerrado una.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todas sus jornadas terminadas ya figuran acompañadas: un acompañamiento ya registrado no se cambia desde acá.» (y desaparecen «QUIÉN LO ACOMPAÑÓ» y la nota)</td>
+<td data-th="Qué significa">Ya están todas registradas.</td>
+<td data-th="Qué hacer">Nada.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para registrar el acompañamiento. Revisá la conexión y probá de nuevo.» (en rojo, debajo de la jornada)</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Revisá la conexión y tocá «Registrar» otra vez.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La campaña terminó hace más de 15 días y sus acompañamientos quedan como están. Elegí una campaña en curso o que haya terminado hace 15 días o menos.»</td>
+<td data-th="Qué significa">Pasó el plazo para registrar.</td>
+<td data-th="Qué hacer">Elegí otra campaña en el selector.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La nota admite hasta 500 caracteres. Acortala; no pongas datos de clientes.»</td>
+<td data-th="Qué significa">La nota es muy larga.</td>
+<td data-th="Qué hacer">Acortala.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Solo el coordinador de la campaña puede ver las jornadas de su equipo.» / «Solo el coordinador de la campaña puede registrar acompañamientos en ella.»</td>
+<td data-th="Qué significa">No sos el coordinador de esa campaña.</td>
+<td data-th="Qué hacer">Hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La jornada no existe o no es de un colportor de esta campaña. Recargá las jornadas y elegí otra.»</td>
+<td data-th="Qué significa">La jornada cambió mientras tanto.</td>
+<td data-th="Qué hacer">Cerrá el panel y volvé a abrirlo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«El colportor no está en esta campaña.» / «Ese colportor no está inscripto en esta campaña. Elegí a alguien de su equipo.»</td>
+<td data-th="Qué significa">La persona elegida no está en la campaña.</td>
+<td data-th="Qué hacer">Elegí a otra.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudieron traer las jornadas. Probá de nuevo más tarde.»</td>
+<td data-th="Qué significa">Falló la carga.</td>
+<td data-th="Qué hacer">Cerrá el panel y probá más tarde.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo registrar el acompañamiento. Probá de nuevo más tarde.»</td>
+<td data-th="Qué significa">Falló el guardado.</td>
+<td data-th="Qué hacer">Probá más tarde.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-49-acompanamiento-cargando.png" alt="Panel con 'Cargando las jornadas de Bruno Techera…'"></div><figcaption>Panel con 'Cargando las jornadas de Bruno Techera…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-50-acompanamiento-sin-jornadas.png" alt="Panel con '… todavía no terminó ninguna jornada en esta campaña…'"></div><figcaption>Panel con '… todavía no terminó ninguna jornada en esta campaña…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-51-acompanamiento-ya-figuraba.png" alt="Aviso 'Esa jornada ya figuraba a tu nombre…'"></div><figcaption>Aviso 'Esa jornada ya figuraba a tu nombre…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-52-acompanamiento-sin-conexion.png" alt="Aviso 'Necesitás conexión para registrar el acompañamiento…'"></div><figcaption>Aviso 'Necesitás conexión para registrar el acompañamiento…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-134-acompanamiento-todas-registradas.png" alt="Panel con 'Todas sus jornadas terminadas ya figuran acompañadas…'"></div><figcaption>Panel con 'Todas sus jornadas terminadas ya figuran acompañadas…'</figcaption></figure></div>
+
+<h3 id="46-añadir-un-colportor"><span class="num">4.6</span>Añadir un colportor</h3>
+<p>Lo vas a usar cuando una persona nueva se suma a tu campaña.</p>
+<p><strong>Antes de empezar:</strong> la persona tiene que tener su cuenta creada y su correo verificado. Necesitás conexión.</p>
+<ol>
+<li>En «Equipo», tocá «+ Añadir colportor». Se abre «Añadir colportor a Verano 2026-2027». Arriba hay un camino de regreso: «‹ Equipo / Añadir colportor».</li>
+<li>Vas a ver la lista «PENDIENTES DE ASIGNACIÓN · 3»: son las cuentas sugeridas. Cada fila muestra el avatar, el nombre, el estado (◔ Pendiente de asignación, ● Activa o ⊘ Suspendida), el correo, «Campaña actual: …» o «sin campaña» y el botón «Añadir». Se cargan de a 10: al llegar al final ves «Cargando más cuentas…».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-54-anadir-lista.png" alt="Pantalla 'Añadir colportor a Verano 2026-2027' con la lista 'PENDIENTES DE ASIGNACIÓN'"></div><figcaption>Pantalla 'Añadir colportor a Verano 2026-2027' con la lista 'PENDIENTES DE ASIGNACIÓN'</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Para buscar a una persona, escribí su correo o su nombre en «Buscar por email o nombre» (con la tecla «/» el cursor va directo al buscador). Debajo dice «Solo aparecen cuentas pendientes de asignación o activas sin campaña.» Mientras busca ves «BUSCANDO “SOF”…» y después «1 RESULTADO PARA “SOF”» (con un «+» si hay más). Para borrar la búsqueda tocá «✕» («Borrar búsqueda»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-55-anadir-buscando.png" alt="Buscador con 'BUSCANDO “SOF”…'"></div><figcaption>Buscador con 'BUSCANDO “SOF”…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-56-anadir-resultados.png" alt="Resultados de la búsqueda con 'N RESULTADOS PARA “…”'"></div><figcaption>Resultados de la búsqueda con 'N RESULTADOS PARA “…”'</figcaption></figure></div>
+
+<ol start="4" style="counter-reset: paso 3">
+<li>Tocá una cuenta (por ejemplo Sofía Cabral). A la derecha se muestra su detalle: «Estado de la cuenta» (◔ Pendiente de asignación), «Campaña actual» (Sin campaña), «Zona» (siempre «Sin zona» al principio) y «Cuenta creada» con la fecha. También ves la tarjeta «Ya en tu equipo», con la cantidad actual de colportores (por ejemplo «6») y el nombre y la zona de cada uno. Antes de elegir, ese lugar dice «Elegí una cuenta para ver el detalle y añadirla.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-57-anadir-detalle.png" alt="Detalle de la cuenta elegida con el botón 'Añadir a Verano 2026-2027'"></div><figcaption>Detalle de la cuenta elegida con el botón 'Añadir a Verano 2026-2027'</figcaption></figure></div>
+
+<ol start="5" style="counter-reset: paso 4">
+<li>Tocá «Añadir a Verano 2026-2027» (o el botón «Añadir» de la fila). Debajo del botón se aclara «Le llega un aviso por email y en la app.» Los dos botones pasan a «Añadido ✓» (apagados) y la persona aparece en «Ya en tu equipo» con «Sin zona».</li>
+<li>Abajo aparece «Añadiste a Sofía Cabral a Verano 2026-2027.» con el botón «Deshacer». Tenés 8 segundos para deshacerlo; si dejás el cursor del teclado en «Deshacer», el tiempo se detiene. Pasados los 8 segundos, se guarda.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-58-anadir-deshacer.png" alt="Aviso 'Añadiste a Sofía Cabral a Verano 2026-2027.' con 'Deshacer'"></div><figcaption>Aviso 'Añadiste a Sofía Cabral a Verano 2026-2027.' con 'Deshacer'</figcaption></figure></div>
+
+<p>Si tocás «Deshacer», el botón vuelve a «Añadir a Verano 2026-2027», «Ya en tu equipo» vuelve a su número anterior (por ejemplo «6») y no se guarda nada. No sale ningún mensaje.</p>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-135-anadir-deshecho.png" alt="Detalle con el botón 'Añadir a Verano 2026-2027' otra vez y 'Ya en tu equipo 6'"></div><figcaption>Detalle con el botón 'Añadir a Verano 2026-2027' otra vez y 'Ya en tu equipo 6'</figcaption></figure></div>
+
+<ol start="7" style="counter-reset: paso 6">
+<li>Para volver, tocá «‹ Equipo» o apretá Esc. Si salís o cambiás de pestaña con un aviso pendiente, el panel guarda la inscripción en ese momento, sin esperar los 8 segundos, y por un momento ves «Guardando lo que añadiste a la campaña…» al lado de las pestañas. La pantalla cambia cuando termina de guardar.</li>
+</ol>
+<blockquote class="consejo">
+<p><strong>Consejo.</strong> Atajos: las flechas ↑ ↓ recorren la lista, Enter elige la cuenta marcada y Esc retrocede de a un paso (primero limpia la búsqueda, después cierra los avisos y por último vuelve a «Equipo»).</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> Quien ya estuvo en la campaña y fue quitado se puede volver a añadir: vuelve al equipo sin zona.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Buscando cuentas…»</td>
+<td data-th="Qué significa">Se está buscando.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay cuentas que coincidan con tu búsqueda.»</td>
+<td data-th="Qué significa">Nadie coincide con lo que escribiste.</td>
+<td data-th="Qué hacer">Probá con otro nombre o con el correo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay cuentas pendientes de asignación.»</td>
+<td data-th="Qué significa">No hay sugeridas.</td>
+<td data-th="Qué hacer">Buscá a la persona por nombre o correo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Cuenta suspendida. Pedí a un administrador que la reactive para añadirla.» (ayuda: «Pedile a un administrador que la reactive.»)</td>
+<td data-th="Qué significa">La cuenta está suspendida.</td>
+<td data-th="Qué hacer">Pedile al administrador que la reactive.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Está en campaña Campaña Ejemplo Permanente. Reasignar primero.» (o «Está en otra campaña. Reasignar primero.»; ayuda: «Pedile al coordinador de Campaña Ejemplo Permanente que lo libere.»)</td>
+<td data-th="Qué significa">La persona sigue en otra campaña (aparece marcada «● Activa», con «Campaña actual: …» y el botón apagado; al buscar por nombre se la ve aunque no esté en la lista sugerida).</td>
+<td data-th="Qué hacer">Pedile al coordinador de esa campaña que la libere.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Añadiste a Sofía Cabral a Verano 2026-2027.»</td>
+<td data-th="Qué significa">Quedó añadida.</td>
+<td data-th="Qué hacer">Si fue un error, tocá «Deshacer» dentro de los 8 segundos.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">Un motivo en rojo arriba del detalle, por ejemplo «Ya está inscripto en esta campaña.» (si tenés elegida otra cuenta, empieza con «No se pudo añadir a <nombre>.»)</td>
+<td data-th="Qué significa">No se pudo añadir.</td>
+<td data-th="Qué hacer">Leé el motivo (ver más abajo).</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para añadir a Sofía Cabral. Revisá la conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">No hay internet. Aparece cuando pasan los 8 segundos y el panel intenta guardar; la cuenta vuelve a «Añadir».</td>
+<td data-th="Qué hacer">Revisá la conexión y probá otra vez.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo añadir la cuenta. Probá de nuevo más tarde.»</td>
+<td data-th="Qué significa">Falló el guardado.</td>
+<td data-th="Qué hacer">Probá más tarde.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo buscar cuentas. Probá de nuevo más tarde.»</td>
+<td data-th="Qué significa">Falló la búsqueda.</td>
+<td data-th="Qué hacer">Probá más tarde.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se encontró la última cuenta de la página anterior. Volvé a buscar desde el principio.»</td>
+<td data-th="Qué significa">La lista cambió mientras la recorrías.</td>
+<td data-th="Qué hacer">Borrá la búsqueda y volvé a buscar.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para buscar cuentas…» / «…para cargar más cuentas…» y «Reintentar»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Tocá «Reintentar» cuando vuelva.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo buscar cuentas. Volvé a entrar para seguir.» y «Entrar de nuevo»</td>
+<td data-th="Qué significa">Venció tu sesión.</td>
+<td data-th="Qué hacer">Tocá «Entrar de nuevo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No tenés una campaña en curso ni por empezar a la que añadir colportores.» y «‹ Equipo»</td>
+<td data-th="Qué significa">No hay campaña activa.</td>
+<td data-th="Qué hacer">Volvé a «Equipo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudieron cargar las cuentas para añadir a la campaña. Revisá tu conexión y probá de nuevo.» y «Reintentar»</td>
+<td data-th="Qué significa">Falló la carga de la pantalla.</td>
+<td data-th="Qué hacer">Tocá «Reintentar» o «‹ Equipo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Cargando las cuentas para añadir a la campaña…»</td>
+<td data-th="Qué significa">Se está armando la pantalla.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Motivos que puede mostrar el aviso de que no se pudo añadir:</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Motivo</th>
+<th>Qué significa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Motivo">«La campaña no existe.»</td>
+<td data-th="Qué significa">La campaña ya no está disponible.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«La campaña ya terminó. Elegí una campaña en curso o por empezar.»</td>
+<td data-th="Qué significa">No se puede añadir a una campaña terminada.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«El usuario no existe o fue dado de baja.»</td>
+<td data-th="Qué significa">La cuenta ya no existe.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«El usuario todavía no verificó su email.»</td>
+<td data-th="Qué significa">La persona tiene que confirmar su correo primero.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«La cuenta está suspendida. Contactá al administrador.»</td>
+<td data-th="Qué significa">Hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«Ya está inscripto en esta campaña.»</td>
+<td data-th="Qué significa">Ya es parte del equipo.</td>
+</tr>
+<tr>
+<td data-th="Motivo">«Solo el coordinador de la campaña puede inscribir colportores en ella.»</td>
+<td data-th="Qué significa">Solo el coordinador de esa campaña puede hacerlo.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-59-anadir-suspendida.png" alt="Cuenta suspendida con 'Cuenta suspendida. Pedí a un administrador que la reactive para añadirla.'"></div><figcaption>Cuenta suspendida con 'Cuenta suspendida. Pedí a un administrador que la reactive para añadirla.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-60-anadir-en-otra-campania.png" alt="Cuenta con 'Está en campaña … Reasignar primero.'"></div><figcaption>Cuenta con 'Está en campaña … Reasignar primero.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-61-anadir-sin-resultados.png" alt="Lista con 'No hay cuentas que coincidan con tu búsqueda.'"></div><figcaption>Lista con 'No hay cuentas que coincidan con tu búsqueda.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-62-anadir-no-se-pudo.png" alt="Motivo 'Ya está inscripto en esta campaña.' arriba del detalle"></div><figcaption>Motivo 'Ya está inscripto en esta campaña.' arriba del detalle</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-63-anadir-sin-conexion.png" alt="Aviso 'Necesitás conexión para añadir a Sofía Cabral…'"></div><figcaption>Aviso 'Necesitás conexión para añadir a Sofía Cabral…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-64-anadir-guardando.png" alt="Barra con 'Guardando lo que añadiste a la campaña…' al salir con un aviso pendiente"></div><figcaption>Barra con 'Guardando lo que añadiste a la campaña…' al salir con un aviso pendiente</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-65-anadir-sin-campania.png" alt="Pantalla con 'No tenés una campaña en curso ni por empezar a la que añadir colportores.'"></div><figcaption>Pantalla con 'No tenés una campaña en curso ni por empezar a la que añadir colportores.'</figcaption></figure></div>
+
+<hr />
+<h2 id="5-ciudades"><span class="num">Capítulo 5</span>Ciudades</h2>
+<p>«Ciudades» es el mapa donde armás las zonas de cada ciudad y le asignás una zona a cada colportor. Una zona es un pedazo de la ciudad que trabaja una persona.</p>
+<h3 id="51-conocer-la-pantalla-de-ciudades"><span class="num">5.1</span>Conocer la pantalla de Ciudades</h3>
+<p>Lo vas a usar para ver las zonas, las casas y a quién le toca cada lugar.</p>
+<ol>
+<li>Tocá la pestaña «Ciudades». Mientras carga ves «Cargando las zonas de la campaña…».</li>
+<li>Arriba está el título «Zonas · Verano 2026-2027» y un botón por cada ciudad de la campaña, con la cantidad de zonas («1 zona», «3 zonas» o «sin zonas»), más el botón «+ Agregar ciudad».</li>
+<li>El panel abre la primera ciudad por orden alfabético. Para ver otra, tocá su botón (por ejemplo «Montevideo»). A la izquierda ves la leyenda «CASAS POR ESTADO» y la lista «Zonas de Montevideo»; a la derecha, el mapa.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-66-ciudades-mapa.png" alt="Pestaña 'Zonas · Verano 2026-2027' con los botones de ciudad, la leyenda, la lista de zonas y el mapa"></div><figcaption>Pestaña 'Zonas · Verano 2026-2027' con los botones de ciudad, la leyenda, la lista de zonas y el mapa</figcaption></figure></div>
+
+<ol start="4" style="counter-reset: paso 3">
+<li>Cada zona de la lista muestra su color, su nombre, la forma (por ejemplo «Radial · 600 m»), los colportores que la trabajan (o «◔ Sin colportores») y «N ubicaciones registradas». Por ejemplo: «Cordón · Radial · 600 m · Bruno Techera · 130 ubicaciones registradas».</li>
+<li>Debajo de las zonas están los colportores que todavía no tienen una. Cada fila dice el nombre y «Sin zona en Montevideo», y tiene el botón «Asignar». Si la cuenta está suspendida, la fila dice «⊘ Cuenta suspendida. Pedile a un administrador que la reactive.» y «Asignar» queda apagado.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-67-ciudades-lista-zonas.png" alt="Lista 'Zonas de Montevideo' con sus zonas y, debajo, los colportores 'Sin zona en Montevideo' con 'Asignar'"></div><figcaption>Lista 'Zonas de Montevideo' con sus zonas y, debajo, los colportores 'Sin zona en Montevideo' con 'Asignar'</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando las zonas de la campaña…»</td>
+<td data-th="Qué significa">Se está armando la pantalla.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudieron cargar las zonas de la campaña. Revisá tu conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">Falló la carga.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No tenés una campaña en curso ni por empezar. Cuando tengas una, vas a poder armar acá sus ciudades y zonas.»</td>
+<td data-th="Qué significa">No tenés campaña activa.</td>
+<td data-th="Qué hacer">Hablá con el administrador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay zonas en Atlántida. Creá la primera con «+ Nueva zona».» (con el nombre de la ciudad elegida)</td>
+<td data-th="Qué significa">La ciudad no tiene zonas.</td>
+<td data-th="Qué hacer">Ver <a href="#54-crear-una-zona">Crear una zona</a>.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-68-ciudades-cargando.png" alt="'Ciudades' con 'Cargando las zonas de la campaña…'"></div><figcaption>'Ciudades' con 'Cargando las zonas de la campaña…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-69-ciudades-error.png" alt="'Ciudades' con 'No se pudieron cargar las zonas de la campaña…'"></div><figcaption>'Ciudades' con 'No se pudieron cargar las zonas de la campaña…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-70-ciudades-sin-campania.png" alt="'Ciudades' con 'No tenés una campaña en curso ni por empezar…'"></div><figcaption>'Ciudades' con 'No tenés una campaña en curso ni por empezar…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-71-ciudades-sin-zonas.png" alt="Botón 'Atlántida · sin zonas' y la lista con 'Todavía no hay zonas en Atlántida…'"></div><figcaption>Botón 'Atlántida · sin zonas' y la lista con 'Todavía no hay zonas en Atlántida…'</figcaption></figure></div>
+
+<h3 id="52-mirar-el-estado-de-las-casas-en-el-mapa"><span class="num">5.2</span>Mirar el estado de las casas en el mapa</h3>
+<p>Lo vas a usar para saber cómo va la ciudad casa por casa.</p>
+<ol>
+<li>Con una ciudad elegida, el mapa muestra las casas que cargaron los colportores, cada una de un color según su estado. La leyenda «CASAS POR ESTADO» tiene una casilla por estado, con la cantidad de cada uno: «Sin visita», «No contestó», «Entrevista agendada», «Entrevista hecha», «Rechazó», «Cobranza pendiente», «Entrega y pago» y «Venta completa». Arriba a la derecha ves el total («35 casas») o, si destildaste alguno, «N de 35 casas».</li>
+<li>La leyenda explica las formas: «Círculo: visita. Cuadrado: venta y cobro. Destildar un estado lo saca del mapa.»</li>
+<li>Tocá una casa del mapa. Aparece una tarjeta con su estado («– No contestó»), el tipo (Casa, Negocio o Edificio) con la zona («Casa · Zona Cordón») y «Último cambio: 09/11», solo con la fecha. No muestra montos, nombres de personas ni notas.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-72-ciudades-leyenda-casas.png" alt="Leyenda 'CASAS POR ESTADO' con las casillas, las cantidades y las formas"></div><figcaption>Leyenda 'CASAS POR ESTADO' con las casillas, las cantidades y las formas</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-73-ciudades-tarjeta-casa.png" alt="Tarjeta de una casa con estado, tipo, zona y último cambio"></div><figcaption>Tarjeta de una casa con estado, tipo, zona y último cambio</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando las casas de Montevideo…»</td>
+<td data-th="Qué significa">Se están trayendo las casas.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay casas registradas en Atlántida. Aparecen acá cuando los colportores las registran y sincronizan.»</td>
+<td data-th="Qué significa">Nadie cargó casas todavía. Las casas aparecen cuando los colportores las registran y las mandan desde el teléfono.</td>
+<td data-th="Qué hacer">Nada: aparecen solas.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No pudimos traer las casas. Las zonas se pueden editar igual.» y «Reintentar»</td>
+<td data-th="Qué significa">Falló la carga de las casas.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Sin conexión. Ves las casas como estaban a las 18:52; no se pueden guardar zonas.»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Esperá a que vuelva para guardar zonas.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Acercá el mapa para ver el estado de cada casa.»</td>
+<td data-th="Qué significa">Hay más de 200 casas a la vista y el mapa las agrupa en burbujas con el número.</td>
+<td data-th="Qué hacer">Acercá el mapa con la rueda del mouse o con «+».</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-74-ciudades-cargando-casas.png" alt="Mapa con 'Cargando las casas de Montevideo…'"></div><figcaption>Mapa con 'Cargando las casas de Montevideo…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-75-ciudades-sin-casas.png" alt="Mapa con 'Todavía no hay casas registradas en Atlántida…'"></div><figcaption>Mapa con 'Todavía no hay casas registradas en Atlántida…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-76-ciudades-casas-error.png" alt="Mapa con 'No pudimos traer las casas. Las zonas se pueden editar igual.'"></div><figcaption>Mapa con 'No pudimos traer las casas. Las zonas se pueden editar igual.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-77-ciudades-sin-conexion.png" alt="Mapa con 'Sin conexión. Ves las casas como estaban a las 18:52; no se pueden guardar zonas.'"></div><figcaption>Mapa con 'Sin conexión. Ves las casas como estaban a las 18:52; no se pueden guardar zonas.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-78-ciudades-acercar.png" alt="Mapa con 'Acercá el mapa para ver el estado de cada casa.' y las casas agrupadas en burbujas"></div><figcaption>Mapa con 'Acercá el mapa para ver el estado de cada casa.' y las casas agrupadas en burbujas</figcaption></figure></div>
+
+<p>Avisos sobre el mapa mismo:</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Este navegador no puede dibujar el mapa (le falta WebGL). Probá con Chrome, Edge o Firefox actualizados, o activá la aceleración por hardware en sus ajustes y recargá la página. Las zonas se siguen viendo en la lista.»</td>
+<td data-th="Qué significa">Tu navegador no puede mostrar el mapa.</td>
+<td data-th="Qué hacer">Usá Chrome, Edge o Firefox actualizados, o activá la aceleración por hardware y recargá la página.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No pudimos traer las calles del mapa. Las zonas se ven y se pueden editar igual.» y «Reintentar»</td>
+<td data-th="Qué significa">Faltan las calles de fondo: las zonas y las casas se ven sobre un fondo liso.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«El mapa tarda más de lo normal en dibujarse. Si sigue en blanco, recargá la página; si pasa de nuevo, avisale al equipo técnico.»</td>
+<td data-th="Qué significa">El mapa demora. Este aviso también puede aparecer si se corta internet con el mapa abierto.</td>
+<td data-th="Qué hacer">Esperá un momento o recargá la página.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay mapa de calles de Ciudad de la Costa. Las zonas se ven y se pueden editar igual; avisale al equipo técnico para que lo publique.»</td>
+<td data-th="Qué significa">Esa ciudad no tiene mapa de calles cargado.</td>
+<td data-th="Qué hacer">Seguí trabajando con las zonas o avisale al equipo técnico.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-79-mapa-sin-webgl.png" alt="Aviso 'Este navegador no puede dibujar el mapa (le falta WebGL)…'"></div><figcaption>Aviso 'Este navegador no puede dibujar el mapa (le falta WebGL)…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-80-mapa-sin-calles.png" alt="Aviso 'No pudimos traer las calles del mapa…'"></div><figcaption>Aviso 'No pudimos traer las calles del mapa…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-81-mapa-lento.png" alt="Aviso 'El mapa tarda más de lo normal en dibujarse…'"></div><figcaption>Aviso 'El mapa tarda más de lo normal en dibujarse…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-82-mapa-sin-paquete.png" alt="Aviso 'Todavía no hay mapa de calles de Ciudad de la Costa…'"></div><figcaption>Aviso 'Todavía no hay mapa de calles de Ciudad de la Costa…'</figcaption></figure></div>
+
+<h3 id="53-agregar-una-ciudad-a-la-campaña"><span class="num">5.3</span>Agregar una ciudad a la campaña</h3>
+<p>Lo vas a usar cuando la campaña empieza a trabajar en una ciudad nueva.</p>
+<p><strong>Antes de empezar:</strong> necesitás conexión.</p>
+<ol>
+<li>En «Ciudades», tocá «+ Agregar ciudad». Se abre, en la misma pantalla y arriba de la leyenda, el recuadro «Agregar ciudad a la campaña» (con «✕» para cerrarlo). La pantalla se corre hacia abajo para hacerle lugar.</li>
+<li>En «BUSCAR POR NOMBRE O DEPARTAMENTO» escribí el nombre (por ejemplo «Atlántida»). Debajo ves la lista del catálogo, con el nombre y el departamento de cada ciudad. Mientras busca dice «Buscando ciudades…».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-83-ciudad-buscador.png" alt="Recuadro 'Agregar ciudad a la campaña' con la lista de ciudades"></div><figcaption>Recuadro 'Agregar ciudad a la campaña' con la lista de ciudades</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Tocá la ciudad en la lista. Mientras se agrega dice «Agregando la ciudad…» y después aparece un aviso verde: «Atlántida» se agregó a la campaña. Su botón aparece en la fila de ciudades («Atlántida · sin zonas») y el selector de campaña suma su nombre.</li>
+<li>Para cerrar sin agregar nada, tocá «✕» o apretá Esc.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-84-ciudad-agregada.png" alt="Aviso 'Atlántida' se agregó a la campaña. y el botón 'Atlántida · sin zonas'"></div><figcaption>Aviso 'Atlántida' se agregó a la campaña. y el botón 'Atlántida · sin zonas'</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Buscando ciudades…»</td>
+<td data-th="Qué significa">Se está buscando.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Agregando la ciudad…»</td>
+<td data-th="Qué significa">Se está agregando.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Atlántida» se agregó a la campaña.</td>
+<td data-th="Qué significa">Quedó agregada.</td>
+<td data-th="Qué hacer">Elegila para armar sus zonas.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Ya están todas las ciudades del catálogo en la campaña.»</td>
+<td data-th="Qué significa">No quedan ciudades por agregar.</td>
+<td data-th="Qué hacer">Nada.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay ciudades que coincidan con «zzzz».» (con lo que escribiste)</td>
+<td data-th="Qué significa">Nada coincide con lo que escribiste.</td>
+<td data-th="Qué hacer">Probá con otro nombre o con el departamento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo buscar en el catálogo. Revisá la conexión y probá de nuevo.» y «Reintentar»</td>
+<td data-th="Qué significa">No hay internet. Aparece al abrir el recuadro.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-85-ciudad-sin-coincidencias.png" alt="Recuadro con 'No hay ciudades que coincidan con 'zzzz'.'"></div><figcaption>Recuadro con 'No hay ciudades que coincidan con 'zzzz'.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-87-ciudad-sin-conexion.png" alt="Recuadro con 'No se pudo buscar en el catálogo…' y 'Reintentar'"></div><figcaption>Recuadro con 'No se pudo buscar en el catálogo…' y 'Reintentar'</figcaption></figure></div>
+
+<h3 id="54-crear-una-zona"><span class="num">5.4</span>Crear una zona</h3>
+<p>Lo vas a usar para repartir una ciudad entre tus colportores. Hoy las zonas se dibujan como un círculo alrededor de un punto («Radial»).</p>
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> La forma «Por esquinas» (un recorrido siguiendo las calles) todavía no se puede usar. Por ahora armá las zonas con «Radial».</p>
+</blockquote>
+<p><strong>Antes de empezar:</strong> elegí la ciudad y tené conexión.</p>
+<ol>
+<li>En la lista «Zonas de Atlántida», tocá «+ Nueva zona». Se abre el formulario «Nueva zona», que reemplaza a la leyenda y a la lista. Mientras está abierto, «+ Agregar ciudad» queda apagado.</li>
+<li>En «NOMBRE» escribí el nombre de la zona (por ejemplo «Centro Atlántida»). Admite hasta 40 caracteres.</li>
+<li>En «FORMA» elegí «◯ Radial».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-88-zona-formulario.png" alt="Formulario 'Nueva zona' con NOMBRE, FORMA, CENTRO y RADIO"></div><figcaption>Formulario 'Nueva zona' con NOMBRE, FORMA, CENTRO y RADIO</figcaption></figure></div>
+
+<ol start="4" style="counter-reset: paso 3">
+<li>Hacé clic en el mapa donde querés el centro. En «CENTRO» pasa de «Sin elegir» a «Punto elegido en el mapa».</li>
+<li>Ajustá el «RADIO» con el deslizador o escribiendo los metros en el campo (de 1 a 3000; empieza en 400). También podés arrastrar el punto del borde del círculo en el mapa. En el mapa se ve el círculo con el nombre de la zona y «400 m».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-89-zona-radial.png" alt="Zona radial dibujada con el centro y el radio en el mapa"></div><figcaption>Zona radial dibujada con el centro y el radio en el mapa</figcaption></figure></div>
+
+<ol start="6" style="counter-reset: paso 5">
+<li>Mirá la vista previa. Dice «Incluye 12 ubicaciones.», «Incluye 1 ubicación.» o «No incluye ubicaciones todavía.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-95-zona-sin-ubicaciones.png" alt="Vista previa con 'No incluye ubicaciones todavía.'"></div><figcaption>Vista previa con 'No incluye ubicaciones todavía.'</figcaption></figure></div>
+
+<ol start="7" style="counter-reset: paso 6">
+<li>Tocá «Guardar zona». Solo se enciende cuando tiene nombre, la forma completa y la vista previa. Después ves «Zona «Centro Atlántida» guardada.» y se abre el detalle de la zona («Centro Atlántida · Radial · 400 m · 0 ubicaciones»), con «COLPORTORES · 0», «◔ Nadie trabaja esta zona» y la sección «ASIGNAR COLPORTOR».</li>
+<li>Para salir sin guardar, tocá «Cancelar» o «✕» («Cerrar el formulario de zona»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-92-zona-guardada.png" alt="Aviso 'Zona 'Centro Atlántida' guardada.' con el detalle de la zona"></div><figcaption>Aviso 'Zona 'Centro Atlántida' guardada.' con el detalle de la zona</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«El nombre puede tener hasta 40 caracteres.»</td>
+<td data-th="Qué significa">El nombre es muy largo.</td>
+<td data-th="Qué hacer">Acortalo.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Sin elegir» (en «CENTRO»)</td>
+<td data-th="Qué significa">Todavía no hiciste clic en el mapa.</td>
+<td data-th="Qué hacer">Hacé clic donde va el centro.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Hacé clic en el mapa para poner el centro y arrastrá el punto del borde para cambiar el radio.»</td>
+<td data-th="Qué significa">Ayuda para la zona radial.</td>
+<td data-th="Qué hacer">Seguí las indicaciones.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Incluye N ubicaciones.» / «Incluye 1 ubicación.» / «No incluye ubicaciones todavía.»</td>
+<td data-th="Qué significa">Cuántas casas hay dentro.</td>
+<td data-th="Qué hacer">Si es cero, igual podés guardar.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Zona «Centro Atlántida» guardada.»</td>
+<td data-th="Qué significa">Quedó guardada.</td>
+<td data-th="Qué hacer">Nada más.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para calcular las ubicaciones de la zona. …» y «Reintentar»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Tocá «Reintentar» cuando vuelva.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para guardar la zona. Revisá la conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">No hay internet. El formulario queda abierto con lo que cargaste.</td>
+<td data-th="Qué hacer">Revisá la conexión y tocá «Guardar zona» otra vez.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-94-zona-sin-conexion.png" alt="Aviso 'Necesitás conexión para guardar la zona…'"></div><figcaption>Aviso 'Necesitás conexión para guardar la zona…'</figcaption></figure></div>
+
+<h3 id="55-editar-una-zona"><span class="num">5.5</span>Editar una zona</h3>
+<p>Lo vas a usar para cambiar el nombre o la forma de una zona.</p>
+<ol>
+<li>En la lista «Zonas de Montevideo», tocá la zona. Se abre su detalle («Cordón · Radial · 600 m · 130 ubicaciones»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-96-zona-detalle.png" alt="Detalle de una zona con 'COLPORTORES', 'ASIGNAR COLPORTOR' y 'Editar forma'"></div><figcaption>Detalle de una zona con 'COLPORTORES', 'ASIGNAR COLPORTOR' y 'Editar forma'</figcaption></figure></div>
+
+<ol start="2" style="counter-reset: paso 1">
+<li>Tocá «Editar forma». Se abre el formulario «Editar zona» con los datos actuales y «Incluye 130 ubicaciones.»</li>
+<li>Cambiá el nombre o volvé a dibujar la forma (ver <a href="#54-crear-una-zona">Crear una zona</a>).</li>
+<li>Tocá «Guardar zona». Para salir sin cambiar nada, tocá «Cancelar».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-91-zona-vista-previa.png" alt="Formulario 'Editar zona' con 'Incluye 130 ubicaciones.', 'Guardar zona' y 'Cancelar'"></div><figcaption>Formulario 'Editar zona' con 'Incluye 130 ubicaciones.', 'Guardar zona' y 'Cancelar'</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> Cambiar la forma de una zona no mueve las ubicaciones ya registradas.</p>
+</blockquote>
+<h3 id="56-eliminar-una-zona"><span class="num">5.6</span>Eliminar una zona</h3>
+<p>Lo vas a usar cuando una zona ya no se trabaja más.</p>
+<ol>
+<li>Abrí la zona y tocá «Editar forma». Al final del formulario está el botón «Eliminar zona».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-97-zona-editar.png" alt="Formulario 'Editar zona' con 'Eliminar zona' al final"></div><figcaption>Formulario 'Editar zona' con 'Eliminar zona' al final</figcaption></figure></div>
+
+<ol start="2" style="counter-reset: paso 1">
+<li>Tocá «Eliminar zona». El panel te pregunta «¿Eliminar la zona «Centro Atlántida»?». Según el caso agrega «Nadie la trabaja.» o «2 colportores quedan sin zona.», y siempre aclara «Las ubicaciones no se tocan.»</li>
+<li>Para confirmar, tocá «Sí, eliminar zona». Para dejarla como estaba, tocá «No, conservarla».</li>
+<li>Si confirmás, ves «Zona «Centro Atlántida» eliminada.» Si la zona tenía colportores, suma cuántos quedan sin zona («Zona «…» eliminada. 2 colportores quedan sin zona.» o «1 colportor queda sin zona»). Vuelve la lista de zonas.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-98-zona-eliminar-confirmacion.png" alt="Pregunta '¿Eliminar la zona 'Centro Atlántida'?' con 'Sí, eliminar zona' y 'No, conservarla'"></div><figcaption>Pregunta '¿Eliminar la zona 'Centro Atlántida'?' con 'Sí, eliminar zona' y 'No, conservarla'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-99-zona-eliminada.png" alt="Aviso 'Zona 'Centro Atlántida' eliminada.'"></div><figcaption>Aviso 'Zona 'Centro Atlántida' eliminada.'</figcaption></figure></div>
+
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«¿Eliminar la zona «Centro Atlántida»? Nadie la trabaja. Las ubicaciones no se tocan.»</td>
+<td data-th="Qué significa">Nadie está asignado a esa zona.</td>
+<td data-th="Qué hacer">Confirmá o conservala.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«¿Eliminar la zona «…»? 2 colportores quedan sin zona. Las ubicaciones no se tocan.»</td>
+<td data-th="Qué significa">Hay colportores asignados.</td>
+<td data-th="Qué hacer">Confirmá o conservala. Quienes la trabajaban quedan «Sin zona».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Zona «Centro Atlántida» eliminada.» (con colportores: «… 2 colportores quedan sin zona.»)</td>
+<td data-th="Qué significa">Se eliminó.</td>
+<td data-th="Qué hacer">Si quedaron colportores sin zona, asignalos a otra zona.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para eliminar la zona…»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Probá de nuevo cuando vuelva.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="57-asignar-un-colportor-a-una-zona"><span class="num">5.7</span>Asignar un colportor a una zona</h3>
+<p>Lo vas a usar cuando un colportor nuevo no tiene zona o cuando querés cambiarlo de zona.</p>
+<p>Hay dos caminos. Elegí el que te quede más cómodo. En los dos hay un último paso: tocar «Asignar a <zona>».</p>
+<p><strong>Camino 1: desde la lista de colportores sin zona</strong></p>
+<ol>
+<li>Debajo de las zonas, tocá «Asignar» en la fila del colportor que no tiene zona (por ejemplo Bruno Techera).</li>
+<li>El panel dice «Elegí la zona para Bruno Techera, en la lista o en el mapa.» y aparece el botón «Cancelar».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-100-asignar-elegir-zona.png" alt="Aviso 'Elegí la zona para Bruno Techera, en la lista o en el mapa.' con 'Cancelar'"></div><figcaption>Aviso 'Elegí la zona para Bruno Techera, en la lista o en el mapa.' con 'Cancelar'</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Tocá la zona en la lista o en el mapa. Se abre el detalle de la zona con el colportor ya elegido en «ASIGNAR COLPORTOR».</li>
+<li>Tocá «Asignar a Cordón». Ves «Bruno Techera quedó en Cordón.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-101-asignar-listo.png" alt="Aviso 'Bruno Techera quedó en Cordón.'"></div><figcaption>Aviso 'Bruno Techera quedó en Cordón.'</figcaption></figure></div>
+
+<p><strong>Camino 2: desde el detalle de una zona</strong></p>
+<ol>
+<li>Tocá la zona en la lista para abrir su detalle.</li>
+<li>En «ASIGNAR COLPORTOR» abrí el desplegable «Elegir colportor». Cada nombre muestra dónde está hoy («Lucía Fernández · hoy en Pocitos») o «◔ Sin zona».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-102-asignar-desplegable.png" alt="Detalle de la zona con el desplegable 'Elegir colportor' abierto"></div><figcaption>Detalle de la zona con el desplegable 'Elegir colportor' abierto</figcaption></figure></div>
+
+<ol start="3" style="counter-reset: paso 2">
+<li>Elegí a la persona y tocá «Asignar a Cordón» (el nombre de la zona que abriste). Ves «Bruno Techera quedó en Cordón.»</li>
+</ol>
+<blockquote class="importante">
+<p><strong>Importante.</strong> Elegir a alguien que ya tiene zona lo cambia de zona. Las ubicaciones que ya registró no se mueven con él. Debajo del desplegable el panel te lo recuerda: «Elegir a alguien con zona lo cambia de zona; sus ubicaciones registradas no se mueven.»</p>
+</blockquote>
+<h3 id="58-quitar-a-un-colportor-de-una-zona"><span class="num">5.8</span>Quitar a un colportor de una zona</h3>
+<p>Lo vas a usar cuando un colportor deja de trabajar una zona y todavía no sabés a cuál pasa.</p>
+<ol>
+<li>Abrí la zona en la lista.</li>
+<li>En «COLPORTORES · 1», tocá «Quitar» al lado del nombre. No pide confirmación.</li>
+<li>Ves «Bruno Techera quedó sin zona.», «COLPORTORES · 0» y «◔ Nadie trabaja esta zona». El colportor vuelve a aparecer entre los que no tienen zona.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-103-zona-quitar.png" alt="Detalle de zona con 'COLPORTORES' y el botón 'Quitar'"></div><figcaption>Detalle de zona con 'COLPORTORES' y el botón 'Quitar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-104-zona-quitado.png" alt="Aviso 'Bruno Techera quedó sin zona.'"></div><figcaption>Aviso 'Bruno Techera quedó sin zona.'</figcaption></figure></div>
+
+<p>Para cerrar el detalle de la zona, tocá «✕» («Cerrar el detalle de la zona»).</p>
+<p><strong>Qué puede pasar al asignar o quitar</strong></p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Bruno Techera quedó en Cordón.»</td>
+<td data-th="Qué significa">Quedó asignado.</td>
+<td data-th="Qué hacer">Nada más.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Bruno Techera quedó sin zona.»</td>
+<td data-th="Qué significa">Se lo quitó de la zona.</td>
+<td data-th="Qué hacer">Asignale otra cuando quieras.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Bruno Techera ya trabaja esta zona.»</td>
+<td data-th="Qué significa">Ya estaba en esa zona.</td>
+<td data-th="Qué hacer">Elegí otra persona u otra zona.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«◔ Nadie trabaja esta zona» / «◔ Sin colportores»</td>
+<td data-th="Qué significa">La zona no tiene gente.</td>
+<td data-th="Qué hacer">Asigná a alguien.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay colportores de la campaña en Montevideo.» (en el desplegable)</td>
+<td data-th="Qué significa">No hay a quién asignar.</td>
+<td data-th="Qué hacer">Añadí colportores desde «Equipo».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«⊘ Cuenta suspendida. Pedile a un administrador que la reactive.»</td>
+<td data-th="Qué significa">La cuenta del colportor está suspendida.</td>
+<td data-th="Qué hacer">Pedile al administrador que la reactive.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Necesitás conexión para asignar a Bruno Techera. Revisá la conexión y probá de nuevo.» / «…para quitar a Bruno Techera…»</td>
+<td data-th="Qué significa">No hay internet.</td>
+<td data-th="Qué hacer">Probá de nuevo cuando vuelva.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-105-asignar-suspendida.png" alt="Fila con '⊘ Cuenta suspendida. Pedile a un administrador que la reactive.' y 'Asignar' apagado"></div><figcaption>Fila con '⊘ Cuenta suspendida. Pedile a un administrador que la reactive.' y 'Asignar' apagado</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-106-asignar-sin-conexion.png" alt="Aviso 'Necesitás conexión para asignar a Bruno Techera…' arriba de 'Asignar a Cordón'"></div><figcaption>Aviso 'Necesitás conexión para asignar a Bruno Techera…' arriba de 'Asignar a Cordón'</figcaption></figure></div>
+
+<hr />
+<h2 id="6-reportes"><span class="num">Capítulo 6</span>Reportes</h2>
+<p>«Reportes» muestra las horas de tu equipo por días, semanas, meses o entre dos fechas, y te deja bajarlas.</p>
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> Las presentaciones, las ventas y el monto todavía no se muestran en «Reportes»: en esos lugares aparece «—». Las cifras del día de presentaciones y ventas las ves en «Inicio».</p>
+</blockquote>
+<h3 id="61-mirar-un-reporte"><span class="num">6.1</span>Mirar un reporte</h3>
+<p>Lo vas a usar para comparar semanas o meses y ver quién viene mejor.</p>
+<ol>
+<li>Tocá la pestaña «Reportes». Mientras carga ves «Cargando las horas de la campaña…».</li>
+<li>A la izquierda está la lista «Ciudades»: «Todas las ciudades», cada departamento («DEPTO. MONTEVIDEO»), «Todo el departamento» (si tiene más de una ciudad), las ciudades con la cantidad de colportores y, si hay, «Sin zona asignada». Si abrís una ciudad, se despliega la lista de sus colportores y podés elegir uno.</li>
+<li>Arriba están el título (la ciudad, el departamento, «Todas las ciudades» o el nombre del colportor) y el subtítulo, que dice qué período estás mirando (por ejemplo «Todas las ciudades · 6 colportores · S1»).</li>
+<li>En «Agrupar por» elegí «Días», «Semanas» (viene elegida), «Meses» o «Rango». Con «Semanas» ves la última semana cerrada (por ejemplo «S1»), no la que está en curso.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-107-reportes-semanas.png" alt="Pestaña 'Reportes' agrupada por 'Semanas' con tarjetas y tabla"></div><figcaption>Pestaña 'Reportes' agrupada por 'Semanas' con tarjetas y tabla</figcaption></figure></div>
+
+<ol start="5" style="counter-reset: paso 4">
+<li>Debajo hay tarjetas. La de «HORAS» muestra la cifra del período (por ejemplo «67» con «S1»), cuánto subió o bajó contra el período anterior cuando hay uno para comparar (por ejemplo «▼ 61%»), un gráfico de barras por período (la barra rayada es el período en curso) y, abajo, el total de la campaña («Campaña: 71»).</li>
+<li>Abajo está la tabla: una fila por colportor, agrupados por ciudad (los que no tienen zona van en «Sin zona asignada»), con las columnas «HORAS», «PRESENTACIONES», «VENTAS» y «MONTO». Por ahora solo «HORAS» trae cifras; las otras tres muestran «—». Cuando un colportor no tiene datos, la fila lo dice («sin datos»).</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-108-reportes-tarjetas.png" alt="Tarjetas 'HORAS', 'PRESENTACIONES' y 'VENTAS' con el gráfico por semana"></div><figcaption>Tarjetas 'HORAS', 'PRESENTACIONES' y 'VENTAS' con el gráfico por semana</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-109-reportes-tabla.png" alt="Tabla por colportor con las columnas HORAS, PRESENTACIONES, VENTAS y MONTO"></div><figcaption>Tabla por colportor con las columnas HORAS, PRESENTACIONES, VENTAS y MONTO</figcaption></figure></div>
+
+<ol start="7" style="counter-reset: paso 6">
+<li>Para ver a un solo colportor, tocá su nombre en la lista de la izquierda. El título pasa a su nombre («Bruno Techera · Montevideo · Departamento Montevideo · S1») y la tabla muestra un renglón por día, semana o mes (por ejemplo «S1 · 02/11» y «S2 · 09/11 · sin datos · últimos datos el 07/11»). Arriba aparece el botón «‹ Montevideo» para volver a la ciudad.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-110-reportes-un-colportor.png" alt="Reporte de un colportor con la tabla por semana y el botón '‹ Montevideo'"></div><figcaption>Reporte de un colportor con la tabla por semana y el botón '‹ Montevideo'</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Nota.</strong> El porcentaje por cobrar todavía no se muestra: se agrega más adelante.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Cargando las horas de la campaña…»</td>
+<td data-th="Qué significa">Se está armando el reporte.</td>
+<td data-th="Qué hacer">Esperá un momento.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudieron cargar las horas de la campaña. Revisá tu conexión y probá de nuevo.»</td>
+<td data-th="Qué significa">Falló la carga.</td>
+<td data-th="Qué hacer">Tocá «Reintentar».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no tenés una campaña con horas para mostrar. Cuando tengas una, vas a ver acá las horas de cada ciudad y de cada colportor.»</td>
+<td data-th="Qué significa">No hay datos: no tenés campaña, o la campaña que elegiste todavía no tiene ciudades.</td>
+<td data-th="Qué hacer">Esperá a que haya actividad o elegí otra campaña.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay un período completo»</td>
+<td data-th="Qué significa">La campaña recién empieza y aún no cerró una semana, un mes o un día completo.</td>
+<td data-th="Qué hacer">Esperá a que termine el primer período.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Todavía no hay colportores para mostrar acá.»</td>
+<td data-th="Qué significa">La tabla está vacía.</td>
+<td data-th="Qué hacer">Elegí otra ciudad.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-111-reportes-cargando.png" alt="'Reportes' con 'Cargando las horas de la campaña…'"></div><figcaption>'Reportes' con 'Cargando las horas de la campaña…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-112-reportes-error.png" alt="'Reportes' con 'No se pudieron cargar las horas de la campaña…' y 'Reintentar'"></div><figcaption>'Reportes' con 'No se pudieron cargar las horas de la campaña…' y 'Reintentar'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-113-reportes-sin-campania.png" alt="'Reportes' con 'Todavía no tenés una campaña con horas para mostrar…'"></div><figcaption>'Reportes' con 'Todavía no tenés una campaña con horas para mostrar…'</figcaption></figure></div>
+
+<h3 id="62-cambiar-cómo-se-agrupa-el-reporte"><span class="num">6.2</span>Cambiar cómo se agrupa el reporte</h3>
+<ol>
+<li>En «Agrupar por», elegí:
+   - «Días»: un renglón por día (el subtítulo dice, por ejemplo, «ayer contra el día anterior»).
+   - «Semanas»: un renglón por semana de la campaña (S1, S2, S3…).
+   - «Meses»: un renglón por mes (el subtítulo dice, por ejemplo, «nov. a la fecha»).
+   - «Rango»: vos elegís entre qué fechas (ver <a href="#63-elegir-un-rango-de-fechas">Elegir un rango de fechas</a>).</li>
+<li>Las tarjetas y la tabla se actualizan solas.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-115-reportes-dias.png" alt="'Reportes' agrupado por 'Días'"></div><figcaption>'Reportes' agrupado por 'Días'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-116-reportes-meses.png" alt="'Reportes' agrupado por 'Meses'"></div><figcaption>'Reportes' agrupado por 'Meses'</figcaption></figure></div>
+
+<h3 id="63-elegir-un-rango-de-fechas"><span class="num">6.3</span>Elegir un rango de fechas</h3>
+<p>Lo vas a usar para mirar un período que no es una semana ni un mes, por ejemplo los primeros días de la campaña.</p>
+<ol>
+<li>En «Agrupar por», elegí «Rango».</li>
+<li>Aparecen «DESDE» y «HASTA». Elegí la fecha de cada una en el selector de fecha. Al principio ya vienen elegidos el inicio de la campaña y hoy.</li>
+<li>Las tarjetas cambian: «HORAS» (con «Del 02/11/2026 al 06/11/2026», por ejemplo), «PROMEDIO POR DÍA» (horas por día trabajado, con «13 días trabajados (sumando colportores)»), «JORNADAS CON ACOMPAÑAMIENTO» (con «Jornadas cerradas con acompañante»), «PRESENTACIONES» y «VENTAS» (estas dos, por ahora, con «—»). En la tabla se suman «DÍAS TRABAJADOS», «PROMEDIO POR DÍA» y «CON ACOMPAÑAMIENTO». En el rango no se muestra comparación con otro período.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-117-reportes-rango.png" alt="'Reportes' en 'Rango' con los campos 'DESDE' y 'HASTA' y las tarjetas del rango"></div><figcaption>'Reportes' en 'Rango' con los campos 'DESDE' y 'HASTA' y las tarjetas del rango</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> El último día que se puede elegir es hoy, o el último día de la campaña si ya terminó. El rango tiene que estar dentro de la campaña.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Elegí desde qué día y hasta qué día querés ver el reporte.»</td>
+<td data-th="Qué significa">Falta una de las dos fechas.</td>
+<td data-th="Qué hacer">Completá «DESDE» y «HASTA».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«La fecha «desde» (08/11/2026) es posterior a «hasta» (03/11/2026). Cambiá una de las dos para ver el reporte.»</td>
+<td data-th="Qué significa">Pusiste las fechas al revés.</td>
+<td data-th="Qué hacer">Cambiá una de las dos.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«El rango tiene que estar dentro de la campaña, del 02/11/2026 al 09/11/2026. Corregí las fechas para ver el reporte.»</td>
+<td data-th="Qué significa">Alguna fecha queda fuera de la campaña.</td>
+<td data-th="Qué hacer">Corregí las fechas.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-118-rango-incompleto.png" alt="Aviso 'Elegí desde qué día y hasta qué día querés ver el reporte.'"></div><figcaption>Aviso 'Elegí desde qué día y hasta qué día querés ver el reporte.'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-119-rango-al-reves.png" alt="Aviso 'La fecha 'desde' … es posterior a 'hasta' …'"></div><figcaption>Aviso 'La fecha 'desde' … es posterior a 'hasta' …'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-120-rango-fuera-campania.png" alt="Aviso 'El rango tiene que estar dentro de la campaña …'"></div><figcaption>Aviso 'El rango tiene que estar dentro de la campaña …'</figcaption></figure></div>
+
+<h3 id="64-elegir-qué-colportores-ver"><span class="num">6.4</span>Elegir qué colportores ver</h3>
+<p>Lo vas a usar cuando querés comparar solo a algunos colportores.</p>
+<ol>
+<li>Arriba de la tabla, tocá «Colportores:». Dice «Todos (6)» si no filtraste, o «1 de 6» si ya elegiste algunos. Solo aparece si hay más de una persona para elegir.</li>
+<li>Se abre una lista con «BUSCAR COLPORTOR», el botón «Todos», el contador («Todos · 6 de 6 elegidos») y una casilla por colportor, agrupados por ciudad (y «Sin zona asignada»).</li>
+<li>Tildá o destildá a quienes querés ver. Para volver a ver a todos tocá «Todos». Las tarjetas y la tabla se actualizan solas.</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-121-reportes-selector-colportores.png" alt="Lista 'Colportores:' abierta con 'BUSCAR COLPORTOR', 'Todos' y las casillas"></div><figcaption>Lista 'Colportores:' abierta con 'BUSCAR COLPORTOR', 'Todos' y las casillas</figcaption></figure></div>
+
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Tiene que quedar al menos un colportor. Para ver a todos, tocá «Todos».»</td>
+<td data-th="Qué significa">Intentaste destildar al último.</td>
+<td data-th="Qué hacer">Dejá a alguien tildado o tocá «Todos».</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Ningún colportor se llama así. Probá con otra parte del nombre.»</td>
+<td data-th="Qué significa">La búsqueda no encontró a nadie.</td>
+<td data-th="Qué hacer">Probá con otra parte del nombre.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-122-reportes-colportores-minimo.png" alt="Aviso 'Tiene que quedar al menos un colportor…' y el botón 'Colportores: 1 de 6'"></div><figcaption>Aviso 'Tiene que quedar al menos un colportor…' y el botón 'Colportores: 1 de 6'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-123-reportes-colportores-sin-coincidencia.png" alt="Aviso 'Ningún colportor se llama así…'"></div><figcaption>Aviso 'Ningún colportor se llama así…'</figcaption></figure></div>
+
+<h3 id="65-bajar-el-reporte"><span class="num">6.5</span>Bajar el reporte</h3>
+<p>Lo vas a usar para guardarlo, imprimirlo o llevarlo a una planilla. Siempre baja exactamente lo que estás viendo: la misma ciudad, el mismo período y los mismos colportores.</p>
+<ol>
+<li>Armá el reporte como lo querés ver.</li>
+<li>Tocá «Informe PDF» o «Datos CSV».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-124-reportes-botones-exportar.png" alt="Botones 'Informe PDF' y 'Datos CSV' arriba del reporte"></div><figcaption>Botones 'Informe PDF' y 'Datos CSV' arriba del reporte</figcaption></figure></div>
+
+<p><strong>«Informe PDF»</strong></p>
+<ol start="3" style="counter-reset: paso 2">
+<li>Tocá «Informe PDF». Mientras se prepara dice «Preparando informe…».</li>
+<li>Se abre el informe listo para imprimir, con las cifras, los gráficos y la tabla, y una línea de filtros: lo que estás viendo («Ver»), «Agrupado por», «Período» y «Al día». El panel te avisa «Se abrió el informe para imprimir. Elegí «Guardar como PDF» como destino para quedarte con el archivo.»</li>
+<li>En la ventana de impresión, en «Destino» elegí «Guardar como PDF» y tocá «Guardar».</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-125-reportes-pdf-preparando.png" alt="Botón 'Preparando informe…'"></div><figcaption>Botón 'Preparando informe…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-126-reportes-pdf-aviso.png" alt="Aviso 'Se abrió el informe para imprimir. Elegí 'Guardar como PDF'…'"></div><figcaption>Aviso 'Se abrió el informe para imprimir. Elegí 'Guardar como PDF'…'</figcaption></figure></div>
+
+<p><strong>«Datos CSV»</strong></p>
+<ol start="3" style="counter-reset: paso 2">
+<li>Tocá «Datos CSV». Mientras se genera dice «Generando datos…».</li>
+<li>El navegador baja un archivo con un nombre como <code>reportes-todas-las-ciudades-semanas-2026-11-09.csv</code>, que se abre en Excel o en cualquier planilla. Lleva la ciudad, el colportor y sus cifras. El panel te avisa «Se descargó «reportes-todas-las-ciudades-semanas-2026-11-09.csv» con lo que ves en pantalla.»</li>
+</ol>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-127-reportes-csv-generando.png" alt="Botón 'Generando datos…'"></div><figcaption>Botón 'Generando datos…'</figcaption></figure><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-128-reportes-csv-listo.png" alt="Aviso 'Se descargó 'reportes-todas-las-ciudades-semanas-2026-11-09.csv' con lo que ves en pantalla.'"></div><figcaption>Aviso 'Se descargó 'reportes-todas-las-ciudades-semanas-2026-11-09.csv' con lo que ves en pantalla.'</figcaption></figure></div>
+
+<blockquote class="importante">
+<p><strong>Importante.</strong> El archivo nunca lleva datos de clientes: solo la ciudad, el colportor y sus cifras.</p>
+</blockquote>
+<p class="rotulo">Qué puede pasar</p>
+<div class="tabla"><table>
+<thead>
+<tr>
+<th>Si ves…</th>
+<th>Qué significa</th>
+<th>Qué hacer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td data-th="Si ves…">«Preparando informe…» / «Generando datos…»</td>
+<td data-th="Qué significa">Se está armando el archivo.</td>
+<td data-th="Qué hacer">Esperá un momento; no hace falta tocar dos veces.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Se abrió el informe para imprimir. Elegí «Guardar como PDF» como destino para quedarte con el archivo.»</td>
+<td data-th="Qué significa">El informe está listo.</td>
+<td data-th="Qué hacer">Guardalo como PDF desde la ventana de impresión.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Se descargó «reportes-todas-las-ciudades-semanas-2026-11-09.csv» con lo que ves en pantalla.»</td>
+<td data-th="Qué significa">El archivo se bajó.</td>
+<td data-th="Qué hacer">Abrilo desde las descargas de tu navegador.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No hay colportores para exportar en este reporte.» (botones apagados)</td>
+<td data-th="Qué significa">La tabla no tiene filas.</td>
+<td data-th="Qué hacer">Elegí otra ciudad o período.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«Corregí las fechas del rango para poder exportar.» (al lado de los botones apagados)</td>
+<td data-th="Qué significa">El rango tiene un problema.</td>
+<td data-th="Qué hacer">Corregí las fechas (ver <a href="#63-elegir-un-rango-de-fechas">Elegir un rango de fechas</a>).</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo generar el archivo CSV. El reporte sigue en pantalla: probá de nuevo.»</td>
+<td data-th="Qué significa">Falló la descarga.</td>
+<td data-th="Qué hacer">Probá otra vez.</td>
+</tr>
+<tr>
+<td data-th="Si ves…">«No se pudo preparar el informe PDF. El reporte sigue en pantalla: probá de nuevo.»</td>
+<td data-th="Qué significa">Falló el informe.</td>
+<td data-th="Qué hacer">Probá otra vez.</td>
+</tr>
+</tbody>
+</table></div>
+<div class="galeria"><figure class="pantalla"><div class="marco"><img loading="lazy" src="./imagenes/coordinador/panel-130-reportes-exportar-error.png" alt="Aviso 'No se pudo generar el archivo CSV. El reporte sigue en pantalla: probá de nuevo.'"></div><figcaption>Aviso 'No se pudo generar el archivo CSV. El reporte sigue en pantalla: probá de nuevo.'</figcaption></figure></div>
+
+<hr />
+<h2 id="7-precios"><span class="num">Capítulo 7</span>Precios</h2>
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> Los precios de los libros por ciudad se manejan desde una sección que hoy está oculta en el panel. Mientras tanto no se pueden ver ni cambiar desde acá.</p>
+</blockquote>
+<hr />
+<h2 id="8-lo-que-todavía-no-está-disponible"><span class="num">Capítulo 8</span>Lo que todavía no está disponible</h2>
+<p>Estas partes del panel están en preparación y no aparecen hoy:</p>
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Stock.</strong> La pestaña «Stock» (libros disponibles y movimientos) no se muestra todavía.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Pedidos de libros.</strong> Autorizar o rechazar los pedidos de libros de los colportores no está disponible todavía.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Precios.</strong> Ver y cambiar los precios por ciudad no está disponible todavía.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Cuentas.</strong> La pestaña «Cuentas» no se muestra todavía.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Validar tickets.</strong> Revisar y validar los tickets de los colportores no está disponible todavía.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Becas.</strong> La tabla con la carrera, la beca a la que apunta cada colportor y su avance (en «Equipo», opción «Becas») todavía no está conectada.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Zonas «Por esquinas».</strong> Dibujar una zona siguiendo las calles (en «Ciudades», al crear una zona) todavía no se puede usar; por ahora las zonas se arman con «Radial».</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Presentaciones, ventas y monto en «Reportes».</strong> Esas tarjetas y columnas todavía no muestran cifras (aparece «—»); se agregan más adelante.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Porcentaje por cobrar en «Reportes».</strong> Se agrega más adelante.</p>
+</blockquote>
+<!-- -->
+
+<blockquote class="proximamente">
+<p><strong>Próximamente.</strong> <strong>Recuperar la contraseña desde la pantalla de acceso.</strong> Hoy, si la olvidaste, hablá con el administrador.</p>
+</blockquote>
+  <div class="pie">Manual de usuario de Colportaje · versión de la app de noviembre de 2026 · todas las personas, direcciones y montos de las capturas son de ejemplo.</div>
+  </main>
+</div>
+</body>
+</html>
