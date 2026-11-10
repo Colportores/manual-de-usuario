@@ -200,7 +200,7 @@ Ver también: Cuenta, Casa editora, Depositado, En mano.
 
 **Devolución**
 Cuando un cliente te devuelve libros, total o parcialmente, renglón por renglón. La venta original no se borra: queda con la devolución anotada. Vos la podés registrar hasta 72 horas después de la venta; pasado ese plazo, la registra tu coordinador.
-En la app: ficha de la persona, «HISTORIAL», tocar la venta; se abre «¿Qué te devuelve?». 
+En la app: ficha de la persona, «HISTORIAL», tocar la venta; se abre «¿Qué te devuelve?».
 Ver también: Venta, Persona.
 
 **Duplicado, posible**

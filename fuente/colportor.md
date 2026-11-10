@@ -1924,7 +1924,6 @@ Lo usás desde que empezás a hablar con alguien hasta que terminás, con o sin 
 
 4. Cuando termines, tocá «Finalizar entrevista».
    Se abre «Terminó la entrevista» con «Entrada» 20:16, «Salida» 20:18 y «Duración» «2 min». La nota de la visita que escribiste se guarda con la visita.
-<p align="center"><img src="../imagenes/colportor/visitas-33-termino-entrevista.png" alt="Hoja 'Terminó la entrevista' con Entrada, Salida, Duración y '¿HUBO VENTA?'" width="270"></p>
 
 5. Revisá las horas. Si hace falta corregir la hora de entrada, tocá la fila «Entrada» (la que tiene ✎): se abre «¿A qué hora empezó la entrevista?» con «HORA DE ENTRADA», los botones «−5» y «+5» (5 minutos antes y 5 minutos después), «Usar 20:16» y «Cancelar».
 <p align="center"><img src="../imagenes/colportor/visitas-37-elegir-hora.png" alt="Hoja '¿A qué hora empezó la entrevista?' con 'Entre las 08:18 y las 20:18.', HORA DE ENTRADA, '−5', '+5' y 'Usar 20:16'" width="270"></p>
@@ -1950,7 +1949,6 @@ No se puede empezar otra entrevista en otra casa. En «¿Qué pasó?» de esa ot
 
 Si te olvidaste de terminarla, la app la deja abierta. «Terminó la entrevista» te propone las horas de entrada y de salida. Si no tiene hora de inicio, dice «No registramos el inicio. Tomamos la hora de tu visita anterior (14:10). Revisala.» o te pide que la elijas, tocando «Elegir». Revisá las horas antes de guardar.
 
-<p align="center"><img src="../imagenes/colportor/visitas-36-termino-sin-inicio.png" alt="'Terminó la entrevista' (Grecia 3307 · Pedro Gómez) con 'No registramos el inicio. Tomamos la hora de tu visita anterior (14:10). Revisala.', Entrada 14:10 y Salida 14:41" width="270"></p>
 
 **Qué puede pasar**
 
@@ -1969,8 +1967,7 @@ Si te olvidaste de terminarla, la app la deja abierta. «Terminó la entrevista�
 | «La casa de esta entrevista ya no está en tu teléfono, así que la entrevista se cerró sin guardar. Podés seguir.» | La casa ya no existe. | Seguí con lo que estabas haciendo. |
 | «La casa de esta entrevista ya no está en tu teléfono, así que no pudimos guardar la visita. Cerrá esta hoja y volvé al mapa.» | Igual que arriba, sin hora de inicio. | Cerrá la hoja y volvé al mapa. |
 
-<p align="center"><img src="../imagenes/colportor/visitas-38-entrevista-error-guardar.png" alt="'Terminó la entrevista' (Grecia 3307 · Pedro Gómez, 14:23 a 14:41, 18 min) con 'No pudimos guardar la entrevista. Probá de nuevo; no perdiste nada.'" width="270">
-<img src="../imagenes/colportor/visitas-39-venta-no-guardada.png" alt="Aviso 'La venta no se guardó. La entrevista con Marta sigue en curso.'" width="270"></p>
+<p align="center"><img src="../imagenes/colportor/visitas-39-venta-no-guardada.png" alt="Aviso 'La venta no se guardó. La entrevista con Marta sigue en curso.'" width="270"></p>
 
 > **Importante.** Si la venta no se completa, la entrevista sigue en curso y la visita no se guarda. Para cerrarla, terminá la venta o tocá «No hubo venta».
 
@@ -2335,7 +2332,6 @@ Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te
 
 <p align="center"><img src="../imagenes/colportor/ventas-16-que-paso-vender.png" alt="Hoja '¿Qué pasó?' con la opción 'Vender' y la ayuda 'Registrar la venta de Marta Sosa'" width="270">
 <img src="../imagenes/colportor/ventas-92-que-paso-vender-elegis-a-quien.png" alt="Hoja '¿Qué pasó?' de una casa con dos personas entrevistadas hoy, con 'Vender. Elegís a quién le vendés'" width="270">
-<img src="../imagenes/colportor/ventas-17-terminar-entrevista-hubo-venta.png" alt="Hoja 'Terminó la entrevista' con '¿HUBO VENTA?' y 'Sí, registrar la venta'" width="270">
 <img src="../imagenes/colportor/ventas-18-con-quien-vender.png" alt="Paso '¿Con quién fue la entrevista?' con 'Laura Castro', 'Pedro Silva' y el botón 'Vender'" width="270"></p>
 
 #### Armar y registrar la venta
@@ -2431,7 +2427,6 @@ Cuando tocás «Registrar venta», la venta queda guardada en el momento. Despu�
    - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano»), si le das los libros ahora.
    - **«COBRO»:** «Cobrar ahora» («Efectivo, tarjeta o transferencia»), si te paga algo ahora.
 3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar».
-<p align="center"><img src="../imagenes/colportor/ventas-33-venta-registrada.png" alt="Pantalla 'Venta registrada' con los grupos 'ENTREGA' y 'COBRO'" width="270"></p>
 
 #### Entregar ahora
 
@@ -2459,7 +2454,6 @@ Si después de todo eso la venta todavía tiene saldo, se abre «¿Cuándo volv�
    - «Otro día» («Elegís el día y la hora»): se abre «Día y hora» para elegir el día y la hora.
    - «Sin fecha» («Queda en tus cobranzas, sin día ni aviso»): no se agenda ninguna cita. La venta queda en tus cobranzas y le podés poner fecha después.
 2. Tocá «Guardar». El botón se enciende recién cuando elegiste una opción.
-<p align="center"><img src="../imagenes/colportor/ventas-34-cuando-volves-a-cobrar.png" alt="Opciones de '¿Cuándo volvés a cobrar?': 'Hoy', 'Mañana', 'Otro día' y 'Sin fecha'" width="270"></p>
 
 Si tocás la flecha de atrás sin elegir, la app lo toma como «Sin fecha». Con una fecha, la cobranza queda en tu «Agenda», con recordatorio, y en la hoja de la casa.
 
