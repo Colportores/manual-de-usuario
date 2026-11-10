@@ -54,14 +54,18 @@ Si te trabás con algo, mirá los [Problemas frecuentes](./problemas-frecuentes.
   - [4.9 Usar la pestaña «Agenda»](#49-usar-la-pestaña-agenda)
   - [4.10 Ver, modificar y cancelar una agenda](#410-ver-modificar-y-cancelar-una-agenda)
   - [4.11 Recibir recordatorios de las visitas agendadas](#411-recibir-recordatorios-de-las-visitas-agendadas)
-- [5. Precios, ventas, cobros y tu cuenta](#5-precios-ventas-cobros-y-tu-cuenta)
-  - [5.1 Consultar los precios](#51-consultar-los-precios)
-  - [5.2 Registrar una venta](#52-registrar-una-venta)
-  - [5.3 Qué hacer después de guardar la venta](#53-qué-hacer-después-de-guardar-la-venta)
-  - [5.4 Cobrar una venta](#54-cobrar-una-venta)
-  - [5.5 Pagar en cuotas](#55-pagar-en-cuotas)
-  - [5.6 Devolver una venta](#56-devolver-una-venta)
-  - [5.7 Mirar tu cuenta](#57-mirar-tu-cuenta)
+- [5. Ventas, entregas, cobros y tu cuenta](#5-ventas-entregas-cobros-y-tu-cuenta)
+  - [5.1 La venta en la calle, de punta a punta](#51-la-venta-en-la-calle-de-punta-a-punta)
+  - [5.2 Consultar los precios](#52-consultar-los-precios)
+  - [5.3 Registrar una venta](#53-registrar-una-venta)
+  - [5.4 Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)
+  - [5.5 Volver otro día a cobrar](#55-volver-otro-día-a-cobrar)
+  - [5.6 Cobrar una venta](#56-cobrar-una-venta)
+  - [5.7 Pagar en cuotas](#57-pagar-en-cuotas)
+  - [5.8 Devolver una venta](#58-devolver-una-venta)
+  - [5.9 Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)
+  - [5.10 Registrar un depósito](#510-registrar-un-depósito)
+  - [5.11 Mirar tu cuenta](#511-mirar-tu-cuenta)
 - [6. Configuración, respaldo y trabajo sin conexión](#6-configuración-respaldo-y-trabajo-sin-conexión)
   - [6.1 Abrir Configuración y conocer sus secciones](#61-abrir-configuración-y-conocer-sus-secciones)
   - [6.2 Trabajar sin conexión](#62-trabajar-sin-conexión)
@@ -652,7 +656,7 @@ La pantalla principal tiene tres partes:
 <img src="../imagenes/colportor/jornada-40-pestana-agenda.png" alt="Pestaña 'Agenda' sin visitas, con 'No tenés visitas en los próximos 7 días' y '+ Agendar'" width="270">
 <img src="../imagenes/colportor/jornada-02-ventas-llega-pronto.png" alt="Pestaña 'Ventas' con 'Esta sección llega pronto.' y el botón 'Precios'" width="270"></p>
 
-> **Próximamente.** La pestaña «Ventas» todavía no tiene su pantalla propia. Por ahora la venta se registra desde la casa (ver [Registrar una venta](#52-registrar-una-venta)).
+> **Próximamente.** La pestaña «Ventas» todavía no tiene su pantalla propia. Por ahora la venta se registra desde la casa (ver [Registrar una venta](#53-registrar-una-venta)).
 
 <p align="center"><img src="../imagenes/colportor/jornada-41-pestana-cuenta.png" alt="Pestaña 'Cuenta' en cero, con 'Mi Cuenta' y las cuatro tarjetas 'DEUDA CON LA CASA EDITORA', 'DEPOSITADO', 'EN MANO' y 'POR COBRAR'" width="270"></p>
 
@@ -1298,7 +1302,8 @@ Usá la hoja de la casa para ver cómo está una casa y llegar a lo que querés 
 <p align="center"><img src="../imagenes/colportor/mapa-39-hoja-resumen.png" alt="Hoja de la casa 'Gabriel Pereira 3122' a un tercio: 'Editar casa', 'Casa · Sin visita · a 74 m de vos', 'Registrar visita' y '+ Agendar'" width="270"></p>
 
 2. Mirá el encabezado: la dirección, el tipo, el estado y a cuántos metros estás («a 74 m de vos»). El lápiz «Editar casa» está junto al título o debajo de él, y a la derecha está ✕ para cerrar.
-3. Para ver más, arrastrá la hoja hacia arriba: queda a la mitad de la pantalla y no sube más. Abajo están las pestañas «Personas» y «Notas». En «Personas», una casa sin nadie dice «Todavía no hay personas acá.» y «Podés sumar a alguien ahora o dejarlo para después.». Para ver «Notas» completa, desplazá el contenido de la hoja hacia arriba.
+3. Para ver más, arrastrá la hoja hacia arriba: queda a la mitad de la pantalla y no sube más. Abajo están las pestañas «Personas», «Historial» y «Notas». En «Personas», una casa sin nadie dice «Todavía no hay personas acá.» y «Podés sumar a alguien ahora o dejarlo para después.». Para ver «Notas» completa, desplazá el contenido de la hoja hacia arriba.
+4. En «Historial» ves todo lo que pasó en esa casa, lo más nuevo arriba: las visitas («Nadie atendió», «Rechazó la visita», las entrevistas con su «Duración», «Pasó a cobrar»), las ventas («Venta registrada») y los cobros. Con «MOSTRAR» elegís qué ver: «Todo», «Entrevistas», «Ventas» o «Cobros». Las ventas muestran lo «Pagado» y el «Saldo». Tocá una entrada para ver su detalle (con la «NOTA DE LA VISITA», si la tiene); si en esa visita hubo venta, «Ver la venta» te lleva a ella. «Cerrar» vuelve al historial. Si hay muchas entradas, tocá «Ver más». Una casa nueva dice «Todavía no pasó nada en esta casa».
 
 <p align="center"><img src="../imagenes/colportor/mapa-40-hoja-arriba.png" alt="Hoja de la casa a la mitad con las pestañas 'Personas' y 'Notas' y 'Todavía no hay personas acá.'" width="270"></p>
 
@@ -1311,9 +1316,10 @@ Usá la hoja de la casa para ver cómo está una casa y llegar a lo que querés 
 | «$ Cobrar» | Cobrar lo que debe una persona (muestra «Debe $ 1.200»). | Capítulo 5 |
 | «+ Agregar persona» (pestaña «Personas») | Anotar a quien vive ahí. | Capítulo 4 |
 | Lápiz «Editar casa» | Corregir los datos del lugar. | [Editar una casa o un edificio](#310-editar-una-casa-o-un-edificio) |
+| Pestaña «Historial» | Ver las visitas, las ventas y los cobros de esa casa. | Este mismo apartado, paso 4 |
 | Pestaña «Notas» | Notas del lugar. | [Escribir notas del lugar](#38-escribir-notas-del-lugar) |
 
-La venta se registra desde «Registrar visita», eligiendo lo que pasó (capítulos 4 y 5).
+La venta se registra desde «Registrar visita», eligiendo lo que pasó (capítulos 4 y 5; el recorrido completo está en [La venta en la calle, de punta a punta](#51-la-venta-en-la-calle-de-punta-a-punta)).
 
 > **Importante.** Después de guardar una visita, una venta, un cobro o una cita, la hoja se cierra y el mapa queda libre con el color nuevo de la casa. Para seguir con la misma casa, tocala de nuevo.
 
@@ -1328,6 +1334,7 @@ La venta se registra desde «Registrar visita», eligiendo lo que pasó (capítu
 | «3 ubicaciones acá» con «Elegí cuál» | Hay varias ubicaciones en el mismo punto (por ejemplo, dos casas y un negocio). Las dadas de baja dicen «dada de baja». | Tocá «Elegí cuál» y elegí una. |
 | «No pudimos abrir «Registrar visita». Probá de nuevo.» | No se abrió el registro. | Tocá el botón otra vez. |
 | «No pudimos abrir «$ Cobrar». Probá de nuevo.» | No se abrió el cobro. | Tocá el botón otra vez. |
+| «No pudimos leer el historial de esta casa en tu teléfono.» (en «Historial») | Falló la lectura del historial. | Cerrá la hoja y volvé a tocar la casa. |
 
 <p align="center"><img src="../imagenes/colportor/mapa-41-hoja-cargando.png" alt="Hoja de la casa ('Grecia 3310') con bloques grises mientras carga" width="270">
 <img src="../imagenes/colportor/mapa-42-hoja-error.png" alt="Hoja con 'No pudimos leer esta casa en tu teléfono.' y 'Reintentar'" width="270">
@@ -1708,7 +1715,7 @@ Lo usás para ver el teléfono de una persona, llamarla, revisar su historial de
 <p align="center"><img src="../imagenes/colportor/visitas-10-ficha-filtro-con-saldo.png" alt="Ficha de María Pérez con 'Con saldo' marcado en 'MOSTRAR' y en el historial solo la venta 0042 de $ 1.200" width="270"></p>
 
 7. Si el historial es largo, se muestran de a 100. Tocá «Ver más» para traer los que faltan.
-8. Para registrar una visita con esta persona, tocá «Registrar visita» (ver [4.6](#46-registrar-una-visita)). Para vender o cobrar desde la ficha, ver [Registrar una venta](#52-registrar-una-venta) y [Cobrar](#54-cobrar-una-venta) (capítulo 5).
+8. Para registrar una visita con esta persona, tocá «Registrar visita» (ver [4.6](#46-registrar-una-visita)). Para vender o cobrar desde la ficha, ver [Registrar una venta](#53-registrar-una-venta) y [Cobrar](#56-cobrar-una-venta) (capítulo 5).
 
 **Qué puede pasar**
 
@@ -1863,8 +1870,8 @@ Lo usás al terminar de hablar con alguien (o al tocar la puerta y que nadie con
    - «Rechazo»: la persona no quiso hablar. Guarda y vuelve al mapa.
    - «Programar entrevista»: quedaron en verse otro día. Elegís día y franja (ver [4.8](#48-agendar-una-visita)).
    - «Entrevista dada»: empezás la entrevista y la app empieza a contar el tiempo (ver [4.7](#47-dar-una-entrevista)).
-   - «Cobranza»: aparece si la persona debe plata. Ver [Cobrar](#54-cobrar-una-venta) (capítulo 5).
-   - «Vender»: aparece si ya hubo una entrevista en esa casa. Ver [Registrar una venta](#52-registrar-una-venta) (capítulo 5).
+   - «Cobranza»: aparece si la persona debe plata. Ver [Cobrar](#56-cobrar-una-venta) (capítulo 5).
+   - «Vender»: aparece si ya hubo una entrevista en esa casa. Ver [Registrar una venta](#53-registrar-una-venta) (capítulo 5).
 3. Si elegiste «No contestó» o «Rechazo», la app pasa sola a la pestaña «Mapa» (aunque hayas abierto la casa desde «Lista») y ves «Guardado. Benito Blanco 1105 quedó como «No contestó».» durante 8 segundos con la opción «Deshacer». Con «Rechazo» el aviso es, por ejemplo, «Guardado. Libertad 2560 quedó como «Rechazo».»
 <p align="center"><img src="../imagenes/colportor/visitas-27-visita-guardada.png" alt="Aviso 'Guardado. Benito Blanco 1105 quedó como 'No contestó'.' con 'Deshacer'" width="270">
 <img src="../imagenes/colportor/visitas-67-visita-rechazo-guardada.png" alt="Mapa con el aviso 'Guardado. Libertad 2560 quedó como 'Rechazo'.' y 'Deshacer'" width="270"></p>
@@ -1917,15 +1924,16 @@ Lo usás desde que empezás a hablar con alguien hasta que terminás, con o sin 
 
 4. Cuando termines, tocá «Finalizar entrevista».
    Se abre «Terminó la entrevista» con «Entrada» 20:16, «Salida» 20:18 y «Duración» «2 min». La nota de la visita que escribiste se guarda con la visita.
-<p align="center"><img src="../imagenes/colportor/visitas-33-termino-entrevista.png" alt="Hoja 'Terminó la entrevista' con Entrada, Salida, Duración y '¿HUBO VENTA?'" width="270"></p>
 
 5. Revisá las horas. Si hace falta corregir la hora de entrada, tocá la fila «Entrada» (la que tiene ✎): se abre «¿A qué hora empezó la entrevista?» con «HORA DE ENTRADA», los botones «−5» y «+5» (5 minutos antes y 5 minutos después), «Usar 20:16» y «Cancelar».
 <p align="center"><img src="../imagenes/colportor/visitas-37-elegir-hora.png" alt="Hoja '¿A qué hora empezó la entrevista?' con 'Entre las 08:18 y las 20:18.', HORA DE ENTRADA, '−5', '+5' y 'Usar 20:16'" width="270"></p>
 
 6. Elegí en «¿HUBO VENTA?»:
-   - «Sí, registrar la venta»: seguís al registro de la venta (ver [Registrar una venta](#52-registrar-una-venta), capítulo 5).
-   - «No, guardar y volver al mapa»: se guarda la entrevista. Ves «Guardado. Benito Blanco 1105 quedó como «Entrevista dada».» (sin «Deshacer»).
+   - «Sí, registrar la venta»: seguís al registro de la venta (ver [Registrar una venta](#53-registrar-una-venta), capítulo 5).
+   - «No hubo venta»: se abre «Lo que dejaste», para anotar los misioneros que le dejaste a colaboración (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)). Si no le dejaste nada, tocá «No dejé nada»: se guarda la entrevista y ves «Guardado. Benito Blanco 1105 quedó como «Entrevista dada».»
 <p align="center"><img src="../imagenes/colportor/visitas-34-entrevista-guardada.png" alt="Mapa con el aviso 'Guardado. Benito Blanco 1105 quedó como 'Entrevista dada'.'" width="270"></p>
+
+   Las horas de entrada y de salida que confirmás acá quedan guardadas con la visita.
 
 **Si la entrevista no tenía a nadie anotado**
 
@@ -1941,7 +1949,6 @@ No se puede empezar otra entrevista en otra casa. En «¿Qué pasó?» de esa ot
 
 Si te olvidaste de terminarla, la app la deja abierta. «Terminó la entrevista» te propone las horas de entrada y de salida. Si no tiene hora de inicio, dice «No registramos el inicio. Tomamos la hora de tu visita anterior (14:10). Revisala.» o te pide que la elijas, tocando «Elegir». Revisá las horas antes de guardar.
 
-<p align="center"><img src="../imagenes/colportor/visitas-36-termino-sin-inicio.png" alt="'Terminó la entrevista' (Grecia 3307 · Pedro Gómez) con 'No registramos el inicio. Tomamos la hora de tu visita anterior (14:10). Revisala.', Entrada 14:10 y Salida 14:41" width="270"></p>
 
 **Qué puede pasar**
 
@@ -1955,15 +1962,14 @@ Si te olvidaste de terminarla, la app la deja abierta. «Terminó la entrevista�
 | «Venta M-1042 guardada.» | La venta se guardó. | Seguí. |
 | «La venta no se guardó. La entrevista con Marta sigue en curso.» | No se completó la venta, así que la entrevista no se cerró. | Terminá la venta o terminá la entrevista. |
 | «La venta no se guardó. La entrevista con Marta sigue en curso. Terminala para poder cerrar la jornada.» | Pasa si estás cerrando la jornada. | Terminá la entrevista. |
-| «La venta se guardó, pero la entrevista sigue abierta. Terminala con «No, guardar y volver al mapa» para cerrarla.» | La venta quedó, la entrevista no. | Tocá «No, guardar y volver al mapa». |
+| «La venta se guardó, pero la entrevista sigue abierta. Terminala con «No, guardar y volver al mapa» para cerrarla.» | La venta quedó, la entrevista no. | Volvé a la entrevista y terminala con «No hubo venta» (el botón que el aviso llama «No, guardar y volver al mapa»). La venta ya está guardada. |
 | «Esta entrevista ya no está en curso.» | La entrevista ya se cerró. | No hace falta hacer nada. |
 | «La casa de esta entrevista ya no está en tu teléfono, así que la entrevista se cerró sin guardar. Podés seguir.» | La casa ya no existe. | Seguí con lo que estabas haciendo. |
 | «La casa de esta entrevista ya no está en tu teléfono, así que no pudimos guardar la visita. Cerrá esta hoja y volvé al mapa.» | Igual que arriba, sin hora de inicio. | Cerrá la hoja y volvé al mapa. |
 
-<p align="center"><img src="../imagenes/colportor/visitas-38-entrevista-error-guardar.png" alt="'Terminó la entrevista' (Grecia 3307 · Pedro Gómez, 14:23 a 14:41, 18 min) con 'No pudimos guardar la entrevista. Probá de nuevo; no perdiste nada.'" width="270">
-<img src="../imagenes/colportor/visitas-39-venta-no-guardada.png" alt="Aviso 'La venta no se guardó. La entrevista con Marta sigue en curso.'" width="270"></p>
+<p align="center"><img src="../imagenes/colportor/visitas-39-venta-no-guardada.png" alt="Aviso 'La venta no se guardó. La entrevista con Marta sigue en curso.'" width="270"></p>
 
-> **Importante.** Si la venta no se completa, la entrevista sigue en curso y la visita no se guarda. Para cerrarla, terminá la venta o tocá «No, guardar y volver al mapa».
+> **Importante.** Si la venta no se completa, la entrevista sigue en curso y la visita no se guarda. Para cerrarla, terminá la venta o tocá «No hubo venta».
 
 ---
 
@@ -2209,21 +2215,46 @@ Lo usás para que el teléfono te avise antes de una visita agendada.
 
 > **Consejo.** Si no te llegan los recordatorios, revisá que las notificaciones de la app estén prendidas en los ajustes del teléfono y que «Recordatorios de agenda» esté prendido en las preferencias (capítulo 6).
 
-## 5. Precios, ventas, cobros y tu cuenta
+## 5. Ventas, entregas, cobros y tu cuenta
 
-Este capítulo te enseña a consultar los precios, registrar lo que vendés, cobrar (en un solo pago o en cuotas), anotar una devolución y ver cuánta plata tenés en la pestaña «Cuenta».
+Este capítulo te acompaña en la venta en la calle, de punta a punta: desde que tocás la puerta hasta que entregás, cobrás y dejás agendado cuándo volvés. También te enseña a consultar los precios, cobrar en cuotas, anotar una devolución, anotar los misioneros que dejaste cuando no hubo venta, registrar un depósito con la foto del ticket y ver cuánta plata tenés en la pestaña «Cuenta».
 
-> **Próximamente.** En la versión de la app de noviembre de 2026 todavía no se pueden consultar los precios ni registrar ventas: «Precios» y «Nueva venta» muestran el aviso «No pudimos leer los precios guardados en tu teléfono.» Por eso tampoco hay ventas para cobrar, pagar en cuotas o devolver. Las secciones 5.1 a 5.6 muestran cómo van a funcionar esas pantallas cuando estén disponibles. La sección 5.7 («Cuenta») ya funciona.
+Si es la primera vez, empezá por [La venta en la calle, de punta a punta](#51-la-venta-en-la-calle-de-punta-a-punta): es el recorrido completo, con un enlace a la sección de cada paso.
 
-> **Importante.** Todo lo que cargás queda guardado en tu teléfono en el momento, aunque no haya conexión. Una venta, un cobro, una cuota o una devolución que ya registraste no se pierde: la app los manda sola cuando el teléfono vuelve a tener conexión. Lo único que se pierde es lo que todavía estás escribiendo y no registraste (por ejemplo, una venta a medio armar si salís de la pantalla). Por eso, antes de salir, la app te lo avisa.
+> **Importante.** Todo lo que cargás queda guardado en tu teléfono en el momento, aunque no haya conexión. Una venta, una entrega, un cobro, una cuota, una devolución o un depósito que ya registraste no se pierde: la app los manda sola cuando el teléfono vuelve a tener conexión. Lo único que se pierde es lo que todavía estás escribiendo y no registraste (por ejemplo, una venta a medio armar si salís de la pantalla). Por eso, antes de salir, la app te lo avisa.
 
-> **Importante.** La pestaña «Ventas» de la barra de abajo todavía no tiene su pantalla completa. Hoy muestra «Esta sección llega pronto.» y, debajo, un solo botón: «Precios». Las ventas no se registran desde esa pestaña: se registran desde la casa, como se explica en [Registrar una venta](#52-registrar-una-venta).
+> **Importante.** La pestaña «Ventas» de la barra de abajo todavía no tiene su pantalla completa. Hoy muestra «Esta sección llega pronto.» y, debajo, un solo botón: «Precios». Las ventas no se registran desde esa pestaña: se registran desde la casa, como se explica en [Registrar una venta](#53-registrar-una-venta).
 
 > **Importante.** Si tu cuenta todavía no fue asignada a una campaña, la app te avisa «Disponible cuando tu coordinador te asigne a una campaña.» Si tu cuenta está suspendida, el aviso es «Tu cuenta está suspendida. Contactá al administrador.» En los dos casos podés terminar y guardar lo que ya tenías abierto.
 
-### 5.1 Consultar los precios
+### 5.1 La venta en la calle, de punta a punta
 
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+Este es el camino completo de una visita que termina en venta, tal como lo hacés en la calle. Todo pasa sobre el mismo mapa: la app nunca te vuelve a pedir la casa, la persona ni la venta que ya elegiste. Cada paso tiene su sección con el detalle.
+
+**Antes de empezar:** iniciá la jornada (ver [Iniciar la jornada](#24-iniciar-la-jornada)). No necesitás conexión para nada de este recorrido.
+
+1. **La casa.** En la pestaña «Mapa», tocá la casa. Si es una casa nueva, registrala primero (ver [Registrar una casa nueva](#35-registrar-una-casa-nueva)). Se abre la hoja de la casa.
+2. **La visita.** Tocá «Registrar visita». En «¿Qué pasó?», tocá «Entrevista dada» (ver [Registrar una visita](#46-registrar-una-visita)).
+3. **La persona.** Si la casa tiene más de una persona, elegí con quién es la entrevista, o tocá «+ Alguien nuevo» y escribí su nombre («Con el nombre alcanza»). Si tiene una sola, la app no pregunta.
+4. **La entrevista.** La app empieza a contar el tiempo. Podés cerrar la hoja y seguir usando el mapa: arriba queda la franja «Entrevista en curso». Cuando termines, tocá «Finalizar entrevista» (ver [Dar una entrevista](#47-dar-una-entrevista)).
+5. **¿Hubo venta?** En «Terminó la entrevista» revisá la hora de entrada y la de salida y elegí:
+   - «Sí, registrar la venta»: seguís en el paso 6.
+   - «No hubo venta»: si le dejaste misioneros a colaboración, los anotás en «Lo que dejaste» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)). La casa queda como «Entrevista dada» y volvés al mapa.
+6. **La venta.** En «Nueva venta» escribí el número del talonario, elegí las colecciones, los libros y las revistas, revisá el «Total» y tocá «Registrar venta» (ver [Registrar una venta](#53-registrar-una-venta)).
+7. **Entregar y cobrar.** En «¿Y ahora?» elegí qué hacés en este momento: «Entregar ahora» (si tenés los libros a mano), «Cobrar ahora» (si te paga algo), las dos cosas, o «Terminar sin entregar ni cobrar» (ver [Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)).
+8. **¿Cuándo volvés a cobrar?** Si queda saldo, la app te pregunta cuándo volvés: «Hoy», «Mañana», «Otro día» o «Sin fecha». **La cobranza no se agenda sola: la fecha la elegís vos.** Con «Sin fecha» no queda ninguna cita, pero la venta sí queda en tus cobranzas.
+9. **Así quedó la venta.** La app te muestra la entrega, el cobro y el saldo. Tocá «Volver al mapa»: la casa queda con su color nuevo y un aviso te dice cómo quedó, por ejemplo «Venta 0042 guardada. Cobranza agendada: …».
+10. **Otro día.** Cuando vuelvas, tocá la casa: la persona que debe aparece con «$ Cobrar» y, si la agendaste, la cobranza figura en tu «Agenda» (ver [Volver otro día a cobrar](#55-volver-otro-día-a-cobrar)).
+
+Al final del día, el efectivo que cobraste queda «En mano» hasta que lo depositás: registrá el depósito con la foto del ticket (ver [Registrar un depósito](#510-registrar-un-depósito)).
+
+> **Importante.** El misionero no es una venta. Lo que dejás a colaboración no lleva talonario, precio ni monto: se anota en «Lo que dejaste», al terminar una entrevista sin venta. Una venta con solo misioneros no se puede registrar.
+
+> **Importante.** Una venta ya pagada y entregada está **cerrada**: no se vuelve a abrir. Si después la misma persona te pide otro libro, es una **venta nueva**, con su talonario, su entrega y su cobro.
+
+> **Próximamente.** Si la persona te pide otro libro cuando volvés a entregar o a cobrar y su venta anterior **sigue abierta** (le falta pagar o le falta entregar algo), el libro se va a sumar a esa venta, sin otro talonario. Hoy la app todavía no lo hace: cada vez que tocás «Vender» se arma una venta nueva, con su talonario.
+
+### 5.2 Consultar los precios
 
 Usá esta pantalla cuando un cliente te pregunta cuánto cuesta un libro o una colección, o cuando querés revisar qué lleva cada colección. Solo se mira: no se vende desde acá.
 
@@ -2234,10 +2265,7 @@ Usá esta pantalla cuando un cliente te pregunta cuánto cuesta un libro o una c
 <p align="center"><img src="../imagenes/colportor/ventas-01-pestana-ventas.png" alt="Pestaña 'Ventas' con 'Esta sección llega pronto.' y el botón 'Precios'" width="270"></p>
 
 2. Tocá «Precios».
-   Se abre la pantalla «Precios». Hoy muestra el aviso «No pudimos leer los precios guardados en tu teléfono.» con el botón «Reintentar». «Reintentar» vuelve a mostrar lo mismo: todavía no está disponible y no es un problema de tu teléfono.
-<p align="center"><img src="../imagenes/colportor/ventas-10-precios-error-lectura.png" alt="Pantalla 'Precios' con el aviso 'No pudimos leer los precios guardados en tu teléfono.', el botón 'Reintentar' y la flecha 'Volver' (lo que muestra la app hoy)" width="270"></p>
-
-   Cuando esté disponible, arriba dice «VENTAS». Primero aparece la ciudad cuyos precios estás viendo y, debajo, los botones «Colecciones», «Libros», «Misioneros» y «Revistas».
+   Se abre la pantalla «Precios». Arriba dice «VENTAS». Primero aparece la ciudad cuyos precios estás viendo y, debajo, los botones «Colecciones», «Libros», «Misioneros» y «Revistas».
 3. Mirá la tarjeta de la ciudad. El rótulo te dice de dónde sale esa ciudad:
    - «SEGÚN DÓNDE ESTÁS»: la app sabe dónde estás y muestra los precios de esa ciudad.
    - «CIUDAD DE TU ZONA · SIN GPS»: no sabe dónde estás y muestra la ciudad de tu zona.
@@ -2275,10 +2303,10 @@ Los precios se guardan en tu teléfono cada vez que hay conexión. Sin conexión
 | Si ves… | Qué significa | Qué hacer |
 |---|---|---|
 | Tres bloques grises donde irían las filas | Los precios se están cargando. | Esperá unos segundos. |
-| «No pudimos leer los precios guardados en tu teléfono.» y «Reintentar» | Hoy es lo que muestra «Precios» en la app: la consulta de precios todavía no está disponible (ver el aviso al principio del capítulo). | Todavía no está disponible. No es un problema de tu teléfono. |
-| «Sin conexión. Son los precios que recibiste el 22/10 a las 18:00.» | No hay conexión y se muestran los últimos precios guardados. | Cuando esté disponible, podés consultar y vender con normalidad. Cuando vuelva la conexión se actualizan solos. |
+| «No pudimos leer los precios guardados en tu teléfono.» y «Reintentar» | Los precios todavía no llegaron a tu teléfono (por ejemplo, la primera vez, antes de conectarte) o no se pudieron leer. | Conectate a internet, esperá un momento y tocá «Reintentar». Si sigue, avisale a tu coordinador. |
+| «Sin conexión. Son los precios que recibiste el 22/10 a las 18:00.» | No hay conexión y se muestran los últimos precios guardados. | Podés consultar y vender con normalidad. Cuando vuelva la conexión se actualizan solos. |
 | «Sin conexión. Son los precios guardados en tu teléfono.» | Lo mismo, pero la app no sabe la fecha. | Igual que arriba. |
-| «Sin conexión. Tus precios son del 22/10 a las 18:00 y tienen 16 días. Conectate para actualizarlos; mientras tanto podés seguir vendiendo.» | Los precios guardados son viejos. | Conectate cuando puedas. Cuando registrar ventas esté disponible, no hace falta frenar las ventas. |
+| «Sin conexión. Tus precios son del 22/10 a las 18:00 y tienen 16 días. Conectate para actualizarlos; mientras tanto podés seguir vendiendo.» | Los precios guardados son viejos. | Conectate cuando puedas. No hace falta frenar las ventas. |
 | «Estos son los precios de» y una ciudad, «Si vendés en» otra ciudad, «se usan los de» esa otra | Estás mirando una ciudad distinta de la tuya. | Es solo para consultar. Tocá «Volver a donde estoy» para volver. |
 | «No sabemos dónde estás. Te mostramos» una ciudad, «la ciudad de tu zona.» | El teléfono no tiene ubicación y la app usa la ciudad de tu zona. | Si estás en otra ciudad, tocá «Ver otra». |
 | «Elegí una ciudad» y «No sabemos dónde estás ni tenés una zona asignada. Elegí la ciudad de la que querés ver los precios.» | No hay ubicación ni zona para elegir una ciudad sola. | Tocá «Ver otra ciudad» y elegí una. |
@@ -2287,31 +2315,24 @@ Los precios se guardan en tu teléfono cada vez que hay conexión. Sin conexión
 | «No tenés precios vigentes» y «Cuando te inscriban en una campaña, vas a ver sus precios acá.» | Todavía no estás inscripta o inscripto en una campaña. | Consultá con tu coordinador. |
 | «Verano 2026-2027 terminó el 15/12 y sus precios ya no se usan. Cuando te inscriban en otra campaña, vas a ver sus precios acá.» | Tu campaña terminó. | Esperá a que te inscriban en la próxima. |
 
-### 5.2 Registrar una venta
-
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+### 5.3 Registrar una venta
 
 Usá esta pantalla cuando una persona te compra libros. La venta se registra desde la casa donde estás.
 
-**Antes de empezar:** necesitás haber cargado la casa y a la persona (ver [Registrar una casa](#35-registrar-una-casa-nueva) y *Personas de la casa*). No hace falta conexión.
+**Antes de empezar:** necesitás haber cargado la casa (ver [Registrar una casa](#35-registrar-una-casa-nueva)). A la persona la podés anotar antes o en el momento: si la entrevista fue sin nombre, la app te pide anotarla antes de la venta («Para registrar la venta, anotá a quién se la hacés. Con el nombre alcanza.»). No hace falta conexión.
 
 #### Cómo llegar a «Nueva venta»
 
 Hay dos caminos desde la casa. En los dos, la app ya sabe la casa y la persona.
 
-- **Desde «¿Qué pasó?»:** en la hoja de la casa tocá «Registrar visita» y, en «¿Qué pasó?», tocá «Vender». Esta opción aparece solo si ya hubo una «Entrevista dada» en esa casa. Debajo dice, por ejemplo, «Registrar la venta de Marta Sosa». Si en la casa hubo entrevista con más de una persona, dice «Elegís a quién le vendés».
-- **Al terminar una entrevista:** cuando tocás «Finalizar entrevista», la hoja «Terminó la entrevista» te pregunta «¿HUBO VENTA?». Tocá «Sí, registrar la venta». Si no hubo venta, tocá «No, guardar y volver al mapa».
+- **Al terminar una entrevista (el camino de siempre):** cuando tocás «Finalizar entrevista», la hoja «Terminó la entrevista» te pregunta «¿HUBO VENTA?». Tocá «Sí, registrar la venta». Si no hubo venta, tocá «No hubo venta» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)).
+- **Desde «¿Qué pasó?»:** en la hoja de la casa tocá «Registrar visita» y, en «¿Qué pasó?», tocá «Vender». Esta opción aparece solo si ya hubo una «Entrevista dada» en esa casa (por ejemplo, la persona te dijo que lo pensaba y volviste). Debajo dice, por ejemplo, «Registrar la venta de Marta Sosa». Si en la casa hubo entrevista con más de una persona, dice «Elegís a quién le vendés». La app deja anotada una visita de venta de hoy.
 
 Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te deja elegir a una (por ejemplo, «Laura Castro» o «Pedro Silva»; cada fila puede mostrar su saldo, por ejemplo «Saldo $ 1.200»). Tocá a la persona y después «Vender». También podés agregar a alguien nuevo con «+ Alguien nuevo».
 
 <p align="center"><img src="../imagenes/colportor/ventas-16-que-paso-vender.png" alt="Hoja '¿Qué pasó?' con la opción 'Vender' y la ayuda 'Registrar la venta de Marta Sosa'" width="270">
 <img src="../imagenes/colportor/ventas-92-que-paso-vender-elegis-a-quien.png" alt="Hoja '¿Qué pasó?' de una casa con dos personas entrevistadas hoy, con 'Vender. Elegís a quién le vendés'" width="270">
-<img src="../imagenes/colportor/ventas-17-terminar-entrevista-hubo-venta.png" alt="Hoja 'Terminó la entrevista' con '¿HUBO VENTA?', 'Sí, registrar la venta' y 'No, guardar y volver al mapa'" width="270">
 <img src="../imagenes/colportor/ventas-18-con-quien-vender.png" alt="Paso '¿Con quién fue la entrevista?' con 'Laura Castro', 'Pedro Silva' y el botón 'Vender'" width="270"></p>
-
-Hoy, al tocar «Vender» o «Sí, registrar la venta», se abre «Nueva venta» con el aviso «No pudimos leer los precios guardados en tu teléfono.» y el botón «Reintentar» (ver «Qué puede pasar»). Si tocás la flecha «Volver», volvés a «¿Qué pasó?» o al mapa, según de dónde vengas.
-
-<p align="center"><img src="../imagenes/colportor/ventas-91-nueva-venta-error-precios.png" alt="Pantalla 'Nueva venta' (Marta Sosa, Benito Blanco 1105) con el aviso 'No pudimos leer los precios guardados en tu teléfono.' y 'Reintentar' (lo que muestra la app hoy)" width="270"></p>
 
 #### Armar y registrar la venta
 
@@ -2330,7 +2351,7 @@ Hoy, al tocar «Vender» o «Sí, registrar la venta», se abre «Nueva venta» 
 <p align="center"><img src="../imagenes/colportor/ventas-20-armar-coleccion.png" alt="Pantalla 'Armar la colección' con 'SIEMPRE VAN', 'LIBROS QUE ELEGÍS' y los dos libros sin elegir ('Elegir del catálogo')" width="270">
 <img src="../imagenes/colportor/ventas-21-elegir-libro.png" alt="Hoja 'Libro 1' con el buscador y la lista de libros" width="270"></p>
 
-6. **Para vender libros, misioneros o revistas sueltos:** en la categoría, usá los botones «+» («Uno más de…») y «−» («Uno menos de…») de cada producto para poner la cantidad, por ejemplo «Vida Feliz» con 2 en «Revistas». Después tocá «Agregar a la venta». Un misionero se anota sin precio: dice «Sin cobrar» y «✦ Misionero», por ejemplo «El camino a Cristo» con 1.
+6. **Para vender libros, misioneros o revistas sueltos:** en la categoría, usá los botones «+» («Uno más de…») y «−» («Uno menos de…») de cada producto para poner la cantidad, por ejemplo «Vida Feliz» con 2 en «Revistas». Después tocá «Agregar a la venta». Si junto con los libros le dejás un misionero, se anota sin precio: dice «Sin cobrar» y «✦ Misionero», por ejemplo «El camino a Cristo» con 1, y en la venta su renglón va a $ 0.
 <p align="center"><img src="../imagenes/colportor/ventas-22-libros-sueltos-cantidades.png" alt="Categoría 'Revistas' con 'Vida Feliz' en 2, 'Nuestra Salud' en 0 y el botón 'Agregar a la venta'" width="270">
 <img src="../imagenes/colportor/ventas-98-misioneros-sueltos.png" alt="Categoría 'Misioneros' con 'El camino a Cristo' en 1 y 'La gran esperanza' en 0, ambos 'Sin cobrar' y '✦ Misionero'" width="270"></p>
 
@@ -2342,7 +2363,7 @@ Hoy, al tocar «Vender» o «Sí, registrar la venta», se abre «Nueva venta» 
 <img src="../imagenes/colportor/ventas-97-cambiar-libro.png" alt="Hoja 'Cambiar el libro 1' con el buscador, la lista de libros y 'Salud y Hogar' marcado" width="270"></p>
 
 8. Mirá el «Total». Es la suma de todo y se calcula solo.
-9. Tocá «Registrar venta».
+9. Tocá «Registrar venta». La venta queda guardada en tu teléfono y se abre «Venta registrada», para entregar y cobrar (ver [Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)).
 <p align="center"><img src="../imagenes/colportor/ventas-24-nueva-venta-guardando.png" alt="Botón de la venta guardándose (ocupado)" width="270"></p>
 
 #### Cambiar el monto de la venta
@@ -2356,7 +2377,7 @@ Hacelo si acordaste con el cliente un precio distinto del calculado.
 5. Si te arrepentís, tocá «Volver al monto calculado».
 <p align="center"><img src="../imagenes/colportor/ventas-25-cambiar-monto.png" alt="Bloque 'Calculado', 'MONTO DE LA VENTA' y 'MOTIVO DEL CAMBIO' con sus ayudas" width="270"></p>
 
-> **Importante.** Una venta solo de misioneros vale $ 0 y no cuenta como venta. En ese caso no aparece «Cambiar el monto».
+> **Importante.** Solo misioneros no es una venta. Si en «Nueva venta» elegís únicamente misioneros, «Registrar venta» queda apagado y la app te dice «Solo misioneros no es una venta: anotalos al terminar la entrevista, en «Lo que dejaste».» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)).
 
 #### Salir sin registrar
 
@@ -2369,7 +2390,8 @@ Si tocás la flecha de atrás o la «X» con una venta empezada, la app pregunta
 | Si ves… | Qué significa | Qué hacer |
 |---|---|---|
 | Un bloque gris de carga | Se están leyendo los precios. | Esperá un momento. |
-| «No pudimos leer los precios guardados en tu teléfono.» y «Reintentar» | Hoy es lo que muestra «Nueva venta» en la app: registrar ventas todavía no está disponible (ver el aviso al principio del capítulo). | Todavía no está disponible. No es un problema de tu teléfono. |
+| «No pudimos leer los precios guardados en tu teléfono.» y «Reintentar» | Los precios todavía no llegaron a tu teléfono (por ejemplo, la primera vez, antes de conectarte) o no se pudieron leer. La app nunca inventa un precio. | Conectate, esperá un momento y tocá «Reintentar». Si sigue, avisale a tu coordinador. |
+| «Solo misioneros no es una venta: anotalos al terminar la entrevista, en «Lo que dejaste».» | Elegiste solo misioneros. | Quitalos y, si no hubo venta, anotalos en «Lo que dejaste». |
 | «No tenés precios vigentes» y «Pedile al coordinador que configure el precio.» | Ningún producto tiene precio para esa ciudad: ni uno general para todo el país ni uno propio de la ciudad. | Avisale a tu coordinador. |
 | «Primavera 2026 terminó el 15/12» y «Sus precios ya no se usan para vender. Si estás en otra campaña en curso en esta ciudad, se usan los de esa.» | La campaña de esa ciudad terminó y no se puede vender con esos precios. | Tocá «Volver». |
 | «No hay productos en esta categoría» y «Si esperabas verlos, puede que no tengan precio en esta ciudad. Pedile al coordinador que configure el precio.» | Esa categoría no tiene productos con precio para esa ciudad (ni general ni propio de la ciudad). | Probá con otra categoría o avisale a tu coordinador. |
@@ -2385,7 +2407,7 @@ Si tocás la flecha de atrás o la «X» con una venta empezada, la app pregunta
 | «Revisá las cantidades de la venta» | Alguna cantidad no es válida. | Corregí las cantidades. |
 | «No pudimos guardar la venta en tu teléfono. No se perdió nada de lo que cargaste: probá de nuevo.» y el botón «Reintentar» | La venta no se pudo guardar. Lo cargado sigue en pantalla. | Tocá «Reintentar». Registrar dos veces no duplica la venta. |
 | «La persona de esta venta ya no está en tu teléfono. Volvé atrás y elegí a la persona de nuevo.» | La persona se dio de baja mientras armabas la venta. | Volvé atrás y elegí a la persona otra vez. |
-| «La venta no se guardó. La entrevista con Marta Sosa sigue en curso.» | Saliste de la venta sin registrarla y la entrevista sigue abierta. | Retomá la entrevista desde el mapa. |
+| «La venta no se guardó. La entrevista con Marta Sosa sigue en curso.» | Saliste de la venta sin registrarla y la entrevista sigue abierta. | Retomá la entrevista desde la franja «Entrevista en curso» del mapa. |
 | «La casa ya no está en tu teléfono, así que no se puede registrar la venta. Elegí otra opción.» | La casa se dio de baja. | Elegí otra opción. |
 
 <p align="center"><img src="../imagenes/colportor/ventas-27-talonario-repetido.png" alt="Campo de talonario con 'Ya usaste el talonario 0042 este año…' y el botón apagado" width="270">
@@ -2394,45 +2416,100 @@ Si tocás la flecha de atrás o la «X» con una venta empezada, la app pregunta
 <img src="../imagenes/colportor/ventas-31-venta-sin-precios.png" alt="Pantalla 'No tenés precios vigentes' dentro de 'Nueva venta'" width="270">
 <img src="../imagenes/colportor/ventas-32-venta-campania-terminada.png" alt="'Nueva venta' con 'Primavera 2026 terminó el 15/12' y el botón 'Volver'" width="270"></p>
 
-### 5.3 Qué hacer después de guardar la venta
+### 5.4 Entregar, cobrar y agendar la cobranza
 
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+Cuando tocás «Registrar venta», la venta queda guardada en el momento. Después la app te acompaña con lo que pasa en la puerta: si le das los libros, si te paga y cuándo volvés por el resto. Al final, todo termina en el mapa.
 
-Cuando tocás «Registrar venta», la venta queda guardada y la app te lleva a «Venta registrada: ¿y ahora?».
+#### «¿Y ahora?»
 
-1. Arriba ves «VENTA 0042» (el talonario), el título «Venta registrada» y el nombre de la persona con el monto, por ejemplo «María Fernández · $ 8.900».
-<p align="center"><img src="../imagenes/colportor/ventas-33-venta-registrada.png" alt="Pantalla 'Venta registrada' con los grupos 'ENTREGA' y 'COBRO' y la opción 'Cobrar ahora'" width="270"></p>
+1. Se abre «Venta registrada». Arriba ves el número del talonario (por ejemplo «VENTA 0042») y el nombre de la persona con el monto, por ejemplo «Marta Sosa · $ 690».
+2. Marcá lo que hacés en este momento. Podés marcar una opción de cada grupo:
+   - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano»), si le das los libros ahora.
+   - **«COBRO»:** «Cobrar ahora» («Efectivo, tarjeta o transferencia»), si te paga algo ahora.
+3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar».
 
-2. La pantalla ofrece dos grupos de opciones:
-   - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano») y «Entregar otro día» («Agendamos la visita de entrega»). Este grupo se va a ver recién cuando la entrega esté disponible en la app (ver el recuadro «Próximamente» al final del capítulo); hasta entonces la pantalla trae solo el grupo «COBRO».
-   - **«COBRO»:** **«Cobrar ahora»** («Efectivo, tarjeta o transferencia»), si el cliente te paga en este momento. Tocá la opción para marcarla y después «Continuar». Se abre la pantalla de cobro (ver [Cobrar una venta](#54-cobrar-una-venta)).
-   - Si no te paga ahora, no marques nada en «COBRO».
-3. Tocá «Continuar», o «Terminar sin entregar ni cobrar» si no vas a entregar ni cobrar ahora.
-4. Si la venta todavía tiene saldo, aparece la pregunta «¿Cuándo volvés a cobrar?» con, por ejemplo, «Quedan $ 3.000 por cobrar a Pedro Gómez.». Elegí:
-   - «Hoy» o «Mañana» («Elegís la hora»).
-   - «Otro día» («Elegís el día y la hora»).
-   - «Sin fecha»: no se agenda nada. «Podés agendarla después desde la casa.»
-<p align="center"><img src="../imagenes/colportor/ventas-34-cuando-volves-a-cobrar.png" alt="Hoja '¿Cuándo volvés a cobrar?' con 'Hoy', 'Mañana', 'Otro día' y 'Sin fecha'" width="270"></p>
+#### Entregar ahora
 
-5. Si elegiste una fecha, la app te deja poner el día y la hora, y agenda la cobranza. Un aviso lo confirma, por ejemplo: «Venta 0039 guardada. Cobranza agendada para Mañana · 10:00.» La cobranza queda en tu «Agenda» y en la hoja de la casa, con recordatorio.
-<p align="center"><img src="../imagenes/colportor/ventas-35-cobranza-agendada.png" alt="Aviso 'Venta 0039 guardada. Cobranza agendada para Mañana · 10:00.'" width="270"></p>
+Si marcaste «Entregar ahora», se abre «Entregar ahora» con la lista «QUÉ ENTREGÁS»: lo que vendiste, con su cantidad. Viene todo marcado.
 
-> **Consejo.** La pregunta «¿Cuándo volvés a cobrar?» no se puede cerrar sin elegir. Si no sabés cuándo, tocá «Sin fecha»: la venta ya está guardada igual.
+1. Si le das todo, dejá todo marcado y tocá «Entregar».
+2. Si te falta algo (por ejemplo, no tenés un libro a mano), desmarcalo. El botón cambia a «Entregar 1 producto» (o los que sean) y la app avisa, por ejemplo, «Salud y Hogar queda para otro día.» Tocá el botón.
+3. Lo que no entregaste queda **pendiente**: la casa queda como «Entrega y cobranza pendientes» hasta que entregues lo que falta y el saldo llegue a cero. Si no hay nada para cobrar, la app dice «Lo que falta queda pendiente para otro día. La casa se actualiza cuando lo entregues.»
 
-Si la venta fue de $ 0 (por ejemplo, solo misioneros), no queda saldo y no se hace esta pregunta.
+Si la venta no tiene nada para entregar, la app avisa «Esta venta no tiene productos para entregar.». Si desmarcás todo, avisa «Elegí al menos un producto para entregar.».
+
+#### Cobrar ahora
+
+Si marcaste «Cobrar ahora», después de la entrega (o enseguida, si no entregaste) se abre la pantalla «Cobrar». Escribí lo que te pagó y tocá «Registrar cobro» (ver [Cobrar una venta](#56-cobrar-una-venta)). Puede ser todo o una parte.
+
+Si salís del cobro sin cobrar nada, volvés a «Venta registrada» con el saldo como estaba. La entrega que ya hiciste no se vuelve a ofrecer.
+
+#### «¿Cuándo volvés a cobrar?»
+
+Si después de todo eso la venta todavía tiene saldo, se abre «¿Cuándo volvés a cobrar?», con el nombre de la persona y lo que falta, por ejemplo «Marta Sosa · saldo $ 390». **La cobranza no se agenda sola: el día lo elegís vos.**
+
+1. Elegí una opción:
+   - «Hoy» («Más tarde, en esta misma salida»): elegís la hora.
+   - «Mañana»: elegís la hora.
+   - «Otro día» («Elegís el día y la hora»): se abre «Día y hora» para elegir el día y la hora.
+   - «Sin fecha» («Queda en tus cobranzas, sin día ni aviso»): no se agenda ninguna cita. La venta queda en tus cobranzas y le podés poner fecha después.
+2. Tocá «Guardar». El botón se enciende recién cuando elegiste una opción.
+
+Si tocás la flecha de atrás sin elegir, la app lo toma como «Sin fecha». Con una fecha, la cobranza queda en tu «Agenda», con recordatorio, y en la hoja de la casa.
+
+#### «Así quedó la venta»
+
+Al terminar, la app te muestra cómo quedó la venta, en tres filas:
+
+- **«Entrega»:** «✓ Entregada hoy», «✓ Una parte hoy, el resto otro día» o «⇢ Otro día» (si no entregaste nada).
+- **«Cobro»:** lo que te pagó, por ejemplo «✓ $ 300 en efectivo», o «Sin cobrar».
+- **«Saldo»:** lo que falta cobrar.
+
+Si queda saldo, debajo aparece la cobranza:
+
+- Con fecha: «Cobranza agendada · Marta», el día y la hora (por ejemplo «MIÉ 11/11 · 10:00») y «Saldo $ 390 · en Benito Blanco 1105». Tocá «Cambiar» para moverla: se abre «Modificar agenda».
+- Sin fecha: «Cobranza · Marta», «SIN FECHA» y «Saldo $ 390 · queda en tus cobranzas, sin día». Tocá «Poner fecha» si ya sabés cuándo volvés.
+
+Si entregaste todo y está todo pagado, dice «Venta completa: entregaste todo y está pagada.»
+
+Tocá «Volver al mapa». La hoja se cierra, la casa queda a la vista con su color nuevo y un aviso te dice cómo quedó la venta:
+
+- «Venta 0042 guardada. Cobranza agendada: mié 11/11 · 10:00.»
+- «Venta 0042 guardada. Cobranza sin fecha.»
+- «Venta 0042 guardada. Entregada y pagada.»
+
+> **Próximamente.** En «Venta registrada» todavía no aparece «Entregar otro día» («Agendamos la visita de entrega»). Mientras tanto, si no entregás ahora, lo vendido queda pendiente de entrega y la casa lo muestra en el mapa.
 
 #### Qué puede pasar
 
 | Si ves… | Qué significa | Qué hacer |
 |---|---|---|
-| «Venta 0039 guardada.» | La venta se guardó. | Nada más. |
-| «La venta se guardó, pero la entrevista sigue abierta. Terminala con «No, guardar y volver al mapa» para cerrarla.» | La venta está guardada, pero la entrevista no se pudo cerrar sola. | Cerrala desde la hoja de la entrevista. |
-| «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.» | La venta está bien, pero la cita de cobranza no se pudo guardar. | Agendá la cobranza desde la casa. |
+| «Venta 0042 guardada.» | La venta se guardó. | Nada más. |
+| «La venta se guardó, pero la entrevista sigue abierta. Terminala con «No, guardar y volver al mapa» para cerrarla.» | La venta está guardada, pero la entrevista no se pudo cerrar sola. | Volvé a la entrevista desde la franja del mapa y terminala. |
+| «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.» | La venta está bien, pero la cita de cobranza no se pudo guardar. | Agendá la cobranza desde la casa («+ Agendar»). |
+| «No pudimos agendar el cobro. Probá de nuevo.» | Tocaste «Poner fecha» o «Cambiar» y la cita no se guardó. | Probá de nuevo. |
 | «La venta no se guardó. La entrevista sigue en curso.» | No se completó la venta. | Volvé a registrarla desde la entrevista. |
 
-### 5.4 Cobrar una venta
+### 5.5 Volver otro día a cobrar
 
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+Usalo cuando volvés a la casa de alguien que te debe, el día que agendaste o cuando pasás por ahí.
+
+1. Si la agendaste, la cobranza está en la pestaña «Agenda» (ver [Usar la pestaña «Agenda»](#49-usar-la-pestaña-agenda)). Tocá la cita para registrar qué pasó, o «Ir a la casa» para abrir su hoja. Las cobranzas que dejaste «Sin fecha» aparecen en su propio grupo, «Sin fecha», cuando mirás las pendientes o las cobranzas.
+2. En el mapa, la casa tiene el color de cobranza pendiente (azul con $). Tocala.
+3. En la hoja de la casa, la persona que debe aparece con lo que debe (por ejemplo «Debe $ 390») y el botón «$ Cobrar». Si la cobranza estaba agendada, también ves su tarjeta, con «Cambiar» para moverla.
+4. Tocá «$ Cobrar» (o, en «Registrar visita», la opción «Cobranza»). Si la persona tiene más de una venta con saldo, elegí cuál le cobrás. Se abre «Cobrar» (ver [Cobrar una venta](#56-cobrar-una-venta)).
+5. Si te paga una parte, al registrar el cobro vuelve la pregunta «¿Cuándo volvés a cobrar?» con el saldo nuevo. Si te paga todo, el saldo llega a cero: si además ya entregaste todo, la casa queda como «Venta completa».
+
+**Si no te pagó.** Si salís del cobro sin cobrar, la app pregunta, por ejemplo, «¿Marta no te pagó?»:
+
+- «Sí, anotar la visita»: queda anotado que pasaste a cobrar y no te pagó. La cobranza agendada sigue programada.
+- «No, me equivoqué»: no se anota nada.
+
+**Si te pide otro libro.** Hoy, cada libro que te pidan después es una venta nueva: en «Registrar visita» tocá «Vender» (ver [Registrar una venta](#53-registrar-una-venta)) y anotá el talonario nuevo. Si la venta anterior ya estaba pagada y entregada, eso es lo correcto: una venta cerrada no se vuelve a abrir.
+
+> **Próximamente.** Si la venta anterior de esa persona **sigue abierta** (le falta pagar o le falta entregar algo), el libro nuevo se va a sumar a esa venta, sin otro talonario: el total y el saldo suben y lo que ya pagó no cambia. Hoy la app todavía no lo hace.
+
+### 5.6 Cobrar una venta
 
 Usá esta pantalla cuando un cliente te paga, el total o una parte.
 
@@ -2440,7 +2517,7 @@ Usá esta pantalla cuando un cliente te paga, el total o una parte.
 
 #### Cómo llegar a «Cobrar»
 
-- Desde «Cobrar ahora» al terminar una venta (ver [Qué hacer después de guardar la venta](#53-qué-hacer-después-de-guardar-la-venta)).
+- Desde «Cobrar ahora» al terminar una venta (ver [Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)). En ese caso, después del cobro, si queda saldo, sigue «¿Cuándo volvés a cobrar?» y al final «Así quedó la venta».
 - Desde la hoja de la casa: en la fila de la persona que debe, tocá «$ Cobrar». Por ejemplo, «Pedro Gómez — Debe $ 1.200».
 - Desde «¿Qué pasó?»: tocá «Cobranza» (debajo dice, por ejemplo, «Pedro Gómez debe $ 1.200»).
 
@@ -2481,7 +2558,7 @@ Si la persona tiene **más de una venta con saldo**, aparece primero «¿Qué le
 <p align="center"><img src="../imagenes/colportor/ventas-45-cobro-tarjeta-registrado.png" alt="Pantalla 'Cobro registrado' con tarjeta, 'Sumamos $ 1.200 a tu dinero depositado.' y 'Guardá el ticket de la tarjeta…'" width="270">
 <img src="../imagenes/colportor/ventas-94-cobro-transferencia-registrado.png" alt="Pantalla 'Cobro registrado' con transferencia y 'Sumamos $ 1.200 a tu dinero depositado. Referencia 88213.'" width="270"></p>
 
-> **Importante.** Con tarjeta, guardá el ticket de papel. La app todavía no permite sacarle una foto (ver el recuadro «Próximamente» al final del capítulo).
+> **Importante.** Con tarjeta, guardá el ticket de papel. La app todavía no permite sacarle una foto al ticket de la tarjeta (la foto del ticket es solo para los depósitos: ver [Registrar un depósito](#510-registrar-un-depósito)).
 
 #### Si salís sin registrar
 
@@ -2508,9 +2585,7 @@ Si escribiste un monto o cambiaste algo y tocás la flecha de atrás o la «X»,
 <img src="../imagenes/colportor/ventas-49-cobro-sin-saldo.png" alt="Pantalla 'Venta pagada' con 'Esta venta no tiene saldo…'" width="270">
 <img src="../imagenes/colportor/ventas-50-cobro-descartar.png" alt="Aviso '¿Descartar lo que escribiste?' con 'Seguir escribiendo' y 'Descartar'" width="270"></p>
 
-### 5.5 Pagar en cuotas
-
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+### 5.7 Pagar en cuotas
 
 Usá esta opción cuando el cliente no puede pagar todo junto y acordaste repartir el saldo en cuotas semanales o mensuales. Cada cuota queda agendada como una cobranza, con recordatorio.
 
@@ -2552,7 +2627,7 @@ La pantalla «Cuotas» (arriba dice «VENTA 0042») muestra el resumen de la ven
 
 #### Cobrar una cuota
 
-Las cuotas se cobran con la misma pantalla «Cobrar» (ver [Cobrar una venta](#54-cobrar-una-venta)). Escribí el monto que te pagaron y la app lo aplica a las cuotas en orden. Antes de registrar, un aviso te dice cómo se va a aplicar, por ejemplo «Completa la cuota 2 ($ 433) y adelanta $ 567 de la cuota 3.» Si el pago es mayor que las cuotas abiertas, el resto «queda como pago libre».
+Las cuotas se cobran con la misma pantalla «Cobrar» (ver [Cobrar una venta](#56-cobrar-una-venta)). Escribí el monto que te pagaron y la app lo aplica a las cuotas en orden. Antes de registrar, un aviso te dice cómo se va a aplicar, por ejemplo «Completa la cuota 2 ($ 433) y adelanta $ 567 de la cuota 3.» Si el pago es mayor que las cuotas abiertas, el resto «queda como pago libre».
 
 #### Cuota vencida
 
@@ -2596,15 +2671,9 @@ Cuando una cuota no se cobró a tiempo, la lista muestra «La cuota 2 venció el
 <img src="../imagenes/colportor/ventas-63-cuotas-error-lectura.png" alt="Aviso 'No pudimos leer las cuotas guardadas en tu teléfono.' con 'Reintentar'" width="270">
 <img src="../imagenes/colportor/ventas-95-plan-cuotas-venta-pagada.png" alt="Pantalla 'Pagar en cuotas' con 'La venta está pagada' y 'No hay saldo para repartir en cuotas.'" width="270"></p>
 
-### 5.6 Devolver una venta
-
-> **Próximamente.** Todavía no está disponible en la app (ver el aviso al principio del capítulo).
+### 5.8 Devolver una venta
 
 Usá esta pantalla cuando un cliente te devuelve uno o más libros de una venta. La venta original no se borra: queda con la devolución anotada.
-
-Hoy, en el «HISTORIAL» de la ficha de una persona (por ejemplo, Pedro Silva) solo aparecen visitas, como «09/11 · VISITA. Entrevista hecha»: no hay ventas para tocar y, por eso, todavía no se puede empezar una devolución.
-
-<p align="center"><img src="../imagenes/colportor/ventas-93-ficha-sin-ventas.png" alt="Ficha de Pedro Silva con 'Sin movimientos aún' y, en el 'HISTORIAL', solo una visita (lo que muestra la app hoy)" width="270"></p>
 
 **Antes de empezar:** la devolución se registra dentro de las 72 horas de la venta. Pasado ese plazo, la registra tu coordinador.
 
@@ -2653,7 +2722,72 @@ Hoy, en el «HISTORIAL» de la ficha de una persona (por ejemplo, Pedro Silva) s
 <img src="../imagenes/colportor/ventas-69-devolucion-saldada.png" alt="Pantalla 'Devolución' con 'Esta venta ya está saldada…'" width="270">
 <img src="../imagenes/colportor/ventas-70-devolucion-error-guardar.png" alt="Aviso 'No pudimos registrar la devolución. No cambió nada.' con 'Reintentar'" width="270"></p>
 
-### 5.7 Mirar tu cuenta
+### 5.9 Entrevista sin venta: lo que dejaste
+
+Usalo cuando diste la entrevista, la persona no compró y le dejaste uno o más misioneros a colaboración. El misionero **no es una venta**: no lleva talonario, precio ni monto, y lo que la persona te haya dado a cambio no se anota. Solo queda anotado qué dejaste (eso baja tu stock).
+
+**Pasos**
+
+1. Al terminar la entrevista, en «Terminó la entrevista», tocá «No hubo venta» (ver [Dar una entrevista](#47-dar-una-entrevista)).
+2. Se abre «Lo que dejaste», con la casa y la aclaración «A colaboración, sin precio.» Al principio dice «Sumá lo que dejaste o tocá «No dejé nada».» y «Guardar» está apagado.
+3. Con «+» («Uno más de…») y «−» («Uno menos de…») poné cuántos dejaste de cada misionero, por ejemplo «Esperanza para Hoy» en 1. Abajo la app te lo resume: «Dejás 1 misionero. No es una venta: no lleva talonario ni monto.»
+4. Tocá «Guardar».
+5. Volvés al mapa. La casa queda como «Entrevista dada» (verde) y el aviso dice «Entrevista guardada. Dejaste 1 misionero.», con «Deshacer» por unos segundos.
+
+Si no le dejaste nada, tocá «No dejé nada»: la entrevista se guarda igual, sin misioneros, y el aviso dice, por ejemplo, «Guardado. Benito Blanco 1105 quedó como «Entrevista dada».»
+
+Si tocás la flecha de atrás en «Lo que dejaste», volvés a «Terminó la entrevista» y lo que habías sumado se descarta.
+
+Si en tu catálogo no hay misioneros, «No hubo venta» guarda la entrevista en ese mismo toque, sin pasar por «Lo que dejaste».
+
+#### Qué puede pasar
+
+| Si ves… | Qué significa | Qué hacer |
+|---|---|---|
+| «Entrevista y 1 misionero guardados en tu celular. Se sincroniza cuando vuelva la conexión.» | No hay conexión. Está guardado en el teléfono. | Nada. Se manda solo cuando vuelva la conexión. |
+| «Revisá las cantidades de lo que dejaste» | Alguna cantidad no es válida. | Corregí las cantidades. |
+| «No pudimos guardar la entrevista. Probá de nuevo; no perdiste nada.» | No se guardó. | Tocá «Guardar» otra vez. |
+
+> **Consejo.** Si tocás «Deshacer» en el aviso de la entrevista, también se borran los misioneros que anotaste en ella.
+
+### 5.10 Registrar un depósito
+
+Usalo cuando depositás en el banco (o entregás en la oficina) el efectivo que cobraste. El depósito baja tu plata «En mano» y queda «Por validar» hasta que tu coordinador lo revisa.
+
+**Antes de empezar:** tené a mano el ticket del depósito, para sacarle una foto. No hace falta conexión.
+
+1. Tocá «Cuenta» en la barra de abajo.
+2. En «ACCIONES», tocá «Registrar depósito». Si no tenés efectivo en mano, el botón está apagado y dice «No tenés plata en mano para depositar.»
+3. Se abre «Depositar efectivo» (arriba dice «REGISTRAR DEPÓSITO»). Debajo del título ves cuánto tenés, por ejemplo «En mano: $ 300».
+4. En «MONTO», escribí lo que depositaste, por ejemplo «300». No puede ser más de lo que tenés en mano.
+5. En «PARA QUÉ», elegí «Casa editora» o «Alquiler».
+6. En «DÓNDE», elegí «Banco», «Oficina» o «Retiro».
+7. Tocá «Sacar foto del ticket». Se abre «La foto del ticket» con dos opciones: «Sacar foto» (con la cámara) o «Elegir de la galería» (si ya la sacaste). Mientras la prepara, dice «Preparando la foto…». Cuando está, la fila dice «Foto del ticket · tocá para cambiarla».
+8. Si querés, escribí el «Nº DE OPERACIÓN» que figura en el ticket («Opcional»).
+9. La fecha es la de hoy. Si depositaste otro día, tocá la fecha y elegila en «¿Cuándo depositaste?» (no puede ser un día que todavía no llegó).
+10. Tocá «Registrar depósito». Mientras guarda, dice «Registrando…».
+11. Aparece «Depósito registrado», con cómo cambiaron «En mano» y «Por validar» (por ejemplo «En mano: de $ 300 a $ 0») y el aviso «Queda por validar: suma a tu dinero depositado cuando tu coordinador valide el ticket.» Tocá «Listo».
+
+Con «Retiro» (el coordinador pasa a buscar el efectivo) no hace falta foto: la app dice «El retiro no lleva foto: tu coordinador confirma que recibió el efectivo.»
+
+> **Importante.** La foto del ticket se manda sola cuando hay conexión. Si no se pudo mandar, la pestaña «Cuenta» te avisa «No pudimos enviar el ticket. Quedó guardado en el teléfono y lo reintentamos solo.», con «Reintentar ahora». No hace falta volver a registrar el depósito.
+
+#### Qué puede pasar
+
+| Si ves… | Qué significa | Qué hacer |
+|---|---|---|
+| «Falta la foto y el monto.», «Falta la foto del ticket.» o «Ingresá el monto que depositaste.» | Falta un dato. | Completalo y tocá «Registrar depósito». |
+| «Escribí un monto válido, por ejemplo 1.800.» | El monto no es un número válido. | Corregilo. |
+| «Tenés $ 300 en mano.» | Escribiste más de lo que tenés en mano. | Escribí un monto igual o menor. |
+| «Sin conexión. Se registra en el teléfono y se envía cuando vuelve la conexión.» | No hay conexión. | Registralo igual. En «Depósito registrado» la app agrega «Se envía cuando vuelva la conexión.» |
+| «No tenemos permiso para usar la cámara. Activalo en los ajustes del teléfono o elegí la foto de la galería.» | La app no puede usar la cámara. | Dale el permiso o elegí la foto de la galería. |
+| «Este teléfono no tiene cámara: elegí la foto del ticket de la galería.» | El teléfono no tiene cámara. | Elegí la foto de la galería. |
+| «No pudimos usar esa foto. Probá de nuevo.» o «No pudimos leer esa foto. Sacala de nuevo.» | La foto no sirvió. | Sacala otra vez. |
+| «No estás inscripto en una campaña en curso, y el alquiler se paga a tu campaña. Si es de una campaña que ya terminó, avisale a tu coordinador.» | Elegiste «Alquiler» sin una campaña en curso. | Avisale a tu coordinador. |
+| «No pudimos enviar el ticket. Quedó guardado en el teléfono y lo reintentamos solo.» y «Reintentar ahora» (en «Cuenta») | La foto todavía no llegó. | Esperá a tener conexión o tocá «Reintentar ahora». |
+| «No pudimos enviar la foto del ticket del depósito del 10/11 y ya no se puede reintentar. Avisale a tu coordinador para que lo revise.» | La foto no se va a poder mandar. | Avisale a tu coordinador. |
+
+### 5.11 Mirar tu cuenta
 
 Usá la pestaña «Cuenta» para saber cuánta plata tenés, cuánto debés a la casa editora y cuánto te deben.
 
@@ -2668,6 +2802,7 @@ Usá la pestaña «Cuenta» para saber cuánta plata tenés, cuánto debés a la
 3. Debajo de cada monto, la app compara con hace una semana: «▲ $ 1.800 contra la semana pasada», «▼ $ 1.300 contra la semana pasada» o «Igual que la semana pasada». Si tu cuenta es nueva, dice «Sin datos de la semana anterior». Cuando el efectivo «EN MANO» creció, el texto dice «▲ $ 1.800 · depositalo pronto».
 4. La pestaña se actualiza sola cada vez que volvés a ella.
 5. Tocá una tarjeta para ver su detalle. «DEUDA CON LA CASA EDITORA» abre el detalle de la deuda; «DEPOSITADO», «EN MANO» y «POR COBRAR» abren «Mi plata».
+6. Debajo de las tarjetas, en «ACCIONES», está «Registrar depósito» (ver [Registrar un depósito](#510-registrar-un-depósito)).
 
 #### Qué puede pasar
 
@@ -2726,7 +2861,7 @@ Esta pantalla se actualiza cada vez que la abrís. Si pagaste de más, el total 
 3. Dentro de cada categoría ves una fila por movimiento:
    - **«En mano»:** cada cobro en efectivo, con el cliente y la fecha, por ejemplo «María Fernández · 20/10». Un depósito aparece como «Depósito» con el monto restado, por ejemplo «− $ 1.000».
    - **«Por cobrar»:** cada cliente que te debe, con «desde» y la fecha de su venta más vieja con saldo, por ejemplo «Raúl Castro · desde 01/10».
-   - **«Depositado»:** cada depósito que tu coordinador validó, con su destino y fecha, por ejemplo «Casa editora · Retiro · 06/11». Debajo, «Por validar» muestra los depósitos que todavía espera validar (por ejemplo «Casa editora · Retiro · 09/11») y avisa «Suman a Depositado cuando tu coordinador los valide.»
+   - **«Depositado»:** cada depósito que tu coordinador validó, con su destino y fecha, por ejemplo «Casa editora · Retiro · 06/11». Debajo, «Por validar» muestra los depósitos que todavía espera validar (por ejemplo «Casa editora · Retiro · 09/11»), también los que registraste vos con la foto del ticket, y avisa «Suman a Depositado cuando tu coordinador los valide.»
 <p align="center"><img src="../imagenes/colportor/ventas-85-mi-plata-por-cobrar-depositado.png" alt="'Mi plata' con 'Depositado' desplegada y la sección 'Por validar'" width="270"></p>
 
 4. Para volver, tocá la flecha «Volver».
@@ -2744,7 +2879,7 @@ Esta pantalla se actualiza cada vez que la abrís. Si pagaste de más, el total 
 <img src="../imagenes/colportor/ventas-90-mi-plata-depositado-vacio.png" alt="'Mi plata' con las tres categorías desplegadas y 'Todavía no registraste ningún depósito.' en 'Depositado'" width="270">
 <img src="../imagenes/colportor/ventas-87-mi-plata-error.png" alt="'Mi plata' con 'No pudimos calcular tu cuenta.' y 'Reintentar'" width="270"></p>
 
-> **Próximamente.** En una etapa posterior vas a poder usar estas opciones desde la app: entregar lo vendido («Entregar ahora» o en otro día) con su lista de entregas pendientes; registrar una venta desde la pestaña «Ventas»; corregir o anular un cobro; sacarle una foto al ticket de la tarjeta; registrar un depósito desde «Cuenta» («Registrar depósito»); y hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel y hacé los depósitos y los pedidos por fuera de la app.
+> **Próximamente.** En una etapa posterior vas a poder usar estas opciones desde la app: entregar en otro día («Entregar otro día», con su lista de entregas pendientes); sumar un libro a una venta que sigue abierta; registrar una venta desde la pestaña «Ventas»; corregir o anular un cobro; sacarle una foto al ticket de la tarjeta; y hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
 
 ## 6. Configuración, respaldo y trabajo sin conexión
 

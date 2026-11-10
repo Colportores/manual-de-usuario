@@ -1,6 +1,6 @@
 # Glosario
 
-Acá están las palabras que vas a ver en la app del colportor y en el panel del coordinador, explicadas con palabras de todos los días. Están en orden alfabético. Lo marcado «(próximamente)» todavía no está disponible. Las palabras de ventas, cobros, cuotas y devoluciones explican cómo van a funcionar: en la versión de noviembre de 2026 todavía no se pueden consultar los precios ni registrar ventas (ver el capítulo 5 del manual del colportor).
+Acá están las palabras que vas a ver en la app del colportor y en el panel del coordinador, explicadas con palabras de todos los días. Están en orden alfabético. Lo marcado «(próximamente)» todavía no está disponible.
 
 ## A
 
@@ -122,7 +122,7 @@ En la app: «$ Cobrar» en la hoja de la casa, o «Cobranza» en «¿Qué pasó?
 Ver también: Cobro, Saldo, Cuota, Agenda.
 
 **Cobro**
-Cada pago que registrás de un cliente. Puede ser en efectivo, con tarjeta (marca y número de aprobación opcionales) o por transferencia (referencia y banco de origen opcionales). No podés cobrar más que el saldo de la venta. Hoy todavía no hay ventas para cobrar (próximamente).
+Cada pago que registrás de un cliente. Puede ser en efectivo, con tarjeta (marca y número de aprobación opcionales) o por transferencia (referencia y banco de origen opcionales). No podés cobrar más que el saldo de la venta. Si después del cobro queda saldo, la app te pregunta «¿Cuándo volvés a cobrar?».
 En la app: «$ Cobrar» en la fila de la persona que debe; se abre la pantalla «Cobrar» con el botón «Registrar cobro».
 Ver también: Cobranza, Saldo, Transferencia, Anular un cobro (próximamente).
 
@@ -151,7 +151,7 @@ En la app: panel del coordinador (pestañas «Inicio», «Equipo», «Ciudades»
 Ver también: Colportor, Panel del coordinador.
 
 **Cuenta**
-Pestaña con tu situación de plata. Al tocarla se abre la pantalla «Mi Cuenta», con cuatro tarjetas: «DEUDA CON LA CASA EDITORA», «DEPOSITADO», «EN MANO» y «POR COBRAR». Debajo de cada monto, la app compara con la semana pasada. Hoy desde acá no se puede registrar un depósito, hacer un pedido ni cargar un ticket.
+Pestaña con tu situación de plata. Al tocarla se abre la pantalla «Mi Cuenta», con cuatro tarjetas: «DEUDA CON LA CASA EDITORA», «DEPOSITADO», «EN MANO» y «POR COBRAR». Debajo de cada monto, la app compara con la semana pasada. Debajo, en «ACCIONES», está «Registrar depósito». Hoy desde acá todavía no se puede hacer un pedido (próximamente).
 En la app: pestaña «Cuenta» de la barra de abajo.
 Ver también: Deuda con la casa editora, Depositado, En mano, Por cobrar, Mi plata.
 
@@ -177,11 +177,12 @@ Ver también: Ciudad, Depto.
 **Depositado**
 Lo que depositaste y tu coordinador ya validó. Es una de las tarjetas de «Mi Cuenta». Los depósitos que todavía esperan la validación figuran en «Por validar» y suman a «Depositado» cuando el coordinador los valide. Si todavía no hay datos, dice «$ 0».
 En la app: pestaña «Cuenta», tarjeta «DEPOSITADO».
-Ver también: Depósito (próximamente), En mano, Por cobrar, Mi plata.
+Ver también: Depósito, En mano, Por cobrar, Mi plata.
 
-**Depósito (próximamente)**
-Entrega del efectivo que cobraste a la casa editora. Registrar un depósito desde «Cuenta» todavía no está disponible: por ahora hacelo por fuera de la app.
-Ver también: Depositado, En mano, Deuda con la casa editora.
+**Depósito**
+Entrega del efectivo que cobraste, para la casa editora o para el alquiler, en el banco, en la oficina o en un retiro. Lo registrás con el monto y la foto del ticket (el retiro no lleva foto). Baja tu plata «En mano» y queda «Por validar» hasta que tu coordinador lo valida; ahí suma a «Depositado».
+En la app: pestaña «Cuenta», «Registrar depósito»; se abre «Depositar efectivo».
+Ver también: Depositado, En mano, Ticket, Deuda con la casa editora.
 
 **Depto**
 Cada punto de contacto de un edificio, con su piso y su número. En la app se escribe «departamento» o «depto». No hay que confundirlo con el departamento como división geográfica.
@@ -199,7 +200,7 @@ Ver también: Cuenta, Casa editora, Depositado, En mano.
 
 **Devolución**
 Cuando un cliente te devuelve libros, total o parcialmente, renglón por renglón. La venta original no se borra: queda con la devolución anotada. Vos la podés registrar hasta 72 horas después de la venta; pasado ese plazo, la registra tu coordinador.
-En la app: ficha de la persona, «HISTORIAL», tocar la venta; se abre «¿Qué te devuelve?». Hoy todavía no se puede empezar una devolución (próximamente): en el «HISTORIAL» solo aparecen visitas.
+En la app: ficha de la persona, «HISTORIAL», tocar la venta; se abre «¿Qué te devuelve?».
 Ver también: Venta, Persona.
 
 **Duplicado, posible**
@@ -219,8 +220,9 @@ El efectivo que cobraste y todavía no depositaste.
 En la app: pestaña «Cuenta», tarjeta «EN MANO».
 Ver también: Depositado, Por cobrar, Mi plata.
 
-**Entrega (próximamente)**
-Cuando le das los libros a quien los compró. Registrar entregas desde la app (entregar ahora o en otro día, con su lista de entregas pendientes) todavía no está disponible.
+**Entrega**
+Cuando le das los libros a quien los compró. Al registrar la venta, «Entregar ahora» te deja entregar todo o una parte; lo que no entregás queda pendiente para otro día. Entregar otro día con una visita agendada todavía no está disponible (próximamente).
+En la app: «Venta registrada», grupo «ENTREGA», «Entregar ahora»; se abre «Entregar ahora» con la lista «QUÉ ENTREGÁS».
 Ver también: Venta, Marcador (colores).
 
 **Entrevista**
@@ -280,6 +282,11 @@ Ver también: Acompañante (próximamente), Hoy, Visita.
 
 ## L
 
+**Lo que dejaste**
+Lo que anotás cuando diste una entrevista y no hubo venta, pero le dejaste misioneros a colaboración. No es una venta: no lleva talonario, precio ni monto; solo queda anotado qué dejaste. Si no dejaste nada, tocás «No dejé nada».
+En la app: «Terminó la entrevista», «No hubo venta»; se abre «Lo que dejaste».
+Ver también: Misionero, Entrevista.
+
 **Lista**
 Pestaña que muestra los mismos lugares del mapa en filas, con buscador («Buscar por calle y número»), «Filtros» y «Mostrar bajas». Cada fila indica la dirección, el estado y la distancia o cuándo se actualizó.
 En la app: pestaña «Lista».
@@ -308,9 +315,9 @@ En la app: pestaña «Cuenta»; se abre al tocar las tarjetas «DEPOSITADO», «
 Ver también: Cuenta, Depositado, En mano, Por cobrar.
 
 **Misionero**
-Producto que se anota sin precio (dice «Sin cobrar» y «✦ Misionero»). Una venta de solo misioneros vale $ 0 y no cuenta como venta.
-En la app: pantalla «Precios», categoría «Misioneros», y pantalla de venta.
-Ver también: Bonificable, Venta.
+Producto que se deja a colaboración, sin precio (dice «Sin cobrar» y «✦ Misionero»). El misionero no es una venta: si no hubo venta, se anota en «Lo que dejaste», sin talonario ni monto. Junto con una venta va como un renglón a $ 0. Una venta con solo misioneros no se puede registrar.
+En la app: pantalla «Precios», categoría «Misioneros»; «Lo que dejaste» al terminar una entrevista sin venta; y la pantalla de venta.
+Ver también: Bonificable, Lo que dejaste, Venta.
 
 ## N
 
@@ -362,7 +369,7 @@ En la app: pestaña «Cuenta», tarjeta «POR COBRAR».
 Ver también: Saldo, En mano, Mi plata.
 
 **Precios**
-La lista de lo que cuesta cada producto, organizada en «Colecciones», «Libros», «Misioneros» y «Revistas». El precio es el mismo para todo el país; una ciudad puede tener uno propio como excepción. Cuando esté disponible, se consulta aunque no tengas conexión, porque los precios quedan guardados en el teléfono. En una venta se usa el precio de la ciudad de la casa del cliente: el propio de esa ciudad si lo tiene y, si no, el de todo el país. Si un producto no tiene precio, la app te pide avisarle al coordinador. Ver y cambiar el precio general y las excepciones por ciudad desde el panel todavía no está disponible. Hoy la pantalla «Precios» tampoco se puede consultar en el teléfono: muestra «No pudimos leer los precios guardados en tu teléfono.» con el botón «Reintentar» (próximamente).
+La lista de lo que cuesta cada producto, organizada en «Colecciones», «Libros», «Misioneros» y «Revistas». El precio es el mismo para todo el país; una ciudad puede tener uno propio como excepción. Se consulta aunque no tengas conexión, porque los precios quedan guardados en el teléfono. En una venta se usa el precio de la ciudad de la casa del cliente: el propio de esa ciudad si lo tiene y, si no, el de todo el país. Si un producto no tiene precio, la app te pide avisarle al coordinador. Ver y cambiar el precio general y las excepciones por ciudad desde el panel todavía no está disponible.
 En la app: pestaña «Ventas», botón «Precios». Con «Ver otra» mirás los precios de otra ciudad (solo para consultar).
 Ver también: Ciudad, Colección, Bonificable, Misionero.
 
@@ -455,9 +462,10 @@ El recibo de papel donde anotás cada venta. Al registrar la venta cargás su n�
 En la app: pantalla «Nueva venta».
 Ver también: Venta.
 
-**Ticket (próximamente)**
-Foto del comprobante de un cobro con tarjeta o de un depósito. Todavía no se puede sacar desde la app: guardá el ticket de papel, porque tu coordinador te lo puede pedir.
-Ver también: Depósito (próximamente).
+**Ticket**
+Comprobante de papel de un depósito o de un cobro con tarjeta. Al registrar un depósito le sacás una foto (o la elegís de la galería); la foto se manda sola cuando hay conexión y tu coordinador la valida. Al ticket de la tarjeta todavía no se le puede sacar foto (próximamente): guardalo, porque tu coordinador te lo puede pedir.
+En la app: «Depositar efectivo», «Sacar foto del ticket».
+Ver también: Depósito.
 
 **Trade-off de tu contraseña**
 Nombre que la app le da, al crear la cuenta, a la segunda casilla: «Entiendo que mi contraseña protege la copia de seguridad de mis datos: si la olvido y pierdo el teléfono, los datos de mis clientes no se pueden recuperar.» Significa que tu contraseña es también la llave de tu copia de seguridad. Hay que marcarla para seguir; si falta, el aviso dice «Tenés que aceptar el trade-off de tu contraseña.».
@@ -479,9 +487,9 @@ Ver también: Casa, Edificio, Duplicado, posible.
 ## V
 
 **Venta**
-Lo que registrás cuando un cliente compra: el número de talonario, los productos con sus cantidades y el monto (la app lo calcula). Si cambiás el monto a mano con «Cambiar el monto», tenés que escribir el motivo. Al guardarla, la app te ofrece «Cobrar ahora» y, si queda saldo, te pregunta «¿Cuándo volvés a cobrar?».
-En la app: «Registrar visita» y, en «¿Qué pasó?», «Vender» (aparece si ya hubo una entrevista en esa casa), o «Sí, registrar la venta» al terminar una entrevista; se abre «Nueva venta». Hoy todavía no se puede registrar una venta (próximamente): «Nueva venta» muestra «No pudimos leer los precios guardados en tu teléfono.» La pestaña «Ventas» tampoco registra ventas: hoy solo tiene el botón «Precios».
-Ver también: Talonario, Colección, Misionero, Cobro, Devolución, Entrega (próximamente).
+Lo que registrás cuando un cliente compra: el número de talonario, los productos con sus cantidades y el monto (la app lo calcula). Si cambiás el monto a mano con «Cambiar el monto», tenés que escribir el motivo. Al guardarla, la app te ofrece «Entregar ahora» y «Cobrar ahora» y, si queda saldo, te pregunta «¿Cuándo volvés a cobrar?»: la cobranza no se agenda sola, el día lo elegís vos. Una venta pagada y entregada está cerrada: si la persona te pide otro libro después, es una venta nueva, con su talonario. Sumar un libro a una venta que sigue abierta todavía no está disponible (próximamente). Una venta con solo misioneros no se puede registrar (ver Lo que dejaste).
+En la app: «Registrar visita» y, en «¿Qué pasó?», «Vender» (aparece si ya hubo una entrevista en esa casa), o «Sí, registrar la venta» al terminar una entrevista; se abre «Nueva venta». La pestaña «Ventas» no registra ventas: hoy solo tiene el botón «Precios».
+Ver también: Talonario, Colección, Misionero, Cobro, Devolución, Entrega, Lo que dejaste.
 
 **Verificar el correo**
 Después de crear la cuenta, te llega un correo con un enlace que hay que abrir para confirmar tu dirección. Hasta que no lo hagas no podés entrar. Si ya lo abriste y la app sigue esperando, tocá «Ya verifiqué mi email». Si no te llegó, el botón de reenvío dice «Reenviar en 60s» y baja segundo a segundo; cuando pasa a «Reenviar email», podés tocarlo. Un enlace viejo deja de servir cuando pedís otro: la app muestra «El enlace expiró».

@@ -209,9 +209,9 @@ Todavía no se pueden cambiar (próximamente). Agregá una nota con la correcci�
 Más detalle: [Editar a una persona](./colportor.md#43-editar-a-una-persona) (manual del colportor, capítulo 4)
 
 **Veo «La venta no se guardó. La entrevista con Marta Sosa sigue en curso.» o «La venta se guardó, pero la entrevista sigue abierta…»**
-Si la venta no se guardó, la entrevista sigue en curso: retomala desde el mapa, o tocá «No, guardar y volver al mapa» para cerrarla sin venta. Si la venta se guardó pero la entrevista quedó abierta, el aviso dice «Terminala con «No, guardar y volver al mapa» para cerrarla.»: cerrala desde la hoja de la entrevista. Si no la cerrás, tampoco vas a poder cerrar la jornada. Si dice «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.», la venta está bien: agendá la cobranza desde la casa.
+Si la venta no se guardó, la entrevista sigue en curso: retomala desde el mapa, o tocá «No hubo venta» para cerrarla sin venta. Si la venta se guardó pero la entrevista quedó abierta, el aviso dice «Terminala con «No, guardar y volver al mapa» para cerrarla.»: cerrala desde la hoja de la entrevista. Si no la cerrás, tampoco vas a poder cerrar la jornada. Si dice «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.», la venta está bien: agendá la cobranza desde la casa.
 
-Más detalle: [Dar una entrevista](./colportor.md#47-dar-una-entrevista) (manual del colportor, capítulo 4) y [Qué hacer después de guardar la venta](./colportor.md#53-qué-hacer-después-de-guardar-la-venta) (manual del colportor, capítulo 5)
+Más detalle: [Dar una entrevista](./colportor.md#47-dar-una-entrevista) (manual del colportor, capítulo 4) y [Qué hacer después de guardar la venta](./colportor.md#54-entregar-cobrar-y-agendar-la-cobranza) (manual del colportor, capítulo 5)
 
 **Al registrar una visita en otra casa veo «Ya tenés una entrevista en curso en Gabriel Pereira 3122. Terminala antes de empezar otra.»**
 Solo puede haber una entrevista abierta a la vez. Tocá «Ir a la entrevista», terminala con «Finalizar entrevista» y después empezá la otra. «No contestó» y «Rechazo» siguen funcionando en la otra casa.
@@ -250,35 +250,54 @@ Una jornada de otro día quedó abierta. En «JORNADA SIN CERRAR» la app te pre
 
 Más detalle: [Corregir una jornada que quedó abierta](./colportor.md#28-corregir-una-jornada-que-quedó-abierta) (manual del colportor, capítulo 2)
 
-### Precios, ventas, cobros, cuotas y devoluciones
-
-> **Próximamente.** En la versión de noviembre de 2026 todavía no se pueden consultar los precios ni registrar ventas. Por eso tampoco hay ventas para cobrar, pagar en cuotas o devolver. Los problemas de esta parte, salvo los de la pestaña «Cuenta» (que sí funciona), cuentan cómo va a funcionar cuando esté disponible.
+### Precios, ventas, entregas, cobros, cuotas y devoluciones
 
 **Veo «No pudimos leer los precios guardados en tu teléfono.» en «Precios» o en «Nueva venta»**
-No es una falla de tu teléfono ni de tu conexión: consultar los precios y registrar ventas todavía no está disponible en la app. «Reintentar» vuelve a mostrar el mismo aviso. Con la flecha «Volver» salís sin perder nada: volvés a «¿Qué pasó?», al mapa o a la pestaña «Ventas», según de dónde vengas.
+Los precios todavía no llegaron a tu teléfono (por ejemplo, la primera vez, antes de conectarte) o no se pudieron leer. La app nunca inventa un precio. Conectate, esperá un momento y tocá «Reintentar». Con la flecha «Volver» salís sin perder nada: volvés a «¿Qué pasó?», al mapa o a la pestaña «Ventas», según de dónde vengas. Si sigue igual, avisale a tu coordinador.
 
-Más detalle: [Consultar los precios](./colportor.md#51-consultar-los-precios) y [Registrar una venta](./colportor.md#52-registrar-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [Consultar los precios](./colportor.md#52-consultar-los-precios) y [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
 **Toco la pestaña «Ventas» y solo veo «Esta sección llega pronto.»**
-Es lo que muestra hoy esa pestaña: «Esta sección llega pronto.» y un solo botón, «Precios» (que hoy muestra el aviso del problema anterior). Las ventas no se registran desde esa pestaña: se van a registrar desde la casa, con «Vender» o «Sí, registrar la venta». Tampoco están todavía en la app entregar lo vendido, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, registrar un depósito desde «Cuenta», hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel y hacé los depósitos y los pedidos por fuera de la app.
+Es lo que muestra hoy esa pestaña: «Esta sección llega pronto.» y un solo botón, «Precios». Las ventas no se registran desde esa pestaña: se registran desde la casa, al terminar la entrevista con «Sí, registrar la venta» o, en «Registrar visita», con «Vender». Todavía no están en la app entregar otro día con una visita agendada, sumar un libro a una venta que sigue abierta, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
 
-Más detalle: [Registrar una venta](./colportor.md#52-registrar-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [La venta en la calle, de punta a punta](./colportor.md#51-la-venta-en-la-calle-de-punta-a-punta) (manual del colportor, capítulo 5)
+
+**Solo le dejé un misionero y no me deja registrar la venta**
+Es correcto: el misionero no es una venta. Con solo misioneros, «Registrar venta» queda apagado y la app dice «Solo misioneros no es una venta: anotalos al terminar la entrevista, en «Lo que dejaste».» Salí de «Nueva venta» y, en «Terminó la entrevista», tocá «No hubo venta»: ahí anotás lo que dejaste, sin talonario ni monto.
+
+Más detalle: [Entrevista sin venta: lo que dejaste](./colportor.md#59-entrevista-sin-venta-lo-que-dejaste) (manual del colportor, capítulo 5)
+
+**Registré la venta pero no veo la cobranza en la «Agenda»**
+La cobranza no se agenda sola: el día lo elegís vos en «¿Cuándo volvés a cobrar?». Si elegiste «Sin fecha» (o saliste con la flecha de atrás sin elegir), no hay cita en la agenda, pero la venta sigue en tus cobranzas y la casa muestra «$ Cobrar». Para ponerle día, en «Así quedó la venta» tocá «Poner fecha», o agendala desde la casa. Si viste «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.», la venta está bien: agendá la cobranza desde la casa.
+
+Más detalle: [Entregar, cobrar y agendar la cobranza](./colportor.md#54-entregar-cobrar-y-agendar-la-cobranza) (manual del colportor, capítulo 5)
+
+**Me pidió otro libro cuando volví a cobrar: ¿se suma a su venta?**
+Hoy no: cada vez que tocás «Vender» se arma una venta nueva, con su talonario. Si la venta anterior ya estaba pagada y entregada, eso es lo correcto (una venta cerrada no se vuelve a abrir). Sumar el libro a una venta que sigue abierta va a estar disponible más adelante (próximamente).
+
+Más detalle: [Volver otro día a cobrar](./colportor.md#55-volver-otro-día-a-cobrar) (manual del colportor, capítulo 5)
+
+**No tenía todos los libros para entregar**
+En «Entregar ahora», desmarcá lo que no le das: la app avisa, por ejemplo, «Salud y Hogar queda para otro día.» Lo que falta queda pendiente y la casa lo muestra en el mapa hasta que lo entregues. Agendar una visita de entrega («Entregar otro día») todavía no está disponible (próximamente).
+
+Más detalle: [Entregar, cobrar y agendar la cobranza](./colportor.md#54-entregar-cobrar-y-agendar-la-cobranza) (manual del colportor, capítulo 5)
 
 **No puedo registrar la venta: el botón no se enciende**
-Cuando registrar ventas esté disponible, mirá el aviso debajo del botón:
+Mirá el aviso debajo del botón:
 - «Escribí el número del talonario para registrar la venta.»: completá «Nº DE TALONARIO».
 - «Ya usaste el talonario 0042 este año (venta del 12/03). Revisá el número.»: ya registraste una venta con ese número este año (la app no distingue mayúsculas ni espacios al principio o al final). Corregilo.
 - «El número del talonario es muy largo»: admite hasta 30 caracteres.
 - «Elegí al menos un producto para registrar la venta.» o «Agregá al menos un producto a la venta»: agregá un producto o una colección.
+- «Solo misioneros no es una venta: …»: ver el problema «Solo le dejé un misionero…».
 - «Escribí un monto válido, por ejemplo 8.500.»: el monto nuevo tiene que ser un número.
 - «Escribí por qué cambiaste el monto.»: completá «MOTIVO DEL CAMBIO».
 
-Más detalle: [Registrar una venta](./colportor.md#52-registrar-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
 **Veo «No pudimos guardar la venta en tu teléfono. No se perdió nada de lo que cargaste: probá de nuevo.»**
 Tocá «Reintentar». Lo que cargaste sigue en pantalla y registrar dos veces no duplica la venta.
 
-Más detalle: [Registrar una venta](./colportor.md#52-registrar-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
 **Veo «No tenés precios vigentes», «No hay productos en esta categoría» o un aviso de campaña terminada**
 - «No tenés precios vigentes» con «Pedile al coordinador que configure el precio.» (en «Nueva venta»): ningún producto tiene precio para la ciudad de la casa, ni uno general para todo el país ni uno propio de la ciudad. Avisale a tu coordinador.
@@ -289,15 +308,15 @@ Más detalle: [Registrar una venta](./colportor.md#52-registrar-una-venta) (manu
 - «Verano 2026-2027 terminó el 15/12 y sus precios ya no se usan. Cuando te inscriban en otra campaña, vas a ver sus precios acá.» (en «Precios»): tu campaña terminó. Esperá a que te inscriban en la próxima.
 El precio es el mismo en todo el país, salvo en las ciudades que tienen uno propio; al vender se usa el de la ciudad de la casa del cliente.
 
-Más detalle: [Consultar los precios](./colportor.md#51-consultar-los-precios) y [Registrar una venta](./colportor.md#52-registrar-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [Consultar los precios](./colportor.md#52-consultar-los-precios) y [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
 **En «Precios» veo «Sin conexión. Tus precios son del 22/10 a las 18:00 y tienen 16 días…», «No sabemos dónde estás…» o «ESTÁS VIENDO OTRA CIUDAD»**
-- «Sin conexión. Son los precios que recibiste el 22/10 a las 18:00.»: son los últimos precios guardados en el teléfono. Cuando esté disponible, podés consultar y vender con normalidad; se actualizan solos cuando vuelve la conexión.
-- «Sin conexión. Tus precios son del 22/10 a las 18:00 y tienen 16 días. Conectate para actualizarlos; mientras tanto podés seguir vendiendo.»: son viejos (15 días, salvo que tu campaña indique otra cosa). Conectate cuando puedas; cuando registrar ventas esté disponible, no hace falta frenar las ventas.
+- «Sin conexión. Son los precios que recibiste el 22/10 a las 18:00.»: son los últimos precios guardados en el teléfono. Podés consultar y vender con normalidad; se actualizan solos cuando vuelve la conexión.
+- «Sin conexión. Tus precios son del 22/10 a las 18:00 y tienen 16 días. Conectate para actualizarlos; mientras tanto podés seguir vendiendo.»: son viejos (15 días, salvo que tu campaña indique otra cosa). Conectate cuando puedas; no hace falta frenar las ventas.
 - «No sabemos dónde estás. Te mostramos» una ciudad: el teléfono no tiene ubicación y la app usa la ciudad de tu zona. Si estás en otra, tocá «Ver otra». Si ves «Elegí una ciudad», tocá «Ver otra ciudad» y elegí una.
 - «ESTÁS VIENDO OTRA CIUDAD»: elegiste mirar los precios de otra ciudad. Es solo para consultar; tocá «Volver a donde estoy» (o «Volver a mi zona»).
 
-Más detalle: [Consultar los precios](./colportor.md#51-consultar-los-precios) (manual del colportor, capítulo 5)
+Más detalle: [Consultar los precios](./colportor.md#52-consultar-los-precios) (manual del colportor, capítulo 5)
 
 **Al cobrar o repartir en cuotas veo «El saldo es $ 1.200. Ingresá hasta ese monto.» o «El saldo es $ 2.500: la cuota no puede ser mayor.»**
 No se puede cobrar ni poner una cuota por más que el saldo: no queda plata a favor del cliente. Escribí un monto igual o menor.
@@ -307,19 +326,32 @@ No se puede cobrar ni poner una cuota por más que el saldo: no queda plata a fa
 - «La primera cuota tiene que ser hoy o más adelante.»: elegí hoy u otro día.
 - «La cuota 2 venció el 02/11. Te avisamos con una notificación.»: tocá «Agendar cobranza» para agendar una nueva visita de cobranza.
 
-Más detalle: [Cobrar una venta](./colportor.md#54-cobrar-una-venta) y [Pagar en cuotas](./colportor.md#55-pagar-en-cuotas) (manual del colportor, capítulo 5)
+Más detalle: [Cobrar una venta](./colportor.md#56-cobrar-una-venta) y [Pagar en cuotas](./colportor.md#57-pagar-en-cuotas) (manual del colportor, capítulo 5)
 
 **Quiero devolver una venta, o veo «Pasaron más de 72 h desde la venta. La devolución la registra tu coordinador.»**
-Todavía no se puede empezar una devolución desde la app: en el «HISTORIAL» de la ficha de la persona solo aparecen visitas, no hay ventas para tocar. Cuando esté disponible, vas a poder registrarla vos hasta 72 horas después de la venta; pasado ese plazo, la registra tu coordinador. Una devolución baja lo que el cliente debe, pero nunca deja plata a favor del cliente. Si ves «Esta venta ya está saldada: el cliente pagó todo lo que se queda comprando, así que no se puede devolver nada…», hablá con tu coordinador.
+La devolución se empieza tocando la venta en el «HISTORIAL» de la ficha de la persona. La podés registrar vos hasta 72 horas después de la venta; pasado ese plazo, la registra tu coordinador. Una devolución baja lo que el cliente debe, pero nunca deja plata a favor del cliente. Si ves «Esta venta ya está saldada: el cliente pagó todo lo que se queda comprando, así que no se puede devolver nada…», hablá con tu coordinador.
 
-Más detalle: [Devolver una venta](./colportor.md#56-devolver-una-venta) (manual del colportor, capítulo 5)
+Más detalle: [Devolver una venta](./colportor.md#58-devolver-una-venta) (manual del colportor, capítulo 5)
 
 ### Mi cuenta y la plata
+
+**No puedo registrar un depósito: «Registrar depósito» está apagado o no me deja confirmar**
+- «No tenés plata en mano para depositar.»: no tenés efectivo cobrado sin depositar. No hay nada que registrar.
+- «Falta la foto del ticket.», «Falta la foto y el monto.» o «Ingresá el monto que depositaste.»: completá lo que falta. El retiro no lleva foto.
+- «Tenés $ 300 en mano.»: escribiste más de lo que tenés en mano. Escribí un monto igual o menor.
+- «No tenemos permiso para usar la cámara…»: dale el permiso a la app en los ajustes del teléfono o elegí la foto de la galería.
+
+Más detalle: [Registrar un depósito](./colportor.md#510-registrar-un-depósito) (manual del colportor, capítulo 5)
+
+**Registré un depósito y no suma a «DEPOSITADO»**
+Es normal: el depósito queda «Por validar» hasta que tu coordinador revisa el ticket; recién ahí suma a «DEPOSITADO». Si en «Cuenta» ves «No pudimos enviar el ticket. Quedó guardado en el teléfono y lo reintentamos solo.», conectate o tocá «Reintentar ahora»: no hace falta registrar el depósito otra vez. Si dice que ya no se puede reintentar, avisale a tu coordinador.
+
+Más detalle: [Registrar un depósito](./colportor.md#510-registrar-un-depósito) (manual del colportor, capítulo 5)
 
 **En «Cuenta» veo «Sin conexión. Lo depositado es de ayer a las 21:00; en mano y por cobrar están al día.»**
 No hay conexión. «EN MANO» y «POR COBRAR» salen de tu teléfono y están al día; «DEPOSITADO» es lo último que llegó. Otras versiones del aviso dicen lo mismo de la deuda con la casa editora («La deuda y lo depositado son de hoy a las 21:17; …»). Podés seguir trabajando: se actualiza cuando vuelva la conexión. Si dice «No pudimos calcular tu cuenta.», tocá «Reintentar».
 
-Más detalle: [Mirar tu cuenta](./colportor.md#57-mirar-tu-cuenta) (manual del colportor, capítulo 5)
+Más detalle: [Mirar tu cuenta](./colportor.md#511-mirar-tu-cuenta) (manual del colportor, capítulo 5)
 
 **Al tocar «DEUDA CON LA CASA EDITORA» veo «Necesitás conexión para ver tu deuda con la casa editora.» o «No pudimos traer tus pedidos.»**
 - «Necesitás conexión para ver tu deuda con la casa editora.»: todavía no se guardó ninguna deuda en tu teléfono y no hay conexión. Conectate y tocá «Reintentar».
@@ -329,7 +361,7 @@ Más detalle: [Mirar tu cuenta](./colportor.md#57-mirar-tu-cuenta) (manual del c
 - Si el total dice «A favor», pagaste de más: «Se descuenta de tu próxima deuda con la casa editora.»
 - «La suma de los saldos no da el total: una transferencia o el alquiler movieron tu deuda. El total de arriba es el real.»: guiate por el «TOTAL» de arriba.
 
-Más detalle: [Mirar tu cuenta](./colportor.md#57-mirar-tu-cuenta) (manual del colportor, capítulo 5)
+Más detalle: [Mirar tu cuenta](./colportor.md#511-mirar-tu-cuenta) (manual del colportor, capítulo 5)
 
 ### Notificaciones y recordatorios
 
