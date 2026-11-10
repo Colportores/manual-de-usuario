@@ -1,0 +1,81 @@
+name: Publicar el manual
+
+# Cuando cambia el texto (fuente/), el generador, el estilo, las tipografías o las capturas:
+#   - en un pull request, arma el sitio y falla si hay enlaces o imágenes rotas (no despliega);
+#   - en main (o a mano con "Run workflow"), arma el sitio y lo publica en GitHub Pages.
+# No usa secretos: el despliegue va con el token efímero del propio workflow.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "fuente/**"
+      - "herramientas/**"
+      - "estilo.css"
+      - "fuentes/**"
+      - "imagenes/**"
+      - ".github/workflows/publicar.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "fuente/**"
+      - "herramientas/**"
+      - "estilo.css"
+      - "fuentes/**"
+      - "imagenes/**"
+      - ".github/workflows/publicar.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    name: Validar el manual
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install -r herramientas/requirements.txt
+      # genera el sitio y falla (código 1) si hay enlaces, anclas o imágenes rotas
+      - run: python herramientas/generar.py
+
+  construir:
+    name: Armar el sitio
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - run: pip install -r herramientas/requirements.txt
+      - run: python herramientas/generar.py
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _sitio
+
+  desplegar:
+    name: Publicar en GitHub Pages
+    needs: construir
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    # un despliegue en curso termina antes de empezar el siguiente
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
