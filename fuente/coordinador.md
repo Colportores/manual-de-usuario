@@ -523,7 +523,10 @@ Lo vas a usar para saber cómo va la ciudad casa por casa.
 
 Las zonas se dibujan con un borde que se distingue bien del fondo del mapa, sea cual sea su color. Una zona a la que todavía no se le asignó color se dibuja en gris. Las casas en estado «Entrega y pago» se ven como un cuadrado con una franja azul clara.
 
-> **Captura pendiente.** «Ciudades» con el mapa acercado al máximo (zoom 18 o 19), con casas de varios estados, el borde de las zonas y la atribución «© OpenStreetMap»; y una zona sin color, en gris.
+<p align="center"><img src="../imagenes/coordinador/panel-141-ciudades-zoom-maximo.png" alt="Mapa de 'Ciudades' acercado al máximo en Cordón, con el botón '+' apagado, casas y la atribución del mapa" width="760">
+<img src="../imagenes/coordinador/panel-142-ciudades-zoom-estados.png" alt="Mapa de 'Ciudades' a nivel de calle en Cordón, con casas de varios estados y el nombre de la zona" width="760">
+<img src="../imagenes/coordinador/panel-143-ciudades-borde-de-zona.png" alt="Mapa de 'Ciudades' acercado sobre el borde de la zona Cordón" width="760">
+<img src="../imagenes/coordinador/panel-144-ciudades-zona-sin-color.png" alt="Mapa de Montevideo con Pocitos en azul y Malvín sin color, en gris; en la lista, Malvín con el punto gris" width="760"></p>
 
 > **Próximamente.** Los números de puerta del fondo del mapa todavía no se ven en el panel: aparecen cuando se actualice el mapa de calles de la ciudad. En el teléfono sí se ven al acercar.
 
@@ -912,17 +915,24 @@ Usala cuando los colportores de tu campaña depositaron el efectivo que cobraron
 
 **Pasos**
 
-1. Entrá a «Validar tickets». Arriba dice, por ejemplo, «Tickets por validar · 4» y «el más antiguo: hace 2 días». La lista junta los depósitos con foto y los retiros de efectivo, del más antiguo al más nuevo, con COLPORTOR, TALONARIO, MONTO, FECHA, ZONA y ESTADO («◔ Por validar»).
-2. Se abre el primero, al costado de la lista: «Ticket de depósito», con «Ticket 1 de 4» y las flechas ‹ ›. Ves la «FOTO DEL TALONARIO», el MONTO, el TALONARIO N.º, el COLPORTOR, la ZONA, la FECHA DEL DEPÓSITO y cuándo lo mandó («ENVIADO hace 3 h»). También ves cuánto efectivo tenía el colportor en mano y cuánto debía antes del depósito, para comparar. Si el depósito fue en el banco, el panel dice «Depósito en banco», sin el nombre del banco.
+1. Entrá a «Validar tickets». Arriba dice, por ejemplo, «Tickets por validar · 4» y «el más antiguo: hace 2 días». La lista junta los depósitos con foto y los retiros de efectivo, del más antiguo al más nuevo, con FECHA, COLPORTOR (con su ciudad), MEDIO («Depósito en banco», «Depósito en oficina», «Retiro por el coordinador»), MONTO y ESTADO («◔ Por validar» o, en un retiro, «◔ Por confirmar»).
+2. Se abre el primero, al costado de la lista: «Ticket de depósito», con «Ticket 1 de 4» y las flechas ‹ ›. Ves la foto del ticket, el MONTO, «PARA QUÉ ES» (por ejemplo «Casa editora»), «DÓNDE», el «N.º DE AUTORIZACIÓN» y la «TARJETA» (si es un cobro con tarjeta), el COLPORTOR, la CIUDAD, la FECHA DEL DEPÓSITO y cuándo lo mandó («ENVIADO hace 3 h»). También ves «EN MANO SEGÚN LA APP», la «DEUDA CON LA CASA EDITORA» y «SI VALIDÁS, QUEDA EN», para comparar; si no cuadran, un aviso lo marca (por ejemplo «Según la app tenía en mano $U 0 y el ticket dice $U 800 (diferencia $U 800)»). Si el depósito fue en el banco, el panel dice «Depósito en banco», sin el nombre del banco.
 3. Mirá la foto. Con «Agrandar» la ves más grande, por ejemplo para leer un talonario borroso. El enlace de la foto vence a los 5 minutos: si se vence, volvé a abrir el ticket para pedirla de nuevo.
-4. Si está bien, tocá «Validar» (o la tecla V). Aparece «✓ Ticket 0457 de Laura Suárez validado.» con «Deshacer», que dura 8 segundos y devuelve el ticket a la cola en su lugar. Pasado ese tiempo, la validación se manda. El panel pasa solo al siguiente ticket.
-5. Si algo no cuadra, tocá «Rechazar» (o la tecla R). El primer toque no rechaza: abre el campo «MOTIVO DEL RECHAZO · OBLIGATORIO» en el mismo lugar, con motivos rápidos («Foto ilegible», «El monto no coincide», «Talonario ya usado») que completan el campo y se pueden editar. Escribí qué tiene que corregir el colportor («Contale al colportor qué tiene que corregir»); el motivo le llega a él. Tocá «Confirmar rechazo». Si lo dejás vacío, dice «Escribí el motivo para rechazar el ticket.» El motivo admite hasta 500 caracteres.
+4. Si está bien, tocá «Validar» (o la tecla V). Aparece «✓ Ticket de Lucía Fernández validado.» con «Deshacer», que dura 8 segundos y devuelve el ticket a la cola en su lugar. Pasado ese tiempo, la validación se manda. El panel pasa solo al siguiente ticket.
+5. Si algo no cuadra, tocá «Rechazar» (o la tecla R). El primer toque no rechaza: abre el campo «MOTIVO DEL RECHAZO · OBLIGATORIO» en el mismo lugar, con motivos rápidos («Foto ilegible», «El monto no coincide», «Talonario ya usado») que completan el campo y se pueden editar. Escribí qué tiene que corregir el colportor («Contale al colportor qué tiene que corregir»); el motivo le llega a él. Tocá «Confirmar rechazo». Si lo dejás vacío, dice «Escribí el motivo para rechazar el ticket.» (en un retiro, «Escribí el motivo para rechazar el retiro.»). El motivo admite hasta 500 caracteres.
 6. Para un **retiro** (el colportor te entregó el efectivo en mano), el panel abre «Retiro por el coordinador», sin foto: dice «SIN FOTO» y «El efectivo se entrega en mano: este retiro no trae comprobante.» Su estado es «Por confirmar» (y pasa a «Confirmado»). Tocá «Confirmar» (o la tecla C) si recibiste ese monto, o «Rechazar» con un motivo: «El monto no coincide», «No recibí el efectivo» o «Está cargado dos veces».
-7. Cuando no quedan más, dice «No quedan tickets por validar» y un botón te lleva de vuelta a «Cuentas».
+7. Cuando no quedan más, el título dice «Tickets por validar · 0», la lista sigue mostrando los que resolviste («✓ Validado», «✓ Confirmado») y al costado dice «No quedan tickets por validar», con el botón «Volver a Cuentas».
 
 Con el teclado: ↑ y ↓ cambian de fila, V valida, R abre el rechazo con el cursor en el motivo, C confirma un retiro y Esc cancela el rechazo.
 
-> **Captura pendiente.** «Validar tickets» con la cola de 4 tickets y el primero abierto al costado (con la foto, el monto y los botones «Rechazar» y «Validar»); el rechazo con el motivo vacío y el aviso «Escribí el motivo para rechazar el ticket.»; el aviso «✓ Ticket … validado.» con «Deshacer»; un retiro abierto (con «SIN FOTO», «Confirmar» y «Rechazar»); y la pantalla «No quedan tickets por validar».
+Las capturas son del panel con la pestaña «Cuentas» habilitada para probar: por eso arriba se ve la franja «Cuentas: datos simulados, salvo Validar tickets.»
+
+<p align="center"><img src="../imagenes/coordinador/panel-136-validar-tickets-cola.png" alt="'Tickets por validar · 5' con la cola (un retiro y cuatro depósitos) y, al costado, el retiro abierto: 'SIN FOTO', '$U 30', 'Rechazar' y 'Confirmar'" width="760">
+<img src="../imagenes/coordinador/panel-137-rechazo-motivo-vacio.png" alt="Rechazo de un retiro con 'MOTIVO DEL RECHAZO · OBLIGATORIO', los motivos rápidos, el campo vacío en rojo y 'Escribí el motivo para rechazar el retiro.'" width="760">
+<img src="../imagenes/coordinador/panel-139-ticket-validado-deshacer.png" alt="Aviso '✓ Ticket de Lucía Fernández validado.' con 'Deshacer', y el siguiente ticket abierto al costado" width="760">
+<img src="../imagenes/coordinador/panel-140-no-quedan-tickets.png" alt="'Tickets por validar · 0' con los tickets validados y el retiro confirmado, y al costado 'No quedan tickets por validar' con 'Volver a Cuentas'" width="760"></p>
+
+> **Captura pendiente.** Un ticket de depósito abierto con su foto (en el entorno de prueba no hay fotos de tickets: el panel muestra en su lugar «La foto de este ticket ya venció…»).
 
 **Qué puede pasar**
 
