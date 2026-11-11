@@ -268,7 +268,7 @@ Los precios todavía no llegaron a tu teléfono (por ejemplo, la primera vez, an
 Más detalle: [Consultar los precios](./colportor.md#52-consultar-los-precios) y [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
 **Toco la pestaña «Ventas» y no veo un resumen de mis ventas**
-Es lo que muestra hoy esa pestaña: tres botones, «+ Registrar venta», «Entregas pendientes» y «Precios». Todavía no tiene un resumen de tus ventas. Podés vender desde ahí con «+ Registrar venta» o desde la casa, al terminar la entrevista con «Sí, registrar la venta» o, en «Registrar visita», con «Vender». Todavía no están en la app sumar un libro a una venta que sigue abierta, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
+Es lo que muestra hoy esa pestaña: «Esta sección llega pronto.» y tres botones, «+ Registrar venta», «Precios» y «Entregas pendientes». Todavía no tiene un resumen de tus ventas. Podés vender desde ahí con «+ Registrar venta» o desde la casa, al terminar la entrevista con «Sí, registrar la venta» o, en «Registrar visita», con «Vender». Todavía no están en la app sumar un libro a una venta que sigue abierta, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
 
 Más detalle: [La venta en la calle, de punta a punta](./colportor.md#51-la-venta-en-la-calle-de-punta-a-punta) (manual del colportor, capítulo 5)
 
