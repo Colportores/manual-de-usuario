@@ -70,8 +70,8 @@ Libro cuya venta cuenta para la beca. Se marca con «◆ Bonificable» en la lis
 En la app: pantalla «Precios», categoría «Libros» (hoy esa pantalla todavía no se puede consultar).
 Ver también: Beca (próximamente), Precios.
 
-**Borrar datos locales (próximamente)**
-Borrar todo lo guardado en este teléfono y cerrar tu sesión. No se puede deshacer. En la versión de noviembre de 2026 todavía no se puede completar: el botón «Continuar» queda apagado. Tu cuenta sigue existiendo y tu coordinador conserva tus ventas.
+**Borrar datos locales**
+Borrar todo lo guardado en este teléfono y cerrar tu sesión. No se puede deshacer. Tu cuenta sigue existiendo y tu coordinador conserva tus ventas. Para poder borrar no tiene que quedar nada sin enviar: «Continuar» se enciende solo con las dos casillas marcadas y sin operaciones sin sincronizar; después la app te pide una frase y tu contraseña.
 En la app: «Configuración», sección «Privacidad y datos», fila «Borrar datos locales».
 Ver también: Operación sin sincronizar, Sesión.
 
@@ -221,9 +221,14 @@ En la app: pestaña «Cuenta», tarjeta «EN MANO».
 Ver también: Depositado, Por cobrar, Mi plata.
 
 **Entrega**
-Cuando le das los libros a quien los compró. Al registrar la venta, «Entregar ahora» te deja entregar todo o una parte; lo que no entregás queda pendiente para otro día. Entregar otro día con una visita agendada todavía no está disponible (próximamente).
-En la app: «Venta registrada», grupo «ENTREGA», «Entregar ahora»; se abre «Entregar ahora» con la lista «QUÉ ENTREGÁS».
-Ver también: Venta, Marcador (colores).
+Cuando le das los libros a quien los compró. Al registrar la venta, «Entregar ahora» te deja entregar todo o una parte; lo que no entregás queda pendiente. Con «Entregar otro día» elegís el día y la hora y la entrega queda agendada, con recordatorio; el día que la hacés, la marcás como entregada.
+En la app: «Venta registrada», grupo «ENTREGA», «Entregar ahora» o «Entregar otro día»; se abre la lista «QUÉ ENTREGÁS». Lo pendiente está en «Ventas», «Entregas pendientes».
+Ver también: Venta, Entregas pendientes, Marcador (colores).
+
+**Entregas pendientes**
+Lo que vendiste y todavía no entregaste. Se ven agrupadas en «ATRASADAS», «PRÓXIMAS» y «SIN FECHA» (a estas últimas les ponés el día con «Poner fecha»). Solo muestran lo que realmente falta entregar: si el cliente devolvió un libro que no había recibido, ya no figura. Al entregar, tocás la entrega y «Marcar entregado»; si entregás una parte, lo demás sigue pendiente.
+En la app: pestaña «Ventas», botón «Entregas pendientes»; también como cita de entrega en la «Agenda» («Entregado hoy») y en la ficha de la persona («Entregar»).
+Ver también: Entrega, Agenda, Devolución.
 
 **Entrevista**
 Presentación de los libros al cliente. Se empieza desde «Registrar visita», eligiendo «Entrevista dada», y la app cuenta el tiempo. Al terminarla, tocás «Finalizar entrevista» y la app pregunta «¿HUBO VENTA?». También se puede agendar para otro día; si quedaste en una hora exacta con la persona, prendé «Entrevista estricta» y la hora acordada reemplaza a la franja.
@@ -332,11 +337,16 @@ Con la app abierta, el aviso aparece primero como una tarjeta arriba, con «AHOR
 En la app: la campana de «Hoy» abre «Notificaciones»; las preferencias están en «Configuración», fila «Notificaciones».
 Ver también: Campana, Recordatorio.
 
+**Número de puerta**
+El número de la casa que se ve en el mapa. Al acercar a nivel de calle, el fondo del mapa muestra los números que trae OpenStreetMap, y tus casas se dibujan como cuadrados con su número («s/n» si no tienen). Si una casa tuya queda sobre un número del fondo, se ve la casa y el número del fondo se esconde.
+En la app: pestaña «Mapa», acercando con los dedos; «Referencias» explica los símbolos.
+Ver también: Referencias.
+
 ## O
 
 **Operación sin sincronizar**
 Algo que cargaste (una visita, una venta, un cobro, una casa) y que todavía no se mandó. La app lo manda sola cuando hay conexión. No hay un indicador permanente: el número aparece solo en la hoja «¿Cerrar sesión?» (por ejemplo «Tenés 2 operaciones sin sincronizar…») y en la fila «Operaciones sin sincronizar» de «Borrar datos locales». Si cerrás sesión con operaciones sin enviar, no se pierden: se mandan cuando volvés a iniciar sesión.
-Ver también: Sincronizar, Sesión, Borrar datos locales (próximamente).
+Ver también: Sincronizar, Sesión, Borrar datos locales.
 
 ## P
 
@@ -381,7 +391,7 @@ Ver también: Entrevista, Visita.
 ## R
 
 **Reactivar**
-Volver a poner en uso una casa o un depto dados de baja. La app muestra «Deshacer» durante 8 segundos. No se puede reactivar una casa que se unió a otra por ser duplicada. Reactivar a una persona dada de baja todavía no está disponible (próximamente).
+Volver a poner en uso una casa o un depto dados de baja. La app muestra «Deshacer» durante 8 segundos. No se puede reactivar una casa que se unió a otra por ser duplicada. Una persona dada de baja se reactiva desde «Mostrar bajas» en la pestaña «Personas» de la hoja de la casa.
 En la app: en «Lista», con «Mostrar bajas», tocá la fila de la baja y el botón «Reactivar»; un depto, desde la fila «Dados de baja» de la hoja del edificio, con «Reactivar».
 Ver también: Baja (dar de baja), Duplicado, posible.
 
@@ -414,6 +424,11 @@ Ver también: Presentación, Jornada.
 Copia de tus datos guardada en tu cuenta de Google Drive, en una carpeta oculta y cifrada: Google no la puede leer y solo esta app puede abrirla. Se hace cada noche (con Wi-Fi) y la podés desconectar cuando quieras. Para recuperarla, necesitás la contraseña que usabas cuando se hizo. Si olvidás la contraseña y perdés el teléfono, los datos no se pueden recuperar.
 En la app: «Configuración», sección «Respaldo», fila «Cuenta Drive» con «Conectar» (y después «Conectar con Google»). En un teléfono nuevo, «Encontramos un respaldo» con «Recuperar mis datos». Si pasan más de 7 días sin respaldo, «Hoy» te avisa.
 Ver también: Sincronizar, Contraseña, Persona, Espacio seguro, Google Drive, Backup, Recuperar mi respaldo.
+
+**Retiro (de efectivo)**
+Forma de depositar sin banco: le entregás el efectivo en mano a tu coordinador. No lleva foto: tu coordinador confirma que lo recibió o lo rechaza con un motivo (por ejemplo, si el monto no coincide).
+En la app: «Depositar efectivo», en «DÓNDE», «Retiro». En el panel, en «Validar tickets» (cuando se habilite «Cuentas»).
+Ver también: Depósito, Ticket, Validar tickets (panel).
 
 ## S
 
@@ -500,6 +515,11 @@ Ver también: Cuenta pendiente de asignación.
 Cada contacto que hacés en una casa. Al registrarla elegís qué pasó: «No contestó», «Rechazo», «Entrevista dada» o «Programar entrevista» (esta última no es un resultado: deja una entrevista agendada). Si corresponde, también aparecen «Vender» y «Cobranza».
 En la app: «Registrar visita» y «¿Qué pasó?» en la hoja de la casa.
 Ver también: Entrevista, Rechazo, Presentación, Agenda, Hoja de la casa.
+
+**Validar tickets (panel)**
+Pantalla del panel donde el coordinador revisa los depósitos con foto del ticket y los retiros de efectivo de su campaña: valida los correctos (con «Deshacer» durante 8 segundos) o rechaza con un motivo obligatorio que le llega al colportor. Está hecha y conectada, pero se muestra junto con la pestaña «Cuentas», que todavía no se ve en el panel (próximamente).
+En la app: panel del coordinador, «Cuentas», «Validar tickets».
+Ver también: Ticket, Retiro (de efectivo), Depósito.
 
 ## Z
 

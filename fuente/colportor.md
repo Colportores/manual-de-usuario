@@ -66,6 +66,7 @@ Si te trabás con algo, mirá los [Problemas frecuentes](./problemas-frecuentes.
   - [5.9 Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)
   - [5.10 Registrar un depósito](#510-registrar-un-depósito)
   - [5.11 Mirar tu cuenta](#511-mirar-tu-cuenta)
+  - [5.12 Entregas pendientes: entregar otro día y marcar entregado](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado)
 - [6. Configuración, respaldo y trabajo sin conexión](#6-configuración-respaldo-y-trabajo-sin-conexión)
   - [6.1 Abrir Configuración y conocer sus secciones](#61-abrir-configuración-y-conocer-sus-secciones)
   - [6.2 Trabajar sin conexión](#62-trabajar-sin-conexión)
@@ -648,15 +649,16 @@ La pantalla principal tiene tres partes:
 | «Mapa» | El mapa con tus casas. Si todavía no registraste ninguna, dice «Todavía no registraste ubicaciones» y el botón «Registrar tu primera ubicación». Ver [Registrar una casa](#35-registrar-una-casa-nueva) y [Registrar una visita](#46-registrar-una-visita). |
 | «Lista» | Las mismas ubicaciones, en una lista. Si todavía no registraste ninguna, dice «Todavía no registraste ubicaciones» y «Las casas, los negocios y los edificios que registres aparecen acá y también en el mapa.», con el botón «Registrar tu primera ubicación». |
 | «Agenda» | Tus visitas de hoy y de los próximos 7 días, con los filtros «Todas», «Entrevistas» y «Cobranzas». Si no tenés visitas, dice «No tenés visitas en los próximos 7 días» y ofrece el botón «+ Agendar». |
-| «Ventas» | Hoy muestra «Esta sección llega pronto.» y un botón «Precios» para consultar los precios. |
+| «Ventas» | Tiene tres botones: «+ Registrar venta» (vender a una persona sin pasar por el mapa), «Entregas pendientes» (lo que vendiste y todavía no entregaste) y «Precios» (consultar lo que cuesta cada producto). Es una pantalla provisoria: todavía no resume tus ventas. Ver [Registrar una venta](#53-registrar-una-venta) y [Entregas pendientes](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado). |
 | «Cuenta» | Se llama «Mi Cuenta» y muestra cuatro tarjetas con la plata de tu campaña: «DEUDA CON LA CASA EDITORA», «DEPOSITADO», «EN MANO» y «POR COBRAR». Cada una compara con la semana anterior; si todavía no hay datos, dice «Sin datos de la semana anterior». |
 
 <p align="center"><img src="../imagenes/colportor/jornada-42-pestana-mapa.png" alt="Pestaña 'Mapa' sin casas, con 'Todavía no registraste ubicaciones' y 'Registrar tu primera ubicación'" width="270">
 <img src="../imagenes/colportor/jornada-39-pestana-lista.png" alt="Pestaña 'Lista' sin casas, con 'Todavía no registraste ubicaciones' y 'Registrar tu primera ubicación'" width="270">
-<img src="../imagenes/colportor/jornada-40-pestana-agenda.png" alt="Pestaña 'Agenda' sin visitas, con 'No tenés visitas en los próximos 7 días' y '+ Agendar'" width="270">
-<img src="../imagenes/colportor/jornada-02-ventas-llega-pronto.png" alt="Pestaña 'Ventas' con 'Esta sección llega pronto.' y el botón 'Precios'" width="270"></p>
+<img src="../imagenes/colportor/jornada-40-pestana-agenda.png" alt="Pestaña 'Agenda' sin visitas, con 'No tenés visitas en los próximos 7 días' y '+ Agendar'" width="270"></p>
 
-> **Próximamente.** La pestaña «Ventas» todavía no tiene su pantalla propia. Por ahora la venta se registra desde la casa (ver [Registrar una venta](#53-registrar-una-venta)).
+> **Captura pendiente.** Pestaña «Ventas» con sus tres botones: «+ Registrar venta», «Entregas pendientes» y «Precios». La captura que había mostraba solo «Precios» y ya no es la pantalla de hoy.
+
+> **Próximamente.** La pestaña «Ventas» todavía no tiene su pantalla completa, con el resumen de tus ventas. Mientras tanto la venta se registra desde la casa o con «+ Registrar venta» (ver [Registrar una venta](#53-registrar-una-venta)).
 
 <p align="center"><img src="../imagenes/colportor/jornada-41-pestana-cuenta.png" alt="Pestaña 'Cuenta' en cero, con 'Mi Cuenta' y las cuatro tarjetas 'DEUDA CON LA CASA EDITORA', 'DEPOSITADO', 'EN MANO' y 'POR COBRAR'" width="270"></p>
 
@@ -940,7 +942,12 @@ Usá la pestaña «Mapa» para ver tus casas, negocios y edificios sobre el mapa
 - Cuando hay muchos puntos juntos, la app los junta en un grupo. Acercá el mapa con los dedos y se separan.
 - Al acercarte mucho, cada casa se muestra como un cuadrado con su número de puerta (si no tiene, dice «s/n»). Esto pasa solo cuando entran todos los cuadrados sin taparse; si no, siguen los puntos.
 - Las casas que están cerca tuyo crecen y muestran el número.
+- Con el mapa acercado a nivel de calle, el fondo también muestra los números de puerta que trae OpenStreetMap (el mapa de calles que usa la app), aunque ahí no tengas casas cargadas. Si una de tus casas queda encima de uno de esos números, se ve tu casa y el número del fondo se esconde, así no se confunden.
+- Podés acercar el mapa hasta el nivel máximo (el mismo en el teléfono y en el panel). En una esquina del mapa figura «© OpenStreetMap»: es el crédito de quienes hicieron el mapa y no se puede sacar.
+
 - La casa que elegiste tiene un aro alrededor.
+
+> **Captura pendiente.** Pestaña «Mapa» acercada a nivel de calle (zoom 18) en una zona con casas cargadas: se deben ver los números de puerta del fondo, los cuadrados de las casas con su número y la atribución «© OpenStreetMap». Otra con zoom 16 y 17, para ver cuándo empiezan a aparecer los números.
 
 **La hoja de abajo**
 
@@ -1052,7 +1059,7 @@ La app te avisa con un cartel en el mapa según la situación:
 
 **Tu zona en el mapa**
 
-Si el coordinador te asignó una zona, el mapa la dibuja con un contorno marcado y la etiqueta «Tu zona · Pocitos» (con el nombre de tu zona). Las zonas de otros colportores se dibujan más tenues. La etiqueta aparece abajo a la izquierda del mapa al acercar.
+Si el coordinador te asignó una zona, el mapa la dibuja con un contorno marcado y la etiqueta «Tu zona · Pocitos» (con el nombre de tu zona). Las zonas de otros colportores se dibujan más tenues. La etiqueta aparece abajo a la izquierda del mapa al acercar. El nombre de tu zona siempre se dibuja sobre el mapa: no lo tapan los grupos de casas ni los números. El color de la zona nunca es lo único que la distingue.
 
 ---
 
@@ -1254,11 +1261,12 @@ Usá esto cuando el lugar es un edificio con varios departamentos: cada departam
 
 **Editar o dar de baja un departamento**
 
-1. En la hoja del edificio, tocá la fila del departamento. Se abre «Editar departamento».
-2. Cambiá el número o el piso y tocá «Guardar»: volvés a la hoja del edificio. Esta hoja no tiene botón «Cancelar».
-3. Para quitarlo, tocá «Dar de baja este depto». La app pregunta, por ejemplo, «¿Dar de baja el depto 101?» y explica «Deja de aparecer en la lista del edificio.». Tocá «Dar de baja» para confirmar o «Cancelar».
-4. Si el departamento tiene personas, la app abre «Dar de baja este depto» y avisa «Este espacio tiene 3 personas. Sus datos se conservarán pero el espacio quedará marcado como baja.» Tocá «Dar de baja» para confirmar o «Cancelar». Si confirmás, los datos de esas personas quedan guardados.
-5. Los departamentos dados de baja quedan en una fila «Dados de baja» al final de la lista (dice, por ejemplo, «Dados de baja · 1»). Tocala para abrirla: cada depto tiene su botón «Reactivar». Al tocarlo, el aviso «Depto 101 reactivado. Vuelve a aparecer en el edificio.» tiene «Deshacer» durante 8 segundos.
+1. En la hoja del edificio, tocá la fila del departamento (o «Ver depto 102 ›»). Se abre la hoja del depto, con las personas que viven ahí y, arriba, el botón «Editar».
+2. Tocá «Editar». Se abre «Editar departamento».
+3. Cambiá el número o el piso y tocá «Guardar»: volvés a la hoja del edificio. Esta hoja no tiene botón «Cancelar».
+4. Para quitarlo, tocá «Dar de baja este depto». La app pregunta, por ejemplo, «¿Dar de baja el depto 101?» y explica «Deja de aparecer en la lista del edificio.». Tocá «Dar de baja» para confirmar o «Cancelar».
+5. Si el departamento tiene personas, la app abre «Dar de baja este depto» y avisa «Este espacio tiene 3 personas. Sus datos se conservarán pero el espacio quedará marcado como baja.» Tocá «Dar de baja» para confirmar o «Cancelar». Si confirmás, los datos de esas personas quedan guardados.
+6. Los departamentos dados de baja quedan en una fila «Dados de baja» al final de la lista (dice, por ejemplo, «Dados de baja · 1»). Tocala para abrirla: cada depto tiene su botón «Reactivar». Al tocarlo, el aviso «Depto 101 reactivado. Vuelve a aparecer en el edificio.» tiene «Deshacer» durante 8 segundos.
 
 <p align="center"><img src="../imagenes/colportor/mapa-36-editar-departamento.png" alt="Hoja 'Editar departamento' con 'Guardar' y 'Dar de baja este depto'" width="270">
 <img src="../imagenes/colportor/mapa-95-baja-depto-confirmar.png" alt="Diálogo '¿Dar de baja el depto 101?' con 'Deja de aparecer en la lista del edificio.', 'Cancelar' y 'Dar de baja'" width="270">
@@ -1289,6 +1297,8 @@ Usá esto cuando el lugar es un edificio con varios departamentos: cada departam
 <img src="../imagenes/colportor/mapa-38-baja-depto-con-personas.png" alt="Diálogo 'Dar de baja este depto' con 'Este espacio tiene 3 personas. Sus datos se conservarán…', 'Cancelar' y 'Dar de baja'" width="270">
 <img src="../imagenes/colportor/mapa-150-baja-depto-ultimo-con-personas.png" alt="Diálogo 'No se puede dar de baja' con 'No podés borrar el último espacio activo con personas…' y 'Entendido'" width="270"></p>
 
+> **Captura pendiente.** La hoja de un depto abierta desde la hoja del edificio: las personas del depto, el botón «Editar» arriba y el interruptor «Mostrar bajas» (ver [Dar de baja a una persona](#44-dar-de-baja-a-una-persona)).
+
 > **Próximamente.** Registrar visitas y agendar desde un edificio. Hoy la app avisa «Todavía no se pueden registrar visitas en un edificio desde acá.» y «Todavía no se puede agendar en un edificio desde acá.»
 
 ---
@@ -1303,7 +1313,7 @@ Usá la hoja de la casa para ver cómo está una casa y llegar a lo que querés 
 
 2. Mirá el encabezado: la dirección, el tipo, el estado y a cuántos metros estás («a 74 m de vos»). El lápiz «Editar casa» está junto al título o debajo de él, y a la derecha está ✕ para cerrar.
 3. Para ver más, arrastrá la hoja hacia arriba: queda a la mitad de la pantalla y no sube más. Abajo están las pestañas «Personas», «Historial» y «Notas». En «Personas», una casa sin nadie dice «Todavía no hay personas acá.» y «Podés sumar a alguien ahora o dejarlo para después.». Para ver «Notas» completa, desplazá el contenido de la hoja hacia arriba.
-4. En «Historial» ves todo lo que pasó en esa casa, lo más nuevo arriba: las visitas («Nadie atendió», «Rechazó la visita», las entrevistas con su «Duración», «Pasó a cobrar»), las ventas («Venta registrada») y los cobros. Con «MOSTRAR» elegís qué ver: «Todo», «Entrevistas», «Ventas» o «Cobros». Las ventas muestran lo «Pagado» y el «Saldo». Tocá una entrada para ver su detalle (con la «NOTA DE LA VISITA», si la tiene); si en esa visita hubo venta, «Ver la venta» te lleva a ella. «Cerrar» vuelve al historial. Si hay muchas entradas, tocá «Ver más». Una casa nueva dice «Todavía no pasó nada en esta casa».
+4. En «Historial» ves todo lo que pasó en esa casa, lo más nuevo arriba: las visitas («Nadie atendió», «Rechazó la visita», las entrevistas con su «Duración» (por ejemplo «05/10 · ENTREVISTA DADA · 22 MIN»; si la visita no tiene la hora de entrada y la de salida, la duración no se muestra), «Pasó a cobrar»), las ventas («Venta registrada») y los cobros. Con «MOSTRAR» elegís qué ver: «Todo», «Entrevistas», «Ventas» o «Cobros». Las ventas muestran lo «Pagado» y el «Saldo». Tocá una entrada para ver su detalle (con la «NOTA DE LA VISITA», si la tiene); si en esa visita hubo venta, «Ver la venta» te lleva a ella. «Cerrar» vuelve al historial. Si hay muchas entradas, tocá «Ver más». Una casa nueva dice «Todavía no pasó nada en esta casa».
 
 <p align="center"><img src="../imagenes/colportor/mapa-40-hoja-arriba.png" alt="Hoja de la casa a la mitad con las pestañas 'Personas' y 'Notas' y 'Todavía no hay personas acá.'" width="270"></p>
 
@@ -1604,6 +1614,19 @@ Usá esta pantalla cuando dos de tus lugares parecen ser el mismo. La app los ju
 
 <p align="center"><img src="../imagenes/colportor/mapa-73-unidas-deshacer.png" alt="Aviso 'Las dos Scoseria 2710 quedaron unidas en una.' con 'Deshacer'" width="270"></p>
 
+**Si el servidor rechaza la unión**
+
+La unión se guarda enseguida en tu teléfono y se manda cuando hay conexión. A veces el servidor la rechaza (por ejemplo, porque la ubicación que ibas a conservar ya estaba dada de baja). Si pasa, la app **deshace la unión en tu teléfono, sola y sin borrar nada**: las dos ubicaciones vuelven a quedar separadas, como estaban, cada una con sus espacios, visitas, agendas y notas. Lo que cargaste después de la unión (por ejemplo, un depto nuevo en la que se conservó) queda donde está.
+
+El par vuelve a «Posibles duplicados», con un aviso rojo arriba de su tarjeta:
+
+- «La ubicación que ibas a conservar ya está dada de baja. Revisá el par de nuevo.»
+- «No pudimos unir estas dos ubicaciones. Quedaron separadas, como estaban. Revisá el par de nuevo.»
+
+Tocá «Revisar» y decidí de nuevo: corregí lo que haga falta (por ejemplo, reactivá la ubicación) y volvé a unirlas, o dejalas separadas con «Son distintos». Si se vuelven a unir bien, el aviso se va. En la «Lista», la ubicación que quedó separada ya no dice «Unida a otra ubicación».
+
+> **Captura pendiente.** «Posibles duplicados» con la tarjeta de un par que muestra el aviso rojo de unión rechazada (la versión con «La ubicación que ibas a conservar ya está dada de baja…» y la genérica), con el borde rojo y el «!».
+
 **Qué puede pasar**
 
 | Si ves… | Qué significa | Qué hacer |
@@ -1614,7 +1637,8 @@ Usá esta pantalla cuando dos de tus lugares parecen ser el mismo. La app los ju
 | «Estas dos ubicaciones tienen la misma dirección y no pueden quedar las dos. Marcá cuál es el duplicado o corregí la dirección de una.» | Con la misma dirección a menos de 100 m no hay «Son distintos». | Unilas o corregí la dirección con «Editar uno». |
 | «No pudimos guardar tu decisión. Probá de nuevo.» | Falló el guardado de tu decisión. | Probá de nuevo. |
 | «No se pudo marcar como duplicado. Probá de nuevo.» con «Reintentar» y «Entendido» | Falló la unión. | Tocá «Reintentar». |
-| «La ubicación que ibas a conservar ya está dada de baja. Revisá el par de nuevo.» | La A ya se dio de baja. | Revisá el par. |
+| «La ubicación que ibas a conservar ya está dada de baja. Revisá el par de nuevo.» (aviso rojo en la tarjeta del par) | El servidor rechazó la unión porque la A ya estaba dada de baja. La app la deshizo en tu teléfono: las dos quedaron separadas y no se perdió nada. | Tocá «Revisar» y decidí de nuevo. |
+| «No pudimos unir estas dos ubicaciones. Quedaron separadas, como estaban. Revisá el par de nuevo.» (aviso rojo en la tarjeta del par) | El servidor rechazó la unión por otro motivo. La app la deshizo en tu teléfono sin borrar nada. | Tocá «Revisar» y decidí de nuevo. |
 | «No se pudieron marcar 2 pares como duplicados. Probá de nuevo.» | Fallaron varias uniones. | Probá de nuevo. |
 | «No pudimos unir Scoseria 2710 · Revisar» (en la «Lista») | Una unión no se pudo completar. | Tocá «Revisar». |
 | «1 no se pudo unir» o «N no se pudieron unir» con «Ver el aviso completo» | Algunas no se unieron. | Tocá «Ver el aviso completo». |
@@ -1685,6 +1709,7 @@ Para volver a ver el aviso, entrá a Configuración, a «Privacidad y datos», y
 | «Revisá el teléfono: solo puede tener números, espacios y un + al comienzo.» | Escribiste letras o símbolos en el teléfono. | Dejá solo números, espacios y, si hace falta, un + al principio. |
 | «Revisá el teléfono: le faltan números.» | El teléfono tiene menos números de los que debería. Un celular uruguayo empieza con 09 y tiene 9 números; con +598 le siguen 8 números. | Completá el número o borralo, que es opcional. |
 | «Revisá el teléfono: le sobran números.» | El teléfono tiene más números de los que debería. | Sacá los que sobran. |
+| «¿Descartar lo que escribiste?» y «Si salís ahora, lo que escribiste no se guarda.» | Tocaste ✕ o el atrás del teléfono con algo escrito en «Nueva persona». Si no escribiste nada (o solo espacios), se cierra sin preguntar. | Tocá «Seguir escribiendo» para volver o «Descartar» para salir. |
 | «No pudimos guardar a la persona. Probá de nuevo.» y el botón «Reintentar» | No se pudo guardar. Lo que escribiste sigue ahí. | Tocá «Reintentar». |
 | «No pudimos guardar tu elección. Probá de nuevo.» | No se guardó la marca de «No volver a mostrar». | Volvé a marcarla. |
 | «No pudimos abrir «Agregar persona». Probá de nuevo.» | La pantalla no se abrió. | Tocá «+ Agregar persona» otra vez. |
@@ -1716,6 +1741,9 @@ Lo usás para ver el teléfono de una persona, llamarla, revisar su historial de
 
 7. Si el historial es largo, se muestran de a 100. Tocá «Ver más» para traer los que faltan.
 8. Para registrar una visita con esta persona, tocá «Registrar visita» (ver [4.6](#46-registrar-una-visita)). Para vender o cobrar desde la ficha, ver [Registrar una venta](#53-registrar-una-venta) y [Cobrar](#56-cobrar-una-venta) (capítulo 5).
+9. Si la persona tiene una entrega pendiente, su fila del historial tiene el botón «Entregar»: abre «Marcar entregado» de esa venta, sin preguntar nada más. También está el botón «Registrar entrega»: con una sola venta pendiente abre directo «Marcar entregado»; con varias pregunta «¿Qué venta?» para que elijas cuál entregás (ver [Entregas pendientes](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado)).
+
+> **Captura pendiente.** Ficha de una persona con una entrega pendiente: la fila del historial con «Entregar» y el botón «Registrar entrega»; y la hoja «¿Qué venta?» con dos ventas pendientes.
 
 **Qué puede pasar**
 
@@ -1769,7 +1797,15 @@ Lo usás cuando una persona ya no vive en la casa o no querés seguir visitándo
 5. Si la persona debe plata o tiene entregas pendientes, la hoja muestra un resumen, por ejemplo «Marta te debe $ 1.200 y tiene 1 entrega pendiente.», y los renglones «Comprado», «Entregado», «Pagado» y «Saldo». Tocá «Dar de baja igual» si querés seguir.
 6. Aparece «¿Seguro?» con un recordatorio, por ejemplo «La deuda de $ 1.200 sigue en tu cuenta aunque Marta esté de baja.» Tocá «Sí, dar de baja» para confirmar o «No, volver» para volver al resumen.
 
-> **Próximamente.** Ver las personas dadas de baja y reactivarlas (con el aviso «Reactivamos a Marta.») todavía no se puede hacer desde la app.
+**Ver las personas dadas de baja y reactivarlas**
+
+Una persona dada de baja no se borra: la podés volver a ver y reactivar.
+
+1. En la hoja de la casa, tocá la pestaña «Personas» y prendé «Mostrar bajas». Debajo de las personas activas aparecen las dadas de baja, más tenues, con «Baja el 22/10» y, si debían plata, su saldo («saldo $ 1.200»), y el botón «Reactivar».
+2. Si la casa es un edificio, tocá la fila del depto (o «Ver depto 3B ›»): se abre la hoja del depto con sus personas y el mismo interruptor «Mostrar bajas».
+3. Tocá «Reactivar». La persona vuelve a la lista del depto y un aviso te cuenta que está activa de nuevo.
+
+> **Captura pendiente.** Pestaña «Personas» de la hoja de una casa con «Mostrar bajas» prendido: una persona activa y una de baja con su saldo y el botón «Reactivar»; y el aviso que aparece al reactivar (confirmar el texto exacto en la app).
 
 **Qué puede pasar**
 
@@ -2000,6 +2036,9 @@ Lo usás cuando quedaste en volver a ver a alguien otro día, o para planear una
    - Primera tarde: 16:30 a 18:00
    - Media tarde: 18:00 a 19:15
    - Fin de tarde: 19:15 a 20:30
+
+   Si elegís una hora entre las 13:30 y las 16:30 (por ejemplo, las 14:00), la app sugiere la franja siguiente, «Primera tarde». No es un error: podés cambiarla tocando otra franja.
+
 6. Si quedaste en una hora exacta con la persona, prendé «Entrevista estricta» («Hora fija acordada con la persona»). Al prenderlo desaparecen DÍA Y HORA y las franjas: ves FECHA (por ejemplo, «Martes 10/11», con «Cambiar») y HORA ACORDADA. «Entrevista estricta» no aparece si elegiste «Cobranza».
 <p align="center"><img src="../imagenes/colportor/visitas-42-entrevista-estricta.png" alt="'Agendar visita' con 'Entrevista estricta' prendido, FECHA con 'Cambiar' y HORA ACORDADA; sin franjas" width="270">
 <img src="../imagenes/colportor/visitas-73-agendar-cobranza.png" alt="'Agendar visita' con 'Cobranza' marcada (Laura Castro), sin 'Entrevista estricta'" width="270"></p>
@@ -2217,13 +2256,13 @@ Lo usás para que el teléfono te avise antes de una visita agendada.
 
 ## 5. Ventas, entregas, cobros y tu cuenta
 
-Este capítulo te acompaña en la venta en la calle, de punta a punta: desde que tocás la puerta hasta que entregás, cobrás y dejás agendado cuándo volvés. También te enseña a consultar los precios, cobrar en cuotas, anotar una devolución, anotar los misioneros que dejaste cuando no hubo venta, registrar un depósito con la foto del ticket y ver cuánta plata tenés en la pestaña «Cuenta».
+Este capítulo te acompaña en la venta en la calle, de punta a punta: desde que tocás la puerta hasta que entregás, cobrás y dejás agendado cuándo volvés. También te enseña a consultar los precios, cobrar en cuotas, anotar una devolución, anotar los misioneros que dejaste cuando no hubo venta, entregar otro día lo que vendiste, registrar un depósito con la foto del ticket y ver cuánta plata tenés en la pestaña «Cuenta».
 
 Si es la primera vez, empezá por [La venta en la calle, de punta a punta](#51-la-venta-en-la-calle-de-punta-a-punta): es el recorrido completo, con un enlace a la sección de cada paso.
 
 > **Importante.** Todo lo que cargás queda guardado en tu teléfono en el momento, aunque no haya conexión. Una venta, una entrega, un cobro, una cuota, una devolución o un depósito que ya registraste no se pierde: la app los manda sola cuando el teléfono vuelve a tener conexión. Lo único que se pierde es lo que todavía estás escribiendo y no registraste (por ejemplo, una venta a medio armar si salís de la pantalla). Por eso, antes de salir, la app te lo avisa.
 
-> **Importante.** La pestaña «Ventas» de la barra de abajo todavía no tiene su pantalla completa. Hoy muestra «Esta sección llega pronto.» y, debajo, un solo botón: «Precios». Las ventas no se registran desde esa pestaña: se registran desde la casa, como se explica en [Registrar una venta](#53-registrar-una-venta).
+> **Importante.** La pestaña «Ventas» de la barra de abajo todavía no tiene su pantalla completa: hoy tiene tres botones, «+ Registrar venta», «Entregas pendientes» y «Precios». Las ventas se registran desde la casa o con «+ Registrar venta», como se explica en [Registrar una venta](#53-registrar-una-venta).
 
 > **Importante.** Si tu cuenta todavía no fue asignada a una campaña, la app te avisa «Disponible cuando tu coordinador te asigne a una campaña.» Si tu cuenta está suspendida, el aviso es «Tu cuenta está suspendida. Contactá al administrador.» En los dos casos podés terminar y guardar lo que ya tenías abierto.
 
@@ -2241,10 +2280,12 @@ Este es el camino completo de una visita que termina en venta, tal como lo hacé
    - «Sí, registrar la venta»: seguís en el paso 6.
    - «No hubo venta»: si le dejaste misioneros a colaboración, los anotás en «Lo que dejaste» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)). La casa queda como «Entrevista dada» y volvés al mapa.
 6. **La venta.** En «Nueva venta» escribí el número del talonario, elegí las colecciones, los libros y las revistas, revisá el «Total» y tocá «Registrar venta» (ver [Registrar una venta](#53-registrar-una-venta)).
-7. **Entregar y cobrar.** En «¿Y ahora?» elegí qué hacés en este momento: «Entregar ahora» (si tenés los libros a mano), «Cobrar ahora» (si te paga algo), las dos cosas, o «Terminar sin entregar ni cobrar» (ver [Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)).
+7. **Entregar y cobrar.** En «¿Y ahora?» elegí qué hacés en este momento: «Entregar ahora» (si tenés los libros a mano) o «Entregar otro día» (si los llevás en otra visita; la app te pide el día y la hora), «Cobrar ahora» (si te paga algo), las dos cosas, o «Terminar sin entregar ni cobrar» (ver [Entregar, cobrar y agendar la cobranza](#54-entregar-cobrar-y-agendar-la-cobranza)).
 8. **¿Cuándo volvés a cobrar?** Si queda saldo, la app te pregunta cuándo volvés: «Hoy», «Mañana», «Otro día» o «Sin fecha». **La cobranza no se agenda sola: la fecha la elegís vos.** Con «Sin fecha» no queda ninguna cita, pero la venta sí queda en tus cobranzas.
 9. **Así quedó la venta.** La app te muestra la entrega, el cobro y el saldo. Tocá «Volver al mapa»: la casa queda con su color nuevo y un aviso te dice cómo quedó, por ejemplo «Venta 0042 guardada. Cobranza agendada: …».
 10. **Otro día.** Cuando vuelvas, tocá la casa: la persona que debe aparece con «$ Cobrar» y, si la agendaste, la cobranza figura en tu «Agenda» (ver [Volver otro día a cobrar](#55-volver-otro-día-a-cobrar)).
+
+Si dejaste una entrega para otro día, la ves en «Entregas pendientes» y en tu «Agenda»: el día que entregás, marcala como entregada (ver [Entregas pendientes](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado)).
 
 Al final del día, el efectivo que cobraste queda «En mano» hasta que lo depositás: registrá el depósito con la foto del ticket (ver [Registrar un depósito](#510-registrar-un-depósito)).
 
@@ -2261,8 +2302,9 @@ Usá esta pantalla cuando un cliente te pregunta cuánto cuesta un libro o una c
 **Antes de empezar:** no necesitás conexión. Los precios están guardados en tu teléfono.
 
 1. Tocá «Ventas» en la barra de abajo.
-   Vas a ver «Esta sección llega pronto.» y un botón «Precios».
-<p align="center"><img src="../imagenes/colportor/ventas-01-pestana-ventas.png" alt="Pestaña 'Ventas' con 'Esta sección llega pronto.' y el botón 'Precios'" width="270"></p>
+   Vas a ver los botones «+ Registrar venta», «Entregas pendientes» y «Precios».
+
+> **Captura pendiente.** Pestaña «Ventas» con los tres botones («+ Registrar venta», «Entregas pendientes» y «Precios»). La captura que había mostraba solo «Precios» y ya no es la pantalla de hoy.
 
 2. Tocá «Precios».
    Se abre la pantalla «Precios». Arriba dice «VENTAS». Primero aparece la ciudad cuyos precios estás viendo y, debajo, los botones «Colecciones», «Libros», «Misioneros» y «Revistas».
@@ -2323,16 +2365,22 @@ Usá esta pantalla cuando una persona te compra libros. La venta se registra des
 
 #### Cómo llegar a «Nueva venta»
 
-Hay dos caminos desde la casa. En los dos, la app ya sabe la casa y la persona.
+Hay tres caminos. En los dos primeros, la app ya sabe la casa y la persona.
 
 - **Al terminar una entrevista (el camino de siempre):** cuando tocás «Finalizar entrevista», la hoja «Terminó la entrevista» te pregunta «¿HUBO VENTA?». Tocá «Sí, registrar la venta». Si no hubo venta, tocá «No hubo venta» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)).
 - **Desde «¿Qué pasó?»:** en la hoja de la casa tocá «Registrar visita» y, en «¿Qué pasó?», tocá «Vender». Esta opción aparece solo si ya hubo una «Entrevista dada» en esa casa (por ejemplo, la persona te dijo que lo pensaba y volviste). Debajo dice, por ejemplo, «Registrar la venta de Marta Sosa». Si en la casa hubo entrevista con más de una persona, dice «Elegís a quién le vendés». La app deja anotada una visita de venta de hoy.
 
-Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te deja elegir a una (por ejemplo, «Laura Castro» o «Pedro Silva»; cada fila puede mostrar su saldo, por ejemplo «Saldo $ 1.200»). Tocá a la persona y después «Vender». También podés agregar a alguien nuevo con «+ Alguien nuevo».
+    Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te deja elegir a una (por ejemplo, «Laura Castro» o «Pedro Silva»; cada fila puede mostrar su saldo, por ejemplo «Saldo $ 1.200»). Tocá a la persona y después «Vender». También podés agregar a alguien nuevo con «+ Alguien nuevo».
+
+- **Desde la pestaña «Ventas»:** tocá «+ Registrar venta». Se abre «¿A quién le vendés?», con las personas que tenés cargadas (solo las activas, de ubicaciones activas), cada una con su dirección. Buscá por nombre o dirección y tocá a la persona. Se abre «Nueva venta» con esa persona y sigue el recorrido de siempre: «¿Y ahora?», la entrega, el cobro, «¿Cuándo volvés a cobrar?» y «Así quedó la venta». Al tocar «Listo» volvés a la pestaña «Ventas», con un aviso de cómo quedó. Si todavía no tenés personas cargadas, la pantalla te lo dice y te ofrece «Ir al mapa» para cargar la casa y la persona.
 
 <p align="center"><img src="../imagenes/colportor/ventas-16-que-paso-vender.png" alt="Hoja '¿Qué pasó?' con la opción 'Vender' y la ayuda 'Registrar la venta de Marta Sosa'" width="270">
 <img src="../imagenes/colportor/ventas-92-que-paso-vender-elegis-a-quien.png" alt="Hoja '¿Qué pasó?' de una casa con dos personas entrevistadas hoy, con 'Vender. Elegís a quién le vendés'" width="270">
 <img src="../imagenes/colportor/ventas-18-con-quien-vender.png" alt="Paso '¿Con quién fue la entrevista?' con 'Laura Castro', 'Pedro Silva' y el botón 'Vender'" width="270"></p>
+
+> **Consejo.** La venta que hacés desde la pestaña «Ventas» queda registrada igual, pero no deja anotada una visita en el historial de la casa. Si querés que la visita figure, hacé la venta desde la casa.
+
+> **Captura pendiente.** «¿A quién le vendés?» con varias personas (cada una con su dirección) y con el buscador usado; los estados cargando, sin personas (con «Ir al mapa»), error (con «Reintentar») y búsqueda sin resultados; y el aviso con el que se vuelve a la pestaña «Ventas» después de «Listo».
 
 #### Armar y registrar la venta
 
@@ -2409,6 +2457,10 @@ Si tocás la flecha de atrás o la «X» con una venta empezada, la app pregunta
 | «La persona de esta venta ya no está en tu teléfono. Volvé atrás y elegí a la persona de nuevo.» | La persona se dio de baja mientras armabas la venta. | Volvé atrás y elegí a la persona otra vez. |
 | «La venta no se guardó. La entrevista con Marta Sosa sigue en curso.» | Saliste de la venta sin registrarla y la entrevista sigue abierta. | Retomá la entrevista desde la franja «Entrevista en curso» del mapa. |
 | «La casa ya no está en tu teléfono, así que no se puede registrar la venta. Elegí otra opción.» | La casa se dio de baja. | Elegí otra opción. |
+| En «¿A quién le vendés?», bloques grises | Se están leyendo tus personas. | Esperá un momento. |
+| En «¿A quién le vendés?», el aviso de que no hay personas y el botón «Ir al mapa» | No tenés personas activas cargadas. | Tocá «Ir al mapa», cargá la casa y la persona, y volvé a vender. |
+| En «¿A quién le vendés?», un aviso de error y «Reintentar» | No se pudieron leer las personas del teléfono. | Tocá «Reintentar». |
+| En «¿A quién le vendés?», el aviso de que la búsqueda no encontró a nadie | Lo que escribiste no coincide con ninguna persona activa. | Revisá lo que escribiste. Una persona dada de baja no aparece: reactivala primero (ver [Dar de baja a una persona](#44-dar-de-baja-a-una-persona)). |
 
 <p align="center"><img src="../imagenes/colportor/ventas-27-talonario-repetido.png" alt="Campo de talonario con 'Ya usaste el talonario 0042 este año…' y el botón apagado" width="270">
 <img src="../imagenes/colportor/ventas-29-motivo-falta.png" alt="Botón 'Registrar venta' apagado con 'Escribí por qué cambiaste el monto.'" width="270">
@@ -2424,9 +2476,9 @@ Cuando tocás «Registrar venta», la venta queda guardada en el momento. Despu�
 
 1. Se abre «Venta registrada». Arriba ves el número del talonario (por ejemplo «VENTA 0042») y el nombre de la persona con el monto, por ejemplo «Marta Sosa · $ 690».
 2. Marcá lo que hacés en este momento. Podés marcar una opción de cada grupo:
-   - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano»), si le das los libros ahora.
+   - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano»), si le das los libros ahora; o «Entregar otro día» («Agendamos la visita de entrega»), si los llevás en otra visita.
    - **«COBRO»:** «Cobrar ahora» («Efectivo, tarjeta o transferencia»), si te paga algo ahora.
-3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar».
+3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar»: la app te pide el día de la entrega (como en «Entregar otro día») y después, si queda saldo, te pregunta cuándo volvés a cobrar.
 
 #### Entregar ahora
 
@@ -2437,6 +2489,18 @@ Si marcaste «Entregar ahora», se abre «Entregar ahora» con la lista «QUÉ E
 3. Lo que no entregaste queda **pendiente**: la casa queda como «Entrega y cobranza pendientes» hasta que entregues lo que falta y el saldo llegue a cero. Si no hay nada para cobrar, la app dice «Lo que falta queda pendiente para otro día. La casa se actualiza cuando lo entregues.»
 
 Si la venta no tiene nada para entregar, la app avisa «Esta venta no tiene productos para entregar.». Si desmarcás todo, avisa «Elegí al menos un producto para entregar.».
+
+#### Entregar otro día
+
+Si marcaste «Entregar otro día», se abre «Entregar otro día» con la lista «QUÉ ENTREGÁS» (lo que vendiste) y el campo «FECHA PREVISTA». Debajo dice «Agendamos una visita de entrega para ese día, con recordatorio.»
+
+1. Tocá «FECHA PREVISTA». Se abre la hoja «Día y hora», la misma de la agenda: elegí el día y la hora y tocá «Listo».
+2. Tocá «Guardar entrega».
+3. La entrega queda pendiente: la ves en «Entregas pendientes» y como una cita de entrega en tu «Agenda» (ver [Entregas pendientes](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado)).
+
+Si elegís una hora que ya pasó, la app marca el campo en rojo y pregunta «Esa hora ya pasó»: tocá «Guardar igual» o «Cambiar la hora». Si tocás la flecha de atrás sin guardar, volvés a «¿Y ahora?» y no se guarda nada.
+
+> **Captura pendiente.** «Entregar otro día» con «QUÉ ENTREGÁS» y «FECHA PREVISTA»; la hoja «Día y hora» abierta desde ahí; y «Esa hora ya pasó» con «Guardar igual» y «Cambiar la hora».
 
 #### Cobrar ahora
 
@@ -2467,6 +2531,7 @@ Al terminar, la app te muestra cómo quedó la venta, en tres filas:
 
 Si queda saldo, debajo aparece la cobranza:
 
+- Si dejaste la entrega para otro día, la tarjeta «Entrega agendada · Pedro» con el día (por ejemplo «SÁB 26/10») y, si hay, «con recordatorio».
 - Con fecha: «Cobranza agendada · Marta», el día y la hora (por ejemplo «MIÉ 11/11 · 10:00») y «Saldo $ 390 · en Benito Blanco 1105». Tocá «Cambiar» para moverla: se abre «Modificar agenda».
 - Sin fecha: «Cobranza · Marta», «SIN FECHA» y «Saldo $ 390 · queda en tus cobranzas, sin día». Tocá «Poner fecha» si ya sabés cuándo volvés.
 
@@ -2477,8 +2542,10 @@ Tocá «Volver al mapa». La hoja se cierra, la casa queda a la vista con su col
 - «Venta 0042 guardada. Cobranza agendada: mié 11/11 · 10:00.»
 - «Venta 0042 guardada. Cobranza sin fecha.»
 - «Venta 0042 guardada. Entregada y pagada.»
+- «Venta 0039 guardada. Entrega agendada: sáb 26/10.» (pagada, con la entrega para otro día)
+- «Venta 0039 guardada. Entrega: sáb 26/10. Cobranza sin fecha.» (entrega para otro día y cobranza sin fecha)
 
-> **Próximamente.** En «Venta registrada» todavía no aparece «Entregar otro día» («Agendamos la visita de entrega»). Mientras tanto, si no entregás ahora, lo vendido queda pendiente de entrega y la casa lo muestra en el mapa.
+> **Captura pendiente.** «Así quedó la venta» con la tarjeta «Entrega agendada · …» (con y sin la tarjeta de la cobranza), y el mapa con el aviso «Venta … guardada. Entrega agendada: …».
 
 #### Qué puede pasar
 
@@ -2486,6 +2553,7 @@ Tocá «Volver al mapa». La hoja se cierra, la casa queda a la vista con su col
 |---|---|---|
 | «Venta 0042 guardada.» | La venta se guardó. | Nada más. |
 | «La venta se guardó, pero la entrevista sigue abierta. Terminala con «No, guardar y volver al mapa» para cerrarla.» | La venta está guardada, pero la entrevista no se pudo cerrar sola. | Volvé a la entrevista desde la franja del mapa y terminala. |
+| «Esa hora ya pasó» al elegir el día de la entrega | La hora que elegiste ya pasó. | Tocá «Guardar igual» o «Cambiar la hora». |
 | «La venta se guardó, pero no pudimos agendar el cobro. Agendalo desde la casa.» | La venta está bien, pero la cita de cobranza no se pudo guardar. | Agendá la cobranza desde la casa («+ Agendar»). |
 | «No pudimos agendar el cobro. Probá de nuevo.» | Tocaste «Poner fecha» o «Cambiar» y la cita no se guardó. | Probá de nuevo. |
 | «La venta no se guardó. La entrevista sigue en curso.» | No se completó la venta. | Volvé a registrarla desde la entrevista. |
@@ -2879,7 +2947,57 @@ Esta pantalla se actualiza cada vez que la abrís. Si pagaste de más, el total 
 <img src="../imagenes/colportor/ventas-90-mi-plata-depositado-vacio.png" alt="'Mi plata' con las tres categorías desplegadas y 'Todavía no registraste ningún depósito.' en 'Depositado'" width="270">
 <img src="../imagenes/colportor/ventas-87-mi-plata-error.png" alt="'Mi plata' con 'No pudimos calcular tu cuenta.' y 'Reintentar'" width="270"></p>
 
-> **Próximamente.** En una etapa posterior vas a poder usar estas opciones desde la app: entregar en otro día («Entregar otro día», con su lista de entregas pendientes); sumar un libro a una venta que sigue abierta; registrar una venta desde la pestaña «Ventas»; corregir o anular un cobro; sacarle una foto al ticket de la tarjeta; y hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
+### 5.12 Entregas pendientes: entregar otro día y marcar entregado
+
+Usá estas pantallas cuando vendiste algo y todavía no lo entregaste, o lo entregaste en parte. Ahí ves todo lo que te falta entregar, con el día que prometiste, y marcás lo que entregás.
+
+**Antes de empezar:** no necesitás conexión. Lo que marcás queda guardado en tu teléfono y se manda solo cuando hay señal.
+
+#### Ver lo que falta entregar
+
+1. Tocá «Ventas» en la barra de abajo y después «Entregas pendientes». Se abre «Entregas pendientes» (arriba dice «VENTAS»).
+2. Las entregas están en grupos:
+   - «ATRASADAS»: el día prometido ya pasó. Llevan un «!» rojo y el día, por ejemplo «LUN 21/10».
+   - «PRÓXIMAS»: tienen un día por delante, por ejemplo «SÁB 26/10».
+   - «SIN FECHA»: todavía no tienen día. Cada una tiene el botón «Poner fecha».
+3. Cada tarjeta muestra el nombre de la persona, su dirección y lo que falta, por ejemplo «Grecia 3310 · Nuestros Hijos × 1» o «Mataojo 2044 · 3B · 2 productos».
+4. Para ponerle día a una entrega sin fecha, tocá «Poner fecha», elegí el día y la hora en «Día y hora» y tocá «Listo».
+
+> **Importante.** Estas pantallas muestran solo lo que realmente falta entregar. Si el cliente devolvió un libro que todavía no le habías entregado, ese libro no aparece ni se puede marcar como entregado (la venta no se borra: queda con la devolución anotada). Si devolvió una parte, se entrega lo que quedaba.
+
+> **Captura pendiente.** «Entregas pendientes» con los tres grupos («ATRASADAS», «PRÓXIMAS» y «SIN FECHA» con «Poner fecha»).
+
+#### Marcar una entrega como entregada
+
+1. En «Entregas pendientes», tocá la entrega. Se abre «Marcar entregado», con «QUÉ ENTREGÁS»: lo que vendiste, todo marcado.
+2. Si le entregás todo, tocá «Marcar entregado».
+3. Si entregás solo una parte, desmarcá lo que no entregás. El botón pasa a decir, por ejemplo, «Marcar 1 entregado», y aparece «Nuestros Hijos sigue pendiente. ¿Para cuándo?» con el campo «NUEVA FECHA» (viene en «Sin fecha»). Elegí el día y la hora o dejalo sin fecha, y tocá el botón.
+4. Lo que no entregaste sigue pendiente, con su nueva fecha o sin fecha.
+
+Si elegís una hora que ya pasó, la app marca el campo y pregunta «Esa hora ya pasó»: tocá «Guardar igual» o «Cambiar la hora».
+
+#### Marcar la entrega desde la Agenda o desde la ficha
+
+- **Desde la «Agenda»:** una entrega agendada figura como una cita. Al abrirla ves su detalle y el botón «Entregado hoy» (esta cita no tiene «Registrar resultado»). Si no se pudo guardar, arriba aparece un aviso fijo: «No pudimos marcar la entrega. Sigue pendiente.» No se va solo y no tapa el botón: tocá «Entregado hoy» de nuevo.
+- **Desde la ficha de la persona:** en su historial, la fila de la entrega pendiente tiene «Entregar», que abre directo «Marcar entregado» de esa venta. El botón «Registrar entrega» hace lo mismo si la persona tiene una sola venta pendiente; si tiene varias, primero pregunta «¿Qué venta?» (ver [Ver la ficha de una persona](#42-ver-la-ficha-de-una-persona)).
+
+#### Qué puede pasar
+
+| Si ves… | Qué significa | Qué hacer |
+|---|---|---|
+| Bloques grises donde irían las entregas | Se están leyendo tus entregas. | Esperá un momento. |
+| «No tenés entregas pendientes» | No te falta entregar nada. | Nada. |
+| «No pudimos leer tus entregas.» y «Reintentar» | No se pudieron leer del teléfono. | Tocá «Reintentar». |
+| «SIN FECHA» con «Poner fecha» | Dejaste la entrega sin día. | Tocá «Poner fecha» y elegí un día. |
+| «Esa hora ya pasó» | Elegiste un día y hora que ya pasaron. | «Guardar igual» o «Cambiar la hora». |
+| «No pudimos marcar la entrega. Sigue pendiente.» | La entrega no se guardó. Sigue pendiente. | Tocá «Entregado hoy» otra vez. |
+| La entrega que esperabas no está | Si el cliente devolvió ese libro sin haberlo recibido, ya no falta entregarlo. | Mirá la venta en el historial de la persona. |
+
+Sin conexión todo funciona igual: la entrega se manda cuando vuelve la señal.
+
+> **Captura pendiente.** «Entregas pendientes» vacía, cargando y con error; «Marcar entregado» con todo marcado y con una parte desmarcada (con «NUEVA FECHA»); el detalle de una cita de entrega en la Agenda con «Entregado hoy» y con el aviso «No pudimos marcar la entrega. Sigue pendiente.».
+
+> **Próximamente.** En una etapa posterior vas a poder usar estas opciones desde la app: sumar un libro a una venta que sigue abierta; corregir o anular un cobro; sacarle una foto al ticket de la tarjeta; y hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
 
 ## 6. Configuración, respaldo y trabajo sin conexión
 
@@ -3371,15 +3489,13 @@ Ese aviso sale cuando agregás una persona («Estos datos solo viven en tu celul
 
 ### 6.9 Borrar los datos de este teléfono
 
-> **Próximamente.** En la versión de la app de noviembre de 2026 todavía no se puede completar este paso: el botón «Continuar» queda apagado.
-
 Lo vas a usar si vendés o prestás el teléfono, o si querés dejarlo sin nada tuyo. Borra todo lo guardado en este teléfono y cierra tu sesión.
 
 > **Importante.** No se puede deshacer. Tu cuenta sigue existiendo y tu coordinador conserva tus ventas. La app te pide cuatro cosas para estar segura de que querés borrar: no tener nada pendiente de enviar, marcar dos casillas, escribir una frase y escribir tu contraseña.
 
 **Antes de empezar**
 
-- No debe haber operaciones sin enviar (ver [Trabajar sin conexión](#62-trabajar-sin-conexión)). Si las hay, la app no te deja seguir.
+- No debe haber operaciones sin enviar (ver [Trabajar sin conexión](#62-trabajar-sin-conexión)). Si las hay, la app no te deja seguir. La app cuenta solo lo que todavía no se mandó al servidor: cuando todo está subido, «Continuar» se habilita (con una sola operación pendiente, el aviso dice «1 operación» en singular).
 - Tené a mano tu contraseña.
 - Si tenés respaldo en Drive y querés recuperarlo después, elegí conservarlo (más abajo).
 
