@@ -106,7 +106,7 @@ def convertir(texto, salida_html, app):
     def aviso(m):
         cuerpo = m.group(1)
         clase = "importante"
-        if re.search(r"<strong>Próximamente", cuerpo):
+        if re.search(r"<strong>(Próximamente|Captura pendiente)", cuerpo):
             clase = "proximamente"
         elif re.search(r"<strong>(Consejo|Tip|Dato)", cuerpo):
             clase = "consejo"

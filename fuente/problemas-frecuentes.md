@@ -203,6 +203,16 @@ Más detalle: [Registrar un edificio y sus departamentos](./colportor.md#36-regi
 
 Más detalle: [Agregar una persona a una casa](./colportor.md#41-agregar-una-persona-a-una-casa) (manual del colportor, capítulo 4)
 
+**Di de baja a una persona y no la veo en la lista**
+No se borró: está dada de baja. En la hoja de la casa, pestaña «Personas», prendé «Mostrar bajas»: aparece con «Baja el…» y el botón «Reactivar». En un edificio, tocá la fila del depto (o «Ver depto N ›») y ahí está el mismo interruptor.
+
+Más detalle: [Dar de baja a una persona](./colportor.md#44-dar-de-baja-a-una-persona) (manual del colportor, capítulo 4)
+
+**Uní dos ubicaciones y volvieron a aparecer como «Posibles duplicados» con un aviso rojo**
+Es correcto y no perdiste nada: el servidor rechazó la unión y la app la deshizo en tu teléfono. Las dos ubicaciones vuelven a estar separadas, como estaban. El aviso dice, por ejemplo, «La ubicación que ibas a conservar ya está dada de baja. Revisá el par de nuevo.» o «No pudimos unir estas dos ubicaciones. Quedaron separadas, como estaban. Revisá el par de nuevo.» Tocá «Revisar» y decidí de nuevo.
+
+Más detalle: [Revisar posibles duplicados](./colportor.md#312-revisar-posibles-duplicados) (manual del colportor, capítulo 3)
+
 **Me equivoqué en el nombre o el teléfono de una persona**
 Todavía no se pueden cambiar (próximamente). Agregá una nota con la corrección: en la ficha de la persona, tocá «+ Nota» (esa sección aparece cuando la persona ya tiene visitas o notas; ver [Escribir notas de una persona](./colportor.md#45-escribir-notas-de-una-persona)).
 
@@ -257,8 +267,8 @@ Los precios todavía no llegaron a tu teléfono (por ejemplo, la primera vez, an
 
 Más detalle: [Consultar los precios](./colportor.md#52-consultar-los-precios) y [Registrar una venta](./colportor.md#53-registrar-una-venta) (manual del colportor, capítulo 5)
 
-**Toco la pestaña «Ventas» y solo veo «Esta sección llega pronto.»**
-Es lo que muestra hoy esa pestaña: «Esta sección llega pronto.» y un solo botón, «Precios». Las ventas no se registran desde esa pestaña: se registran desde la casa, al terminar la entrevista con «Sí, registrar la venta» o, en «Registrar visita», con «Vender». Todavía no están en la app entregar otro día con una visita agendada, sumar un libro a una venta que sigue abierta, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
+**Toco la pestaña «Ventas» y no veo un resumen de mis ventas**
+Es lo que muestra hoy esa pestaña: tres botones, «+ Registrar venta», «Entregas pendientes» y «Precios». Todavía no tiene un resumen de tus ventas. Podés vender desde ahí con «+ Registrar venta» o desde la casa, al terminar la entrevista con «Sí, registrar la venta» o, en «Registrar visita», con «Vender». Todavía no están en la app sumar un libro a una venta que sigue abierta, corregir o anular un cobro, sacarle foto al ticket de la tarjeta, hacer pedidos de libros, ver tu stock, el alquiler y tus becas. Hasta entonces, guardá los tickets de papel de la tarjeta y hacé los pedidos por fuera de la app.
 
 Más detalle: [La venta en la calle, de punta a punta](./colportor.md#51-la-venta-en-la-calle-de-punta-a-punta) (manual del colportor, capítulo 5)
 
@@ -277,8 +287,13 @@ Hoy no: cada vez que tocás «Vender» se arma una venta nueva, con su talonario
 
 Más detalle: [Volver otro día a cobrar](./colportor.md#55-volver-otro-día-a-cobrar) (manual del colportor, capítulo 5)
 
+**Dejé una entrega para otro día: ¿dónde la veo y cómo la marco?**
+En la pestaña «Ventas», botón «Entregas pendientes»: ahí están las entregas «ATRASADAS», las «PRÓXIMAS» y las «SIN FECHA» (con «Poner fecha»). Tocá la entrega, dejá marcado lo que entregás y tocá «Marcar entregado». También la ves como una cita en tu «Agenda» (con «Entregado hoy») y en el historial de la persona (con «Entregar»). Si ves «No pudimos marcar la entrega. Sigue pendiente.», no se guardó: tocá el botón otra vez. Si el cliente devolvió un libro que no había recibido, ese libro ya no figura como pendiente.
+
+Más detalle: [Entregas pendientes](./colportor.md#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado) (manual del colportor, capítulo 5)
+
 **No tenía todos los libros para entregar**
-En «Entregar ahora», desmarcá lo que no le das: la app avisa, por ejemplo, «Salud y Hogar queda para otro día.» Lo que falta queda pendiente y la casa lo muestra en el mapa hasta que lo entregues. Agendar una visita de entrega («Entregar otro día») todavía no está disponible (próximamente).
+En «Entregar ahora», desmarcá lo que no le das: la app avisa, por ejemplo, «Salud y Hogar queda para otro día.» Lo que falta queda pendiente y la casa lo muestra en el mapa hasta que lo entregues. Para llevarlo otro día, en «¿Y ahora?» elegí «Entregar otro día» y poné el día y la hora: la entrega queda en «Entregas pendientes» y en tu «Agenda».
 
 Más detalle: [Entregar, cobrar y agendar la cobranza](./colportor.md#54-entregar-cobrar-y-agendar-la-cobranza) (manual del colportor, capítulo 5)
 
@@ -456,7 +471,7 @@ No. Cerrar sesión no borra nada: «Tus datos quedan guardados en este teléfono
 Más detalle: [Cerrar sesión](./colportor.md#610-cerrar-sesión) (manual del colportor, capítulo 6)
 
 **Quiero borrar los datos de mi teléfono, pero el botón «Continuar» queda apagado**
-Todavía no se puede completar (próximamente): en la versión de noviembre de 2026, el botón «Continuar» de «Borrar datos locales» queda apagado y no hace nada. No se borra nada y tu sesión sigue abierta. En esa pantalla, el botón «Sincronizar ahora» también dice «Todavía no se puede sincronizar desde acá. Cuando esté disponible, vas a poder subir tus operaciones y borrar los datos.» Si lo que necesitás es que otra persona use el teléfono, podés cerrar sesión: no borra nada y tus datos quedan guardados.
+El botón «Continuar» de «Borrar datos locales» se enciende solo cuando marcaste las dos casillas y no quedan operaciones sin enviar. Si ves «Tenés 2 operaciones sin sincronizar…» (o «1 operación», en singular), abrí la app con conexión y esperá unos minutos a que se manden; volvé a entrar a «Borrar datos locales» para que cuente de nuevo. Cuando todo está subido, la app deja de avisar y «Continuar» se habilita. En esa pantalla, el botón «Sincronizar ahora» todavía dice «Todavía no se puede sincronizar desde acá. Cuando esté disponible, vas a poder subir tus operaciones y borrar los datos.»: la espera con conexión es la forma de subirlas. Si lo que necesitás es que otra persona use el teléfono, podés cerrar sesión: no borra nada y tus datos quedan guardados.
 
 Más detalle: [Borrar los datos de este teléfono](./colportor.md#69-borrar-los-datos-de-este-teléfono) (manual del colportor, capítulo 6)
 
@@ -539,7 +554,7 @@ Más detalle: [Manual del coordinador](./coordinador.md) (manual del coordinador
 Más detalle: [Cambiar de campaña](./coordinador.md#21-cambiar-de-campaña) (manual del coordinador, capítulo 2)
 
 **No encuentro Stock, Pedidos de libros, Precios, Cuentas, Validar tickets ni Becas**
-Todavía no están disponibles en el panel (próximamente). En «Equipo», la opción «Becas» muestra «Las becas todavía no están conectadas a la base de datos…». En «Reportes», las presentaciones, las ventas y el monto muestran «—», y el porcentaje por cobrar no se muestra. Dibujar una zona «Por esquinas» tampoco se puede todavía: usá «Radial». Si olvidaste tu contraseña del panel, hablá con el administrador.
+Todavía no están disponibles en el panel (próximamente). «Validar tickets» ya está hecho y conectado, pero se muestra junto con la pestaña «Cuentas», que todavía no se ve en el panel: cuando se habilite, ver [Validar tickets](./coordinador.md#81-validar-tickets-de-depósito-y-retiros). En «Equipo», la opción «Becas» muestra «Las becas todavía no están conectadas a la base de datos…». En «Reportes», las presentaciones, las ventas y el monto muestran «—», y el porcentaje por cobrar no se muestra. Dibujar una zona «Por esquinas» tampoco se puede todavía: usá «Radial». Si olvidaste tu contraseña del panel, hablá con el administrador.
 
 Más detalle: [Lo que todavía no está disponible](./coordinador.md#8-lo-que-todavía-no-está-disponible) (manual del coordinador, capítulo 8)
 
@@ -572,6 +587,11 @@ Más detalle: [Asignar un colportor a una zona](./coordinador.md#57-asignar-un-c
 
 **El mapa no se dibuja o queda en blanco**
 Si dice que el navegador no puede dibujar el mapa, usá Chrome, Edge o Firefox actualizados. Si dice «El mapa tarda más de lo normal en dibujarse», esperá un momento o recargá la página. Si dice «No pudimos traer las calles del mapa…», tocá «Reintentar»: las zonas se ven y se pueden editar igual. Si dice «Todavía no hay mapa de calles de Ciudad de la Costa…», esa ciudad no tiene mapa de calles cargado: seguí con las zonas o avisale al equipo técnico.
+
+Más detalle: [Mirar el estado de las casas en el mapa](./coordinador.md#52-mirar-el-estado-de-las-casas-en-el-mapa) (manual del coordinador, capítulo 5)
+
+**Quiero acercar más el mapa o no veo los números de puerta**
+El mapa del panel se puede acercar hasta el nivel máximo (el mismo que el del teléfono) con la rueda del mouse o con «+». Los números de puerta del fondo del mapa todavía no se ven en el panel: aparecen cuando se actualice el mapa de calles de la ciudad. En el teléfono sí se ven al acercar a nivel de calle. Las zonas que no tienen color asignado se dibujan en gris.
 
 Más detalle: [Mirar el estado de las casas en el mapa](./coordinador.md#52-mirar-el-estado-de-las-casas-en-el-mapa) (manual del coordinador, capítulo 5)
 

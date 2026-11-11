@@ -45,6 +45,7 @@ Este manual explica cómo usar el panel del coordinador desde una computadora: e
   - [6.5 Bajar el reporte](#65-bajar-el-reporte)
 - [7. Precios](#7-precios)
 - [8. Lo que todavía no está disponible](#8-lo-que-todavía-no-está-disponible)
+  - [8.1 Validar tickets de depósito y retiros](#81-validar-tickets-de-depósito-y-retiros)
 
 ## 1. Entrar al panel y conocer la pantalla
 
@@ -517,7 +518,14 @@ Lo vas a usar para saber cómo va la ciudad casa por casa.
 
 1. Con una ciudad elegida, el mapa muestra las casas que cargaron los colportores, cada una de un color según su estado. La leyenda «CASAS POR ESTADO» tiene una casilla por estado, con la cantidad de cada uno: «Sin visita», «No contestó», «Entrevista agendada», «Entrevista hecha», «Rechazó», «Cobranza pendiente», «Entrega y pago» y «Venta completa». Arriba a la derecha ves el total («35 casas») o, si destildaste alguno, «N de 35 casas».
 2. La leyenda explica las formas: «Círculo: visita. Cuadrado: venta y cobro. Destildar un estado lo saca del mapa.»
-3. Tocá una casa del mapa. Aparece una tarjeta con su estado («– No contestó»), el tipo (Casa, Negocio o Edificio) con la zona («Casa · Zona Cordón») y «Último cambio: 09/11», solo con la fecha. No muestra montos, nombres de personas ni notas.
+3. Podés acercar el mapa hasta el nivel máximo (el mismo que usa el teléfono de los colportores), con la rueda del mouse o con «+». Un grupo de casas se dibuja como una burbuja con el número; al acercar se separan. En una esquina del mapa figura «© OpenStreetMap»: es el crédito del mapa y no se puede sacar.
+4. Tocá una casa del mapa. Aparece una tarjeta con su estado («– No contestó»), el tipo (Casa, Negocio o Edificio) con la zona («Casa · Zona Cordón») y «Último cambio: 09/11», solo con la fecha. No muestra montos, nombres de personas ni notas.
+
+Las zonas se dibujan con un borde que se distingue bien del fondo del mapa, sea cual sea su color. Una zona a la que todavía no se le asignó color se dibuja en gris. Las casas en estado «Entrega y pago» se ven como un cuadrado con una franja azul clara.
+
+> **Captura pendiente.** «Ciudades» con el mapa acercado al máximo (zoom 18 o 19), con casas de varios estados, el borde de las zonas y la atribución «© OpenStreetMap»; y una zona sin color, en gris.
+
+> **Próximamente.** Los números de puerta del fondo del mapa todavía no se ven en el panel: aparecen cuando se actualice el mapa de calles de la ciudad. En el teléfono sí se ven al acercar.
 
 <p align="center"><img src="../imagenes/coordinador/panel-72-ciudades-leyenda-casas.png" alt="Leyenda 'CASAS POR ESTADO' con las casillas, las cantidades y las formas" width="360">
 <img src="../imagenes/coordinador/panel-73-ciudades-tarjeta-casa.png" alt="Tarjeta de una casa con estado, tipo, zona y último cambio" width="760"></p>
@@ -882,7 +890,7 @@ Estas partes del panel están en preparación y no aparecen hoy:
 
 > **Próximamente.** **Cuentas.** La pestaña «Cuentas» no se muestra todavía.
 
-> **Próximamente.** **Validar tickets.** Revisar y validar los tickets de los colportores no está disponible todavía.
+> **Próximamente.** **Validar tickets.** La pantalla para revisar y validar los depósitos y retiros de los colportores ya está hecha y conectada, pero se muestra junto con la pestaña «Cuentas», que todavía no se ve en el panel. Cómo funciona está en [Validar tickets de depósito y retiros](#81-validar-tickets-de-depósito-y-retiros).
 
 > **Próximamente.** **Becas.** La tabla con la carrera, la beca a la que apunta cada colportor y su avance (en «Equipo», opción «Becas») todavía no está conectada.
 
@@ -893,3 +901,40 @@ Estas partes del panel están en preparación y no aparecen hoy:
 > **Próximamente.** **Porcentaje por cobrar en «Reportes».** Se agrega más adelante.
 
 > **Próximamente.** **Recuperar la contraseña desde la pantalla de acceso.** Hoy, si la olvidaste, hablá con el administrador.
+
+### 8.1 Validar tickets de depósito y retiros
+
+> **Próximamente.** Esta pantalla se va a ver cuando se habilite la pestaña «Cuentas» del panel (desde «Cuentas», con «Validar tickets»). Lo que sigue explica cómo se usa para que sepas qué esperar.
+
+Usala cuando los colportores de tu campaña depositaron el efectivo que cobraron y tenés que revisar cada comprobante. Validar un ticket lo acredita y baja la deuda del destino que eligió el colportor (casa editora o alquiler). Los tickets y retiros que ves son de la campaña que elegiste arriba, en el selector de campañas.
+
+**Antes de empezar:** tené elegida la campaña correcta (ver [Cambiar de campaña](#21-cambiar-de-campaña)). Ves montos, talonarios y fotos de tickets; nunca datos de los clientes.
+
+**Pasos**
+
+1. Entrá a «Validar tickets». Arriba dice, por ejemplo, «Tickets por validar · 4» y «el más antiguo: hace 2 días». La lista junta los depósitos con foto y los retiros de efectivo, del más antiguo al más nuevo, con COLPORTOR, TALONARIO, MONTO, FECHA, ZONA y ESTADO («◔ Por validar»).
+2. Se abre el primero, al costado de la lista: «Ticket de depósito», con «Ticket 1 de 4» y las flechas ‹ ›. Ves la «FOTO DEL TALONARIO», el MONTO, el TALONARIO N.º, el COLPORTOR, la ZONA, la FECHA DEL DEPÓSITO y cuándo lo mandó («ENVIADO hace 3 h»). También ves cuánto efectivo tenía el colportor en mano y cuánto debía antes del depósito, para comparar. Si el depósito fue en el banco, el panel dice «Depósito en banco», sin el nombre del banco.
+3. Mirá la foto. Con «Agrandar» la ves más grande, por ejemplo para leer un talonario borroso. El enlace de la foto vence a los 5 minutos: si se vence, volvé a abrir el ticket para pedirla de nuevo.
+4. Si está bien, tocá «Validar» (o la tecla V). Aparece «✓ Ticket 0457 de Laura Suárez validado.» con «Deshacer», que dura 8 segundos y devuelve el ticket a la cola en su lugar. Pasado ese tiempo, la validación se manda. El panel pasa solo al siguiente ticket.
+5. Si algo no cuadra, tocá «Rechazar» (o la tecla R). El primer toque no rechaza: abre el campo «MOTIVO DEL RECHAZO · OBLIGATORIO» en el mismo lugar, con motivos rápidos («Foto ilegible», «El monto no coincide», «Talonario ya usado») que completan el campo y se pueden editar. Escribí qué tiene que corregir el colportor («Contale al colportor qué tiene que corregir»); el motivo le llega a él. Tocá «Confirmar rechazo». Si lo dejás vacío, dice «Escribí el motivo para rechazar el ticket.» El motivo admite hasta 500 caracteres.
+6. Para un **retiro** (el colportor te entregó el efectivo en mano), el panel abre «Retiro por el coordinador», sin foto: dice «SIN FOTO» y «El efectivo se entrega en mano: este retiro no trae comprobante.» Su estado es «Por confirmar» (y pasa a «Confirmado»). Tocá «Confirmar» (o la tecla C) si recibiste ese monto, o «Rechazar» con un motivo: «El monto no coincide», «No recibí el efectivo» o «Está cargado dos veces».
+7. Cuando no quedan más, dice «No quedan tickets por validar» y un botón te lleva de vuelta a «Cuentas».
+
+Con el teclado: ↑ y ↓ cambian de fila, V valida, R abre el rechazo con el cursor en el motivo, C confirma un retiro y Esc cancela el rechazo.
+
+> **Captura pendiente.** «Validar tickets» con la cola de 4 tickets y el primero abierto al costado (con la foto, el monto y los botones «Rechazar» y «Validar»); el rechazo con el motivo vacío y el aviso «Escribí el motivo para rechazar el ticket.»; el aviso «✓ Ticket … validado.» con «Deshacer»; un retiro abierto (con «SIN FOTO», «Confirmar» y «Rechazar»); y la pantalla «No quedan tickets por validar».
+
+**Qué puede pasar**
+
+| Si ves… | Qué significa | Qué hacer |
+|---|---|---|
+| «Tu sesión venció. Volvé a entrar para seguir.» (o «No se pudo… Volvé a entrar para seguir.») | Tu sesión del panel terminó mientras validabas o pedías la foto. | Entrá de nuevo (ver [Entrar al panel](#11-entrar-al-panel)). El ticket sigue en la cola. |
+| Los botones «Validar», «Confirmar» o «Rechazar» apagados, con el motivo debajo | No hay conexión: validar y rechazar necesitan internet. Lo que escribiste en el motivo no se pierde. | Esperá a que vuelva la conexión y tocá de nuevo. |
+| El panel muestra un motivo por el que no se pudo validar, confirmar o rechazar | La acción fue rechazada (por ejemplo, porque el ticket ya fue resuelto o no tenés permiso sobre él). El botón vuelve a poder usarse. | Leé el motivo que muestra el panel; si lo esperabas en tu campaña, avisale al administrador. |
+| «Ver foto» no muestra la foto o dice que el servicio de fotos no está listo | La foto no se pudo traer (el enlace venció o el servicio de fotos no está configurado). | Volvé a abrir el ticket. Si sigue, avisale al equipo técnico. |
+| Un texto de más de 500 caracteres en el motivo, con un aviso | El motivo es demasiado largo. El texto no se corta solo. | Acortalo. |
+| Un depósito recién hecho no está en la lista | El depósito todavía no llegó desde el teléfono del colportor; aparece cuando llega. | Esperá a que el colportor tenga conexión. |
+| Un retiro o ticket marcado «por vos» | Es uno que cargaste vos. No trae las cifras de comparación. | Nada. |
+| Un ticket de otra pantalla (por ejemplo «Cuentas», «Tickets») que no está en la cola | Si «Validar» te trae un ticket que la cola no tiene, el panel abre la cola, con el primer ticket por validar a la vista, sin error. | Elegí el ticket que querías en la lista. |
+
+> **Importante.** Esta pantalla no muestra si un retiro de alquiler ya confirmado se anuló después.

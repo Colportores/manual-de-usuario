@@ -29,6 +29,7 @@ No hace falta saber de tecnología para seguirlo. Cada tarea está escrita como 
 - Las capturas se sacaron con datos de ejemplo. Las personas, las direcciones, los teléfonos y los montos que se ven son inventados.
 - Un recuadro que empieza con **Próximamente** describe algo que todavía no está disponible en la aplicación.
 - Un recuadro que empieza con **Importante** marca una regla que conviene conocer antes de seguir.
+- Un recuadro que empieza con **Captura pendiente** marca un lugar donde falta la imagen de la pantalla: dice qué debe mostrar. El texto de ese paso ya está al día; la captura se agrega en una próxima versión.
 
 ## Sobre las capturas
 
