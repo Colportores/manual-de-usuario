@@ -945,8 +945,9 @@ Usá la pestaña «Mapa» para ver tus casas, negocios y edificios sobre el mapa
 - Con el mapa acercado a nivel de calle, el fondo también muestra los números de puerta que trae OpenStreetMap (el mapa de calles que usa la app), aunque ahí no tengas casas cargadas. Si una de tus casas queda encima de uno de esos números, se ve tu casa y el número del fondo se esconde, así no se confunden.
 - Podés acercar el mapa hasta el nivel máximo (el mismo en el teléfono y en el panel). En una esquina del mapa figura «© OpenStreetMap»: es el crédito de quienes hicieron el mapa y no se puede sacar.
 
-> **Captura pendiente.** Pestaña «Mapa» acercada a nivel de calle (zoom 18) en una zona con casas cargadas: se deben ver los números de puerta del fondo, los cuadrados de las casas con su número y la atribución «© OpenStreetMap». Otra con zoom 16 y 17, para ver cuándo empiezan a aparecer los números.
 - La casa que elegiste tiene un aro alrededor.
+
+> **Captura pendiente.** Pestaña «Mapa» acercada a nivel de calle (zoom 18) en una zona con casas cargadas: se deben ver los números de puerta del fondo, los cuadrados de las casas con su número y la atribución «© OpenStreetMap». Otra con zoom 16 y 17, para ver cuándo empiezan a aparecer los números.
 
 **La hoja de abajo**
 
@@ -2037,6 +2038,7 @@ Lo usás cuando quedaste en volver a ver a alguien otro día, o para planear una
    - Fin de tarde: 19:15 a 20:30
 
    Si elegís una hora entre las 13:30 y las 16:30 (por ejemplo, las 14:00), la app sugiere la franja siguiente, «Primera tarde». No es un error: podés cambiarla tocando otra franja.
+
 6. Si quedaste en una hora exacta con la persona, prendé «Entrevista estricta» («Hora fija acordada con la persona»). Al prenderlo desaparecen DÍA Y HORA y las franjas: ves FECHA (por ejemplo, «Martes 10/11», con «Cambiar») y HORA ACORDADA. «Entrevista estricta» no aparece si elegiste «Cobranza».
 <p align="center"><img src="../imagenes/colportor/visitas-42-entrevista-estricta.png" alt="'Agendar visita' con 'Entrevista estricta' prendido, FECHA con 'Cambiar' y HORA ACORDADA; sin franjas" width="270">
 <img src="../imagenes/colportor/visitas-73-agendar-cobranza.png" alt="'Agendar visita' con 'Cobranza' marcada (Laura Castro), sin 'Entrevista estricta'" width="270"></p>
@@ -2368,9 +2370,9 @@ Hay tres caminos. En los dos primeros, la app ya sabe la casa y la persona.
 - **Al terminar una entrevista (el camino de siempre):** cuando tocás «Finalizar entrevista», la hoja «Terminó la entrevista» te pregunta «¿HUBO VENTA?». Tocá «Sí, registrar la venta». Si no hubo venta, tocá «No hubo venta» (ver [Entrevista sin venta: lo que dejaste](#59-entrevista-sin-venta-lo-que-dejaste)).
 - **Desde «¿Qué pasó?»:** en la hoja de la casa tocá «Registrar visita» y, en «¿Qué pasó?», tocá «Vender». Esta opción aparece solo si ya hubo una «Entrevista dada» en esa casa (por ejemplo, la persona te dijo que lo pensaba y volviste). Debajo dice, por ejemplo, «Registrar la venta de Marta Sosa». Si en la casa hubo entrevista con más de una persona, dice «Elegís a quién le vendés». La app deja anotada una visita de venta de hoy.
 
-- **Desde la pestaña «Ventas»:** tocá «+ Registrar venta». Se abre «¿A quién le vendés?», con las personas que tenés cargadas (solo las activas, de ubicaciones activas), cada una con su dirección. Buscá por nombre o dirección y tocá a la persona. Se abre «Nueva venta» con esa persona y sigue el recorrido de siempre: «¿Y ahora?», la entrega, el cobro, «¿Cuándo volvés a cobrar?» y «Así quedó la venta». Al tocar «Listo» volvés a la pestaña «Ventas», con un aviso de cómo quedó. Si todavía no tenés personas cargadas, la pantalla te lo dice y te ofrece «Ir al mapa» para cargar la casa y la persona.
+    Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te deja elegir a una (por ejemplo, «Laura Castro» o «Pedro Silva»; cada fila puede mostrar su saldo, por ejemplo «Saldo $ 1.200»). Tocá a la persona y después «Vender». También podés agregar a alguien nuevo con «+ Alguien nuevo».
 
-Si hay varias personas, la app pregunta «¿Con quién fue la entrevista?» y te deja elegir a una (por ejemplo, «Laura Castro» o «Pedro Silva»; cada fila puede mostrar su saldo, por ejemplo «Saldo $ 1.200»). Tocá a la persona y después «Vender». También podés agregar a alguien nuevo con «+ Alguien nuevo».
+- **Desde la pestaña «Ventas»:** tocá «+ Registrar venta». Se abre «¿A quién le vendés?», con las personas que tenés cargadas (solo las activas, de ubicaciones activas), cada una con su dirección. Buscá por nombre o dirección y tocá a la persona. Se abre «Nueva venta» con esa persona y sigue el recorrido de siempre: «¿Y ahora?», la entrega, el cobro, «¿Cuándo volvés a cobrar?» y «Así quedó la venta». Al tocar «Listo» volvés a la pestaña «Ventas», con un aviso de cómo quedó. Si todavía no tenés personas cargadas, la pantalla te lo dice y te ofrece «Ir al mapa» para cargar la casa y la persona.
 
 <p align="center"><img src="../imagenes/colportor/ventas-16-que-paso-vender.png" alt="Hoja '¿Qué pasó?' con la opción 'Vender' y la ayuda 'Registrar la venta de Marta Sosa'" width="270">
 <img src="../imagenes/colportor/ventas-92-que-paso-vender-elegis-a-quien.png" alt="Hoja '¿Qué pasó?' de una casa con dos personas entrevistadas hoy, con 'Vender. Elegís a quién le vendés'" width="270">

@@ -70,8 +70,8 @@ Libro cuya venta cuenta para la beca. Se marca con «◆ Bonificable» en la lis
 En la app: pantalla «Precios», categoría «Libros» (hoy esa pantalla todavía no se puede consultar).
 Ver también: Beca (próximamente), Precios.
 
-**Borrar datos locales (próximamente)**
-Borrar todo lo guardado en este teléfono y cerrar tu sesión. No se puede deshacer. En la versión de noviembre de 2026 todavía no se puede completar: el botón «Continuar» queda apagado. Tu cuenta sigue existiendo y tu coordinador conserva tus ventas.
+**Borrar datos locales**
+Borrar todo lo guardado en este teléfono y cerrar tu sesión. No se puede deshacer. Tu cuenta sigue existiendo y tu coordinador conserva tus ventas. Para poder borrar no tiene que quedar nada sin enviar: «Continuar» se enciende solo con las dos casillas marcadas y sin operaciones sin sincronizar; después la app te pide una frase y tu contraseña.
 En la app: «Configuración», sección «Privacidad y datos», fila «Borrar datos locales».
 Ver también: Operación sin sincronizar, Sesión.
 
@@ -346,7 +346,7 @@ Ver también: Referencias.
 
 **Operación sin sincronizar**
 Algo que cargaste (una visita, una venta, un cobro, una casa) y que todavía no se mandó. La app lo manda sola cuando hay conexión. No hay un indicador permanente: el número aparece solo en la hoja «¿Cerrar sesión?» (por ejemplo «Tenés 2 operaciones sin sincronizar…») y en la fila «Operaciones sin sincronizar» de «Borrar datos locales». Si cerrás sesión con operaciones sin enviar, no se pierden: se mandan cuando volvés a iniciar sesión.
-Ver también: Sincronizar, Sesión, Borrar datos locales (próximamente).
+Ver también: Sincronizar, Sesión, Borrar datos locales.
 
 ## P
 
