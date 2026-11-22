@@ -288,7 +288,7 @@ Hoy no: cada vez que tocás «Vender» se arma una venta nueva, con su talonario
 Más detalle: [Volver otro día a cobrar](./colportor.md#55-volver-otro-día-a-cobrar) (manual del colportor, capítulo 5)
 
 **Dejé una entrega para otro día: ¿dónde la veo y cómo la marco?**
-En la pestaña «Ventas», botón «Entregas pendientes»: ahí están las entregas «ATRASADAS», las «PRÓXIMAS» y las «SIN FECHA» (con «Poner fecha»). Tocá la entrega, dejá marcado lo que entregás y tocá «Marcar entregado». También la ves como una cita en tu «Agenda» (con «Entregado hoy») y en el historial de la persona (con «Entregar»). Si ves «No pudimos marcar la entrega. Sigue pendiente.», no se guardó: tocá el botón otra vez. Si el cliente devolvió un libro que no había recibido, ese libro ya no figura como pendiente.
+En la pestaña «Ventas», botón «Entregas pendientes»: ahí están las entregas «ATRASADAS», las «PRÓXIMAS» y las «SIN FECHA» (con «Poner fecha»). Tocá la entrega, dejá marcado lo que entregás y tocá «Marcar entregado». También la ves como una cita en tu «Agenda» (con «Entregado hoy») y en el historial de la persona (con «Entregar»). Si ves «No pudimos marcar la entrega. Sigue pendiente.», no se guardó: tocá el botón otra vez. Si el cliente devolvió un libro que no había recibido, ese libro ya no figura como pendiente. Si al terminar la venta salteaste la fecha de entrega (tocaste «Volver» en «Entregar otro día»), esa venta no aparece en «Entregas pendientes»: sin fecha no hay entrega pendiente.
 
 Más detalle: [Entregas pendientes](./colportor.md#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado) (manual del colportor, capítulo 5)
 
@@ -591,7 +591,7 @@ Si dice que el navegador no puede dibujar el mapa, usá Chrome, Edge o Firefox a
 Más detalle: [Mirar el estado de las casas en el mapa](./coordinador.md#52-mirar-el-estado-de-las-casas-en-el-mapa) (manual del coordinador, capítulo 5)
 
 **Quiero acercar más el mapa o no veo los números de puerta**
-El mapa del panel se puede acercar hasta el nivel máximo (el mismo que el del teléfono) con la rueda del mouse o con «+». Los números de puerta del fondo del mapa todavía no se ven en el panel: aparecen cuando se actualice el mapa de calles de la ciudad. En el teléfono sí se ven al acercar a nivel de calle. Las zonas que no tienen color asignado se dibujan en gris.
+El mapa del panel se puede acercar hasta el nivel máximo (el mismo que el del teléfono) con la rueda del mouse o con «+». Los números de puerta se ven al acercar el mapa a nivel de calle, igual que en el teléfono. En una esquina del mapa figura su crédito, «Protomaps © OpenStreetMap». Las zonas que no tienen color asignado se dibujan en gris.
 
 Más detalle: [Mirar el estado de las casas en el mapa](./coordinador.md#52-mirar-el-estado-de-las-casas-en-el-mapa) (manual del coordinador, capítulo 5)
 

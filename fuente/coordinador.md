@@ -518,7 +518,7 @@ Lo vas a usar para saber cómo va la ciudad casa por casa.
 
 1. Con una ciudad elegida, el mapa muestra las casas que cargaron los colportores, cada una de un color según su estado. La leyenda «CASAS POR ESTADO» tiene una casilla por estado, con la cantidad de cada uno: «Sin visita», «No contestó», «Entrevista agendada», «Entrevista hecha», «Rechazó», «Cobranza pendiente», «Entrega y pago» y «Venta completa». Arriba a la derecha ves el total («35 casas») o, si destildaste alguno, «N de 35 casas».
 2. La leyenda explica las formas: «Círculo: visita. Cuadrado: venta y cobro. Destildar un estado lo saca del mapa.»
-3. Podés acercar el mapa hasta el nivel máximo (el mismo que usa el teléfono de los colportores), con la rueda del mouse o con «+». Un grupo de casas se dibuja como una burbuja con el número; al acercar se separan. En una esquina del mapa figura «© OpenStreetMap»: es el crédito del mapa y no se puede sacar.
+3. Podés acercar el mapa hasta el nivel máximo (el mismo que usa el teléfono de los colportores), con la rueda del mouse o con «+». Un grupo de casas se dibuja como una burbuja con el número; al acercar se separan. Al acercar a nivel de calle, el fondo del mapa muestra los números de puerta. En una esquina del mapa figura «Protomaps © OpenStreetMap»: es el crédito del mapa y no se puede sacar.
 4. Tocá una casa del mapa. Aparece una tarjeta con su estado («– No contestó»), el tipo (Casa, Negocio o Edificio) con la zona («Casa · Zona Cordón») y «Último cambio: 09/11», solo con la fecha. No muestra montos, nombres de personas ni notas.
 
 Las zonas se dibujan con un borde que se distingue bien del fondo del mapa, sea cual sea su color. Una zona a la que todavía no se le asignó color se dibuja en gris. Las casas en estado «Entrega y pago» se ven como un cuadrado con una franja azul clara.
@@ -527,8 +527,6 @@ Las zonas se dibujan con un borde que se distingue bien del fondo del mapa, sea 
 <img src="../imagenes/coordinador/panel-142-ciudades-zoom-estados.png" alt="Mapa de 'Ciudades' a nivel de calle en Cordón, con casas de varios estados y el nombre de la zona" width="760">
 <img src="../imagenes/coordinador/panel-143-ciudades-borde-de-zona.png" alt="Mapa de 'Ciudades' acercado sobre el borde de la zona Cordón" width="760">
 <img src="../imagenes/coordinador/panel-144-ciudades-zona-sin-color.png" alt="Mapa de Montevideo con Pocitos en azul y Malvín sin color, en gris; en la lista, Malvín con el punto gris" width="760"></p>
-
-> **Próximamente.** Los números de puerta del fondo del mapa todavía no se ven en el panel: aparecen cuando se actualice el mapa de calles de la ciudad. En el teléfono sí se ven al acercar.
 
 <p align="center"><img src="../imagenes/coordinador/panel-72-ciudades-leyenda-casas.png" alt="Leyenda 'CASAS POR ESTADO' con las casillas, las cantidades y las formas" width="360">
 <img src="../imagenes/coordinador/panel-73-ciudades-tarjeta-casa.png" alt="Tarjeta de una casa con estado, tipo, zona y último cambio" width="760"></p>
