@@ -2492,7 +2492,7 @@ Cuando tocás «Registrar venta», la venta queda guardada en el momento. Despu�
 2. Marcá lo que hacés en este momento. Podés marcar una opción de cada grupo:
    - **«ENTREGA»:** «Entregar ahora» («Tenés el material a mano»), si le das los libros ahora; o «Entregar otro día» («Agendamos la visita de entrega»), si los llevás en otra visita.
    - **«COBRO»:** «Cobrar ahora» («Efectivo, tarjeta o transferencia»), si te paga algo ahora.
-3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar»: la app abre «Entregar otro día» para que elijas el día de la entrega («Guardar entrega» queda apagado, con «Elegí cuándo vas a entregar.», hasta que elegís) y después, si queda saldo, te pregunta cuándo volvés a cobrar. Esa pantalla no tiene la opción «Sin fecha»: si tocás la flecha «Volver» sin elegir, la venta sigue sin fecha de entrega y pasás a «¿Cuándo volvés a cobrar?».
+3. Tocá «Continuar». Si no vas a entregar ni cobrar ahora, tocá «Terminar sin entregar ni cobrar»: la app abre «Entregar otro día» para que elijas el día de la entrega («Guardar entrega» queda apagado, con «Elegí cuándo vas a entregar.», hasta que elegís) y después, si queda saldo, te pregunta cuándo volvés a cobrar. Esa pantalla no tiene la opción «Sin fecha»: si tocás la flecha «Volver» sin elegir, la venta sigue sin fecha de entrega y pasás a «¿Cuándo volvés a cobrar?». Esa venta no aparece en «Entregas pendientes»: sin fecha no hay entrega pendiente (ver [Entregas pendientes](#512-entregas-pendientes-entregar-otro-día-y-marcar-entregado)).
 
 <p align="center"><img src="../imagenes/colportor/ventas-101-entregar-otro-dia.png" alt="'Entregar otro día' de la VENTA 0042 de Marta Sosa con 'QUÉ ENTREGÁS' (Cocina Natural × 1, Salud y Hogar × 1), 'FECHA PREVISTA' con 'Elegí el día y la hora' y 'Guardar entrega' apagado" width="270"></p>
 
@@ -2986,7 +2986,7 @@ Usá estas pantallas cuando vendiste algo y todavía no lo entregaste, o lo entr
 3. Cada tarjeta muestra el nombre de la persona, su dirección y lo que falta, por ejemplo «Grecia 3310 · Nuestros Hijos × 1» o «Mataojo 2044 · Depto 3B · 2 productos».
 4. Para ponerle día a una entrega sin fecha, tocá «Poner fecha», elegí el día y la hora en «Día y hora» y tocá «Listo».
 
-> **Importante.** Estas pantallas muestran solo lo que realmente falta entregar. Si el cliente devolvió un libro que todavía no le habías entregado, ese libro no aparece ni se puede marcar como entregado (la venta no se borra: queda con la devolución anotada). Si devolvió una parte, se entrega lo que quedaba.
+> **Importante.** Estas pantallas muestran solo lo que realmente falta entregar. Si el cliente devolvió un libro que todavía no le habías entregado, ese libro no aparece ni se puede marcar como entregado (la venta no se borra: queda con la devolución anotada). Si devolvió una parte, se entrega lo que quedaba. Tampoco aparece una venta en la que salteaste la fecha de entrega al terminarla (tocaste «Volver» en «Entregar otro día»): sin fecha no hay entrega pendiente.
 
 <p align="center"><img src="../imagenes/colportor/ventas-112-entregas-pendientes.png" alt="'Entregas pendientes' con el grupo 'PRÓXIMAS': MIÉ 11/11 · 08:30 y VIE 13/11 · 08:35, de Marta Sosa en Benito Blanco 1105" width="270">
 <img src="../imagenes/colportor/ventas-115-entregas-pendientes-proximas-y-sin-fecha.png" alt="'Entregas pendientes' con 'PRÓXIMAS' (VIE 13/11 · 08:35) y 'SIN FECHA' (Cocina Natural × 1) con 'Poner fecha'" width="270"></p>
@@ -3017,7 +3017,7 @@ Si elegís una hora que ya pasó, la app marca el campo y pregunta «Esa hora ya
 | «SIN FECHA» con «Poner fecha» | Dejaste la entrega sin día. | Tocá «Poner fecha» y elegí un día. |
 | «Esa hora ya pasó» | Elegiste un día y hora que ya pasaron. | «Guardar igual» o «Cambiar la hora». |
 | «No pudimos marcar la entrega. Sigue pendiente.» | La entrega no se guardó. Sigue pendiente. | Tocá «Entregado hoy» otra vez. |
-| La entrega que esperabas no está | Si el cliente devolvió ese libro sin haberlo recibido, ya no falta entregarlo. | Mirá la venta en el historial de la persona. |
+| La entrega que esperabas no está | Si el cliente devolvió ese libro sin haberlo recibido, ya no falta entregarlo. Si al terminar la venta salteaste la fecha de entrega, esa venta no figura: sin fecha no hay entrega pendiente. | Mirá la venta en el historial de la persona. |
 
 Sin conexión todo funciona igual: la entrega se manda cuando vuelve la señal.
 
